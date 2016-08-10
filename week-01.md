@@ -16,6 +16,7 @@ slides:
     url: /web-dev-1/position-zindex/
 
 tasks:
+  - type: blank
   - title: "Making an image card"
     url: making-an-image-card
     type: lesson

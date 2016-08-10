@@ -28,5 +28,5 @@ tasks:
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity
   - title: "Infographic effects paper plan"
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity#1-paper-plan
-    submit: show
+    type: paper
 ---
