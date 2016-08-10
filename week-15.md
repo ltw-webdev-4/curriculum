@@ -2,8 +2,6 @@
 topic: "Infographic completion"
 desc: "Finish the infographic interactivity, animations & transitions by the end of the term."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Browser testing"
     url: browser-testing

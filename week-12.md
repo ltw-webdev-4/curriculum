@@ -2,8 +2,6 @@
 topic: "jQuery plugins"
 desc: "Look at using some common jQuery plugins including smooth scroll & waypoints."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript effects"
     url: javascript-effects

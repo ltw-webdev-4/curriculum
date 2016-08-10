@@ -2,8 +2,6 @@
 topic: "Infographic work period"
 desc: "Spend most of the class working on the responsive infographic website by porting it over from Adobe Illustrator into HTML, CSS & SVG."
 
-hide_lab_hours: true
-
 tasks:
   - title: "Selector Surgeon"
     url: http://activities.learn-the-web.algonquindesign.ca/selector-surgeon/

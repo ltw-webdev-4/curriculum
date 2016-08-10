@@ -11,8 +11,6 @@ slides:
   - title: "CSS effects"
     url: css-effects
 
-hide_lab_hours: true
-
 tasks:
   - title: "Character Classifier"
     url: http://activities.learn-the-web.algonquindesign.ca/character-classifier/

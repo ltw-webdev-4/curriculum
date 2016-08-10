@@ -11,8 +11,6 @@ slides:
   - title: "Advanced SVG"
     url: advanced-svg
 
-hide_lab_hours: true
-
 tasks:
   - title: "Ingenious Indentor"
     url: http://activities.learn-the-web.algonquindesign.ca/ingenious-indentor/

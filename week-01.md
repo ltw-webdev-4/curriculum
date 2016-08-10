@@ -15,8 +15,6 @@ slides:
   - title: "Position & z-index"
     url: /web-dev-1/position-zindex/
 
-hide_lab_hours: true
-
 tasks:
   - title: "Making an image card"
     url: making-an-image-card

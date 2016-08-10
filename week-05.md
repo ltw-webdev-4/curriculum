@@ -2,8 +2,6 @@
 topic: "Infographic browser testing"
 desc: "Spend most of the class testing the responsive infographic in all the different browsers—and fixing any problems that arise."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Validators"
     url: validators

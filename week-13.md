@@ -2,8 +2,6 @@
 topic: "Infographic planning"
 desc: "Start planning the interactivity, animations & transitions for your responsive infographic."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript cheat sheet"
     url: javascript-cheat-sheet

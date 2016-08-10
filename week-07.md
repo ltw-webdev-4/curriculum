@@ -2,8 +2,6 @@
 topic: "Arrays, objects & functions"
 desc: "Learn to use more complex Javascript functionality with arrays, objects & reusable functions."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript syntax"
     url: javascript-syntax

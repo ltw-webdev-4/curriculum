@@ -2,8 +2,6 @@
 topic: "Javascript DOM"
 desc: "Explore how to interact with HTML using the document object model and combine CSS with Javascript."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Document object model"
     url: dom

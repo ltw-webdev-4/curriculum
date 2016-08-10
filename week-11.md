@@ -2,8 +2,6 @@
 topic: "Javascript + CSS + SVG"
 desc: "Use Javascript to trigger CSS & SVG effects like transition and animations."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript effects"
     url: javascript-effects

@@ -2,8 +2,6 @@
 topic: "Infographic milestone"
 desc: "Have a large majority of the infographic interactivity coded & functioning."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript cheat sheet"
     url: javascript-cheat-sheet

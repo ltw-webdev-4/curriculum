@@ -2,8 +2,6 @@
 topic: "Javascript!"
 desc: "Dig into writing Javascript and explore some activities to switch your brain’s thinking to computer mode."
 
-hide_lab_hours: true
-
 video_tutorials:
   - title: "Javascript syntax"
     url: javascript-syntax
