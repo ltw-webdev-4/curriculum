@@ -35,13 +35,7 @@ slides:
   - content: |
       ## Marking scheme
 
-      - *Activities & exercises (about 60):* **70%**
-        Pass/fail — marked in class or automated
-        Personal feedback given at specific intervals
-
-      - *Big project (2 milestones):* **20%**
-        Letter grade
-        Proof you learned everything
+      [**Web Dev 4 marking scheme ➔**](/courses/web-dev-4/#marking-scheme)
 
   - content: |
       ## Always be coding
@@ -56,8 +50,8 @@ slides:
       - [Weekly tasks ➔](/web-dev-4/)
 
   - content: |
-      ## Post-It Note triage
-      Specify your working status by sticking Post-It Notes on your monitor
+      ## Sticky note triage
+      Specify your working status by sticking sticky notes on your monitor
 
       ![](post-it-notes.svg)
 

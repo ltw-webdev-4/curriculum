@@ -32,6 +32,8 @@ tasks:
   - title: "Request for grade"
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity#4-request-for-grade
     type: basic
+    graded-as: false
   - title: "Infographic effects & interactivity"
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity
+    graded-as: infographic
 ---

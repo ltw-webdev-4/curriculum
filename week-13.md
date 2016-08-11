@@ -19,5 +19,6 @@ tasks:
     type: paper
   - title: "Infographic effects & interactivity"
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity
+    graded-as: infographic
   - type: blank
 ---
