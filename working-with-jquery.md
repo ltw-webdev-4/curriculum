@@ -84,6 +84,8 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
+        <h2 class="more-dinos">Prehistoric air creatures</h2>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
         <script src="js/dinos.js"></script>
         <script src="js/main.js"></script>
@@ -91,7 +93,11 @@ steps:
       </html>
     lines:
       - num: 2
+        fade: true
+      - num: 4
         text: 'Paste the URL from cdnjs into the `src=""` attribute of the `<script>` tag.'
+      - num: "5-8"
+        fade: true
     after: |
       **The order of the `<script>` tags is extremely important—put jQuery first.**
 
@@ -169,6 +175,10 @@ steps:
     code_file: "js/main.js"
     code: |
       ⋮
+      $ul.addClass('dino-list');
+
+      $('.more-dinos').remove();
+
       dinos.forEach(function (dino) {
         var $li = $('<li>');
         var $figure = $('<figure>');
@@ -183,19 +193,21 @@ steps:
         $ul.append($li);
       });
     lines:
-      - num: 2
+      - num: "2-4"
+        fade: true
+      - num: 6
         text: "We’ll use a `forEach` loop to iterate over the dinosaur array."
-      - num: "3-6"
+      - num: "7-10"
         text: |
           These variables look very similar to previous jQuery selections. But because they have angle brackets `<>` that means we’re creating a **new** element.
-      - num: 9
+      - num: 13
         text: |
           jQuery has a function called `attr()` that allows us to manipulate attributes on HTML elements.
 
           `attr(attribute-name, attribute-value)`
 
           If you don’t put the second argument, the value, then jQuery will get the attribute value and return it.
-      - num: 11
+      - num: 15
         text: |
           jQuery has an `append()` function that will add HTML into other HTML elements.
 
@@ -208,7 +220,7 @@ steps:
           - `prepend()` — add to the beginning, inside the HTML element.
           - `after()` — add to the HTML below this elements closing tag.
           - `before()` — 
-      - num: 13
+      - num: 17
         text: |
           Up until this line the dinosaur won’t even be visible on the screen. We created new HTML elements, but they only existed in the Javascript. This line will add them to the HTML tag that’s already in our `index.html` file.
 
@@ -219,6 +231,10 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+      *, *::before, *::after {
+        box-sizing: inherit;
+      }
+
       .dino-list {
         margin: 0;
         padding: 0;
@@ -238,7 +254,9 @@ steps:
         width: 200px;
       }
     lines:
-      - num: 2
+      - num: "2-4"
+        fade: true
+      - num: 6
         text: |
           The `.dino-list` class doesn’t exist anywhere in our HTML, we added it to the `<ul>` using Javascript, with this line: `$ul.addClass('dino-list');`
 

@@ -41,12 +41,20 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+      </head>
+      <body>
 
-      </svg>
+        <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+
+        </svg>
+
+      </body>
+      </html>
       ⋮
     lines:
-      - num: "2"
+      - num: "2-3"
+        fade: true
+      - num: 5
         text: |
           We can add `class` attributes to the SVG elements.
 
@@ -58,6 +66,8 @@ steps:
 
           - `0 0` — the top left corner’s x & y coordinates.
           - `256 256` — the width and height of the art board.
+      - num: "9-10"
+        fade: true
 
   - title: "Draw the face circle"
     before: |
@@ -66,11 +76,13 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
-        <circle class="face" cx="128" cy="128" r="120" />
-      </svg>
+        <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+          <circle class="face" cx="128" cy="128" r="120" />
+        </svg>
       ⋮
     lines:
+      - num: 2
+        fade: true
       - num: 3
         text: |
           - `cx` — the center x coordinate, measured from the left of the image
@@ -78,6 +90,8 @@ steps:
           - `r` — the radius of the circle, measured from the `cx` & `cy`
 
           Notice the closing slash at the end of the `<circle … />` tag: because this is XML self-closing tags **must** include their own slash.
+      - num: 4
+        fade: true
     after: |
       You should see a black circle when you refresh in the browser.
 
@@ -92,13 +106,19 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+      *, *::before, *::after {
+        box-sizing: inherit;
+      }
+
       .face {
         fill: gold;
       }
     lines:
-      - num: 2
+      - num: "2-4"
+        fade: true
+      - num: 6
         text: "We select things the same as with HTML, using classes or tags."
-      - num: 3
+      - num: 7
         text: "The `fill` property is used to colour SVG shapes."
     after: |
       ![](face-yellow.png)
@@ -110,15 +130,19 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
-        <circle class="face" cx="128" cy="128" r="120" />
-        <circle class="left-eye" cx="100" cy="104" r="12" />
-        <circle class="right-eye" cx="156" cy="104" r="12" />
-      </svg>
+        <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+          <circle class="face" cx="128" cy="128" r="120" />
+          <circle class="left-eye" cx="100" cy="104" r="12" />
+          <circle class="right-eye" cx="156" cy="104" r="12" />
+        </svg>
       ⋮
     lines:
+      - num: "2-3"
+        fade: true
       - num: "4-5"
         text: "Two new circles. We don’t need to add `fill` because they’ll automatically be black."
+      - num: 6
+        fade: true
     after: |
       ![](eyes.png)
 
@@ -129,14 +153,16 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
-        <circle class="face" cx="128" cy="128" r="120" />
-        <circle class="left-eye" cx="100" cy="104" r="12" />
-        <circle class="right-eye" cx="156" cy="104" r="12" />
-        <path class="mouth" d="M100,160 Q128,190 156,160" />
-      </svg>
+        <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+          <circle class="face" cx="128" cy="128" r="120" />
+          <circle class="left-eye" cx="100" cy="104" r="12" />
+          <circle class="right-eye" cx="156" cy="104" r="12" />
+          <path class="mouth" d="M100,160 Q128,190 156,160" />
+        </svg>
       ⋮
     lines:
+      - num: "2-5"
+        fade: true
       - num: 6
         text: |
           All the fanciness for the `<path>` is controlled by the `d=""` attribute—it gives coordinates for anchor points and for control handles.
@@ -144,6 +170,8 @@ steps:
           - `M100,160` — the starting anchor point for the path.
           - `Q128,190` — means we want to use a quadratic bézier curve, giving us only one control handle for the curve. The coordinates are the handle’s location.
           - `156,160` — the coordinate for the last anchor point.
+      - num: 7
+        fade: true
 
     after: |
       In the `d=""` attribute there’s a lot of complexity going on, here’s a break down of what each thing is doing.
@@ -159,6 +187,10 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+      .face {
+        fill: gold;
+      }
+
       .mouth {
         fill: none;
         stroke: #000;
@@ -166,11 +198,13 @@ steps:
         stroke-linecap: round;
       }
     lines:
-      - num: 4
+      - num: "2-4"
+        fade: true
+      - num: 8
         text: "The colour of the stroke on the shape."
-      - num: 5
+      - num: 9
         text: "The thickness of the shape’s stroke."
-      - num: 6
+      - num: 10
         text: "Makes the ends of the stroke into rounded corners instead of sharp edges."
     after: "*Now the mouth should be visible in the browser.*"
 
@@ -181,16 +215,18 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
-        <circle class="face" cx="128" cy="128" r="120" />
-        <circle class="left-eye" cx="100" cy="104" r="12" />
-        <circle class="right-eye" cx="156" cy="104" r="12" />
-        <path class="mouth" d="M100,160 Q128,190 156,160" />
-        <rect class="left-eyebrow" x="97" y="66" width="6" height="32" rx="4" ry="4" />
-        <rect class="right-eyebrow" x="153" y="66" width="6" height="32" rx="4" ry="4" />
-      </svg>
+        <svg class="smiley" width="256" height="256" viewBox="0 0 256 256">
+          <circle class="face" cx="128" cy="128" r="120" />
+          <circle class="left-eye" cx="100" cy="104" r="12" />
+          <circle class="right-eye" cx="156" cy="104" r="12" />
+          <path class="mouth" d="M100,160 Q128,190 156,160" />
+          <rect class="left-eyebrow" x="97" y="66" width="6" height="32" rx="4" ry="4" />
+          <rect class="right-eyebrow" x="153" y="66" width="6" height="32" rx="4" ry="4" />
+        </svg>
       ⋮
     lines:
+      - num: "2-6"
+        fade: true
       - num: "7-8"
         text: |
           There are a bunch of attributes here to create the rectangle:
@@ -201,6 +237,8 @@ steps:
           - `height` — how tall the rectangle is
           - `rx` — the horizontal border-radius size
           - `ry` — the vertical border-radius size
+      - num: 9
+        fade: true
     after: |
       This is what we should be looking at in our browser right now:
 
@@ -213,6 +251,10 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+        stroke-width: 6px;
+        stroke-linecap: round;
+      }
+
       .left-eyebrow {
         transform: rotate(80deg);
       }
@@ -220,6 +262,9 @@ steps:
       .right-eyebrow {
         transform: rotate(100deg);
       }
+    lines:
+      - num: "2-4"
+        fade: true
     after: |
       **If we look in the browser right now we won’t see the eyebrows any more.** It’s because `transform-origin` is set to the top-left of the SVG by default.
 
@@ -246,11 +291,14 @@ steps:
         transform-origin: 156px 82px;
       }
     lines:
+      - num: 3
+        fade: true
       - num: 4
         text: |
           - The horizontal point, `100px`, is the exact center of the rectangle measured from the left edge.
           - The vertical point, `82px`, is the exact center of the rectangle measure from the top edge.
-
+      - num: 8
+        fade: true
     after: |
       With these `transform-origin` properties we can now see the eyebrows exactly where we want them to be.
 
@@ -285,8 +333,12 @@ steps:
         transform: rotate(80deg);
       }
     lines:
+      - num: "3-4"
+        fade: true
       - num: 5
         text: "Add a `transition` to the default state for the eyebrows so they’ll be animated when hovered."
+      - num: "9-10"
+        fade: true
       - num: 14
         text: |
           Read this selector from right-to-left: “choose the `.left-eyebrow` when the user `:hover`s the `.smiley`.

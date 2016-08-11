@@ -70,12 +70,16 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
+      </head>
+      <body>
 
         <script src="js/main.js"></script>
       </body>
       </html>
     lines:
-      - num: 3
+      - num: "2-3"
+        fade: true
+      - num: 5
         text: |
           The `<script>` tag is used to connect a Javascript file to HTML.
 
@@ -83,6 +87,8 @@ steps:
 
           1. **Performance** — Javascript will stop rendering the page until the JS loads. Putting it at the bottom makes the load time appear faster because the page can be displayed first.
           2. **HTML manipulation** — we want to manipulate HTML with our JS, but the HTML must be rendered to the screen before JS can do anything.
+      - num: "6-7"
+        fade: true
 
   - title: "Write some Javascript!"
     before: |

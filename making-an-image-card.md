@@ -97,28 +97,34 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
+      </head>
       <body>
 
-      <article class="card">
-        <header class="card-head">
-          <h2 class="card-title">Stegosaurus</h2>
-          <span class="card-label">Plant-eater</span>
-          <img class="img-flex" src="http://placehold.it/640x480" alt="">
-        </header>
-        <div class="card-body">
-          <p>The Stegosaurus is armoured dinosaur with distinctive back plates and tail spikes.</p>
-        </div>
-      </article>
+        <article class="card">
+          <header class="card-head">
+            <h2 class="card-title">Stegosaurus</h2>
+            <span class="card-label">Plant-eater</span>
+            <img class="img-flex" src="http://placehold.it/640x480" alt="">
+          </header>
+          <div class="card-body">
+            <p>The Stegosaurus is an armoured dinosaur with distinctive back plates and tail spikes.</p>
+          </div>
+        </article>
 
       </body>
+      </html>
       ⋮
     lines:
-      - num: 4
-        text: "Semantically an `<article>` makes sense because this can stand by itself."
+      - num: "2-3"
+        fade: true
       - num: 5
+        text: "Semantically an `<article>` makes sense because this can stand by itself."
+      - num: 6
         text: "The important bits are in the `<header>` because a group will be needed for CSS later."
-      - num: 8
+      - num: 9
         text: "Don’t forget the `img-flex` class to make the image responsive."
+      - num: "16-17"
+        fade: true
     notes:
       - label: "Notice"
         text: "There’re classes on just about everything to distinguish them from other elements in our page."
@@ -129,6 +135,9 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+        display: block;
+        width: 100%;
+      }
 
       .card {
         overflow: hidden;
@@ -154,9 +163,11 @@ steps:
         background-color: rgba(255,255,255,.6);
       }
     lines:
-      - num: 4
+      - num: "2-4"
+        fade: true
+      - num: 7
         text: "The `overflow: hidden` is here to chop the corners of the image off."
-      - num: 22
+      - num: 25
         text: "The crazy `calc()` is just really to make the text align properly when it also has a border."
     after: |
       With a refresh what you should see is this:
@@ -169,17 +180,21 @@ steps:
     code: |
       .card-title {
         ⋮
+        padding: .3rem 1rem;
+        background-image: linear-gradient(to top, rgba(255,255,255,.5), rgba(255,255,255,0));
         position: absolute;
         bottom: 0;
         left: 0;
         width: 100%;
       }
     lines:
-      - num: 3
+      - num: "3-4"
+        fade: true
+      - num: 5
         text: "Setting it to `position: absolute` allows us to move it around using coordinates."
-      - num: "4-5"
+      - num: "6-7"
         text: "Using `left` and `bottom` to move it to the bottom of the image."
-      - num: "6"
+      - num: 8
         text: "The `width` is there because `absolute` elements shrink to be as small as possible."
     after: |
       Notice how the title is now at the bottom of the screen, that’s because the coordinates for `absolute` default to position against `<body>`
@@ -196,12 +211,17 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+        border-left: 4px solid green;
+        background-color: rgba(255,255,255,.6);
+      }
 
       .card-head {
         position: relative;
       }
     lines:
-      - num: 4
+      - num: "2-4"
+        fade: true
+      - num: 7
         text: "Using `position: relative` on this element will reset the coordinate system for all `absolute` children."
     after: |
       Now the `.card-title` snaps right into place.
@@ -217,8 +237,13 @@ steps:
     code: |
       .card-label {
         ⋮
+        border-left: 4px solid green;
+        background-color: rgba(255,255,255,.6);
         position: absolute;
         left: 0;
         top: 0;
       }
+    lines:
+      - num: "3-4"
+        fade: true
 ---

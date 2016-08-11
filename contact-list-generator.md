@@ -31,18 +31,24 @@ steps:
     code_lang: html
     code: |
       ⋮
+      </head>
+      <body>
 
         <script src="js/contacts.js"></script>
         <script src="js/main.js"></script>
       </body>
       </html>
+    lines:
+      - num: "2-3"
+        fade: true
+      - num: "5-6"
+        text: |
+          Everything we write in one Javascript file is usable in the other file. The order is important.
+      - num: "7-8"
+        fade: true
     notes:
       - label: "HTML snippets"
         text: "Create the `<script>` tag with `jss`"
-    lines:
-      - num: "3-4"
-        text: |
-          Everything we write in one Javascript file is usable in the other file. The order is important.
 
   - title: "Write the data structure"
     before: |
@@ -109,6 +115,7 @@ steps:
     code_file: "js/main.js"
     code_lang: js
     code: |
+      ⋮
       var listContacts = function (contacts) {
         document.write('<h1>Planetary peeps</h1>');
 
@@ -119,15 +126,18 @@ steps:
       };
 
       listContacts(peeps);
+      ⋮
     lines:
       - num: 2
+        fade: true
+      - num: 3
         text: "We’ll use `document.write()` to create an `<h1>` tag in our website."
-      - num: 4
+      - num: 5
         text: |
           The `forEach` loop is a special kind of loop that will iterate over every single item in an array. With this loop we don’t need to know how many times to loop—Javascript just does it.
 
           Notice that we pass in a `function()` to the loop. This function will be executed on every item in the array. The current array item will be saved into the functions first argument—here it’s called it `item`
-      - num: 5
+      - num: 6
         text: |
           By writing code inside the `forEach` loop it will happen for every single item in the array.
 
@@ -135,13 +145,15 @@ steps:
 
           - `item` refers to the function argument variable defined in the `forEach` loop on the line above. It’s a representation of one single item in the array.
           - `.name` refers to one of the object properties we defined in `contacts.js`
-      - num: "7-8"
+      - num: "8-9"
         text: |
           Be careful of all these brackets.
 
           1. The first `}` closes the `function` inside the loop.
           2. The `)` closes the `forEach` loop.
           3. The last `}` closes the `listContacts` function.
+      - num: 11
+        fade: true
     after: |
       Check your browser and you should see all the contact names output.
 
@@ -154,20 +166,26 @@ steps:
     code_lang: js
     code: |
       ⋮
-      document.write('<dl>');
-      document.write('<dt>E-mail address</dt>');
-      document.write('<dd><a href="mailto:' + item.email + '">' + item.email + '</a></dd>');
-      document.write('<dt>Phone number</dt>');
-      document.write('<dd><a href="tel:' + item.tel + '">' + item.tel + '</a></dd>');
-      // More stuff to come here
-      document.write('</dl>');
+        contacts.forEach(function (item) {
+          document.write('<h2>' + item.name + '</h2>');
+          document.write('<dl>');
+          document.write('<dt>E-mail address</dt>');
+          document.write('<dd><a href="mailto:' + item.email + '">' + item.email + '</a></dd>');
+          document.write('<dt>Phone number</dt>');
+          document.write('<dd><a href="tel:' + item.tel + '">' + item.tel + '</a></dd>');
+          // More stuff to come here
+          document.write('</dl>');
+        });
+      };
       ⋮
     lines:
-      - num: 2
-        text: "Start the `<dl>` tag by writing only the opening HTML tag."
-      - num: 3
-        text: "Write out a `<dt>` tag to before we get to the actual data."
+      - num: "2-3"
+        fade: true
       - num: 4
+        text: "Start the `<dl>` tag by writing only the opening HTML tag."
+      - num: 5
+        text: "Write out a `<dt>` tag to before we get to the actual data."
+      - num: 6
         text: |
           Write out `<dd>` and `<a>` tags by using the `+` to concatenate a bunch of things together.
 
@@ -176,8 +194,10 @@ steps:
           1. Write `'<dd><a href="mailto:"></a></dd>'`
           2. Add plusses and quotes between each changeable: `'<dd><a href="mailto:' + + '">' + + '</a></dd>'`
           3. Then finally fill in the Javascript variable names in between the double plusses.
-      - num: 8
+      - num: 10
         text: "Finally end the `<dl>` tag by writing the closing HTML tag."
+      - num: "11-12"
+        fade: true
     after: |
       Check your browser and you should be seeing more information from the contacts.
 
@@ -190,17 +210,26 @@ steps:
     code_lang: js
     code: |
       ⋮
-      document.write('<dt>Location</dt>');
-      document.write('<dd>Between ' + item.loc[0] + ' km & ' + item.loc[1] + ' km from the Sun.</dd>');
+          document.write('<dt>Phone number</dt>');
+          document.write('<dd><a href="tel:' + item.tel + '">' + item.tel + '</a></dd>');
+          document.write('<dt>Location</dt>');
+          document.write('<dd>Between ' + item.loc[0] + ' km & ' + item.loc[1] + ' km from the Sun.</dd>');
+          document.write('</dl>');
+        });
+      };
       ⋮
     lines:
-      - num: 3
+      - num: "2-3"
+        fade: true
+      - num: 5
         text: |
           Notice the `item.loc[0]`:
 
           - `item` refers to the function argument variable defined in the `forEach` loop. It’s a representation of one single item in the array.
           - `.loc` refers to one of the object properties we defined in `contacts.js`
           - The `[0]` will get the first item out of the `loc` array.
+      - num: "6-8"
+        fade: true
     after: |
       Check your browser and you lots of details now.
 

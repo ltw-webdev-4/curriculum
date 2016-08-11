@@ -43,31 +43,41 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <ul class="tabs">
-        <li><a href="#sci-fi">Sci-fi</a></li>
-        <li><a href="#dinos"><i class="badge"></i>Dinosaurs!</a></li>
-        <li><a href="#space">Space</a></li>
-      </ul>
+      </head>
+      <body>
 
-      <div class="panel" id="sci-fi">
-        <h2>Sci-Fi</h2>
-      </div>
+        <ul class="tabs">
+          <li><a href="#sci-fi">Sci-fi</a></li>
+          <li><a href="#dinos"><i class="badge"></i>Dinosaurs!</a></li>
+          <li><a href="#space">Space</a></li>
+        </ul>
 
-      <div class="panel" id="dinos">
-        <h2>Dinosaurs!</h2>
-      </div>
+        <div class="panel" id="sci-fi">
+          <h2>Sci-Fi</h2>
+        </div>
 
-      <div class="panel" id="space">
-        <h2>Space</h2>
-      </div>
+        <div class="panel" id="dinos">
+          <h2>Dinosaurs!</h2>
+        </div>
+
+        <div class="panel" id="space">
+          <h2>Space</h2>
+        </div>
+
+      </body>
+      </head>
       ⋮
     lines:
-      - num: 3
+      - num: "2-3"
+        fade: true
+      - num: 6
         text: "The `<a>` tags link to the `id` of panels further down the page, for use with CSS `:target`"
-      - num: 4
+      - num: 7
         text: "Using an `<i>` tag for the pulsing badge—it’s semantically okay because there’s no content inside."
-      - num: 8
+      - num: 11
         text: "Each `.panel` has a unique `id` so that `:target` can work."
+      - num: "23-24"
+        fade: true
 
   - title: "Write the CSS"
     before: |
@@ -76,6 +86,10 @@ steps:
     code_file: "css/main.css"
     code: |
       ⋮
+      *, *::before, *::after {
+        box-sizing: inherit;
+      }
+
       .tabs {
         margin: 0;
         padding: 0;
@@ -132,22 +146,24 @@ steps:
         display: block;
       }
     lines:
-      - num: 19
+      - num: "2-4"
+        fade: true
+      - num: 23
         text: |
           The `transition` is always on the default state—not where the properties change.
           - `all` — animate all the CSS properties that change.
           - `500ms` — the duration of the animation.
           - `linear` — the easing; `linear` means no easing.
-      - num: "23-26"
+      - num: "27-30"
         text: "Change a few CSS properties when the element is hovered. Only properties that are numbers can be transitioned. When the element is interacted with the transition will occur."
-      - num: 34
+      - num: 38
         text: |
           Use `calc()` to perfectly centre the element. Because its `left` is `50%`, it isn’t perfectly centred—its left edge is at the centre.
 
           So, using `calc()` we bump it back by half its width—making it perfectly centred.
-      - num: 35
+      - num: 39
         text: "Use `transform` to rotate the `<i>` tag so it visually looks like a diamond."
-      - num: 36
+      - num: 40
         text: |
           Add an automatically playing `animation` to the badge.
           - `pulse` — the name of the keyframes to use.
@@ -155,14 +171,14 @@ steps:
           - `linear` — the easing; `linear` means no easing.
           - `infinite` — how many times the animation should play; could be just a number.
           - `alternate` — tells the animation to play forward through the keyframes, then backward.
-      - num: "39-48"
+      - num: "43-52"
         text: |
           The keyframes block of an animation. All keyframe blocks need to be given a name.
 
           Keyframes are specified in percent so they aren’t tied to a specific duration. There can be as many percentage-based keyframes as you want—including decimals like `57.4%`
 
           Within each keyframe we only need to specify the CSS properties that are going to change. Any property that is a number can be animated.
-      - num: "54-56"
+      - num: "58-60"
         text: |
           By default the `.panel` is hidden (shown in the CSS above).
 
