@@ -24,7 +24,17 @@ steps:
   - title: "Set up project"
     before: |
       Before we get started, create some files and get ready.
-
+    folders:
+      - label: "news-reader"
+        type: folder
+      - label: "index.html"
+        indent: 1
+      - label: "css"
+        type: folder
+        indent: 1
+      - label: "main.css"
+        indent: 2
+    after: |
       1. Create a folder named `news-reader`
       2. Make an `index.html` & add the boilerplate code.
       4. Make a `main.css` in your `css` folder & add the boilerplate code.

@@ -49,7 +49,17 @@ steps:
   - title: "What’s yo name? program set up"
     before: |
       *This code tutorial is recreating the last section—the name comparison if-statement—in the final video above.*
-
+    folders:
+      - label: "whats-yo-name"
+        type: folder
+      - label: "index.html"
+        indent: 1
+      - label: "js"
+        type: folder
+        indent: 1
+      - label: "main.js"
+        indent: 2
+    after: |
       Before we get started, create some files and get ready.
 
       1. Create a folder named `whats-yo-name`

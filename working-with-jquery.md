@@ -24,7 +24,33 @@ steps:
   - title: "Set up project"
     before: |
       Before we get started, create some files and get ready.
-
+    folders:
+      - label: "working-with-jquery"
+        type: folder
+      - label: "index.html"
+        indent: 1
+      - label: "css"
+        type: folder
+        indent: 1
+      - label: "main.css"
+        indent: 2
+      - label: "js"
+        type: folder
+        indent: 1
+      - label: "dinos.js"
+        indent: 2
+      - label: "main.js"
+        indent: 2
+      - label: "images"
+        type: folder
+        indent: 1
+      - label: "diplodocus.jpg"
+        indent: 2
+      - label: "hadrosaur.jpg"
+        indent: 2
+      - label: "iguanodon.jpg"
+        indent: 2
+    after: |
       1. Create a folder named `working-with-jquery`
       2. Make an `index.html` & add the boilerplate code.
       3. Make a `main.css` in your `css` folder & add the boilerplate code.

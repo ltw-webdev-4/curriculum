@@ -13,7 +13,19 @@ steps:
   - title: "Set up project"
     before: |
       Before we get started, create some files and get ready.
-
+    folders:
+      - label: "contact-list-generator"
+        type: folder
+      - label: "index.html"
+        indent: 1
+      - label: "js"
+        type: folder
+        indent: 1
+      - label: "main.js"
+        indent: 2
+      - label: "contacts.js"
+        indent: 2
+    after: |
       1. Create a folder named `contact-list-generator`
       2. Make an `index.html` & add the boilerplate code.
       3. Make a `main.js` in your `js` folder.
