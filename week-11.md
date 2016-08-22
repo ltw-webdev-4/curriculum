@@ -5,6 +5,7 @@ desc: "Use Javascript to trigger CSS & SVG effects like transition and animation
 video_tutorials:
   - title: "Javascript effects"
     url: javascript-effects
+    videos: true
     highlight: true
     notes: "Triggering CSS animations, manipulating SVG"
   - title: "SVG cheat sheet"

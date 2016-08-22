@@ -5,6 +5,7 @@ desc: "Explore how to interact with HTML using the document object model and com
 video_tutorials:
   - title: "Document object model"
     url: dom
+    videos: true
     highlight: true
     notes: "Selecting HTML, manipulating classes and HTML"
   - title: "Javascript cheat sheet"

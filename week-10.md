@@ -5,6 +5,7 @@ desc: "Look at how accessibility can be improved for Javascript functionality us
 video_tutorials:
   - title: "Javascript & accessibility"
     url: javascript-accessibility
+    videos: true
     highlight: true
 
 slides:

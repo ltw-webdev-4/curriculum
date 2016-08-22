@@ -6,6 +6,7 @@ video_tutorials:
   - title: "CSS animations & effects"
     url: css-animations-effects
     highlight: true
+    videos: true
 
 slides:
   - title: "CSS effects"

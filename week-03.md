@@ -6,6 +6,7 @@ video_tutorials:
   - title: "Advanced SVG"
     url: advanced-svg
     highlight: true
+    videos: true
 
 slides:
   - title: "Advanced SVG"

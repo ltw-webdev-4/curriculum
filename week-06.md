@@ -5,9 +5,11 @@ desc: "Dig into writing Javascript and explore some activities to switch your br
 video_tutorials:
   - title: "Javascript syntax"
     url: javascript-syntax
+    videos: true
     notes: "Variables, data types, if statements, loops"
   - title: "Javascript debugging"
     url: javascript-debugging
+    videos: true
     highlight: true
   - title: "Javascript validator"
     url: /topics/validators/#validating-javascript
