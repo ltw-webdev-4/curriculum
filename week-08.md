@@ -17,7 +17,7 @@ slides:
 
 tasks:
   - title: "Loop Lancer"
-    url: http://activities.learn-the-web.algonquindesign.ca/loop-lancer/
+    url: https://activities.learn-the-web.algonquindesign.ca/loop-lancer/
     type: activity
   - title: "Working with jQuery"
     url: working-with-jquery

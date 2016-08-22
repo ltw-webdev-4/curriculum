@@ -13,7 +13,7 @@ video_tutorials:
 
 tasks:
   - title: "Path Paladin"
-    url: http://activities.learn-the-web.algonquindesign.ca/path-paladin/
+    url: https://activities.learn-the-web.algonquindesign.ca/path-paladin/
     type: activity
   - type: blank
   - title: "Browser testing"

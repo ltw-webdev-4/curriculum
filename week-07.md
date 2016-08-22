@@ -27,7 +27,7 @@ group_activities:
 
 tasks:
   - title: "Logic Luminary"
-    url: http://activities.learn-the-web.algonquindesign.ca/logic-luminary/
+    url: https://activities.learn-the-web.algonquindesign.ca/logic-luminary/
     type: activity
   - title: "Contact list generator"
     url: contact-list-generator

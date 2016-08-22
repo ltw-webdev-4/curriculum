@@ -16,7 +16,7 @@ slides:
 
 tasks:
   - title: "Bug Basher"
-    url: http://activities.learn-the-web.algonquindesign.ca/bug-basher/
+    url: https://activities.learn-the-web.algonquindesign.ca/bug-basher/
     type: activity
   - title: "Circle mover"
     url: circle-mover

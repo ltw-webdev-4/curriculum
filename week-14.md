@@ -11,7 +11,7 @@ video_tutorials:
 
 tasks:
   - title: "Spacing Superstar"
-    url: http://activities.learn-the-web.algonquindesign.ca/spacing-superstar/
+    url: https://activities.learn-the-web.algonquindesign.ca/spacing-superstar/
     type: activity
   - type: blank
   - title: "Infographic milestone"

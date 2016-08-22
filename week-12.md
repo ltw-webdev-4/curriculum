@@ -16,7 +16,7 @@ group_activities:
 
 tasks:
   - title: "Prodigious Picker"
-    url: http://activities.learn-the-web.algonquindesign.ca/prodigious-picker/
+    url: https://activities.learn-the-web.algonquindesign.ca/prodigious-picker/
     type: activity
   - title: "Waypoints + SVG"
     url: waypoints-svg

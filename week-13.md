@@ -11,7 +11,7 @@ video_tutorials:
 
 tasks:
   - title: "Document Defeater"
-    url: http://activities.learn-the-web.algonquindesign.ca/document-defeater/
+    url: https://activities.learn-the-web.algonquindesign.ca/document-defeater/
     type: activity
   - type: blank
   - title: "Infographic effects paper plan"

@@ -14,7 +14,7 @@ slides:
 
 tasks:
   - title: "Ingenious Indentor"
-    url: http://activities.learn-the-web.algonquindesign.ca/ingenious-indentor/
+    url: https://activities.learn-the-web.algonquindesign.ca/ingenious-indentor/
     type: activity
   - title: "SVG smiley face"
     url: svg-smiley-face

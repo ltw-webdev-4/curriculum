@@ -14,7 +14,7 @@ slides:
 
 tasks:
   - title: "Character Classifier"
-    url: http://activities.learn-the-web.algonquindesign.ca/character-classifier/
+    url: https://activities.learn-the-web.algonquindesign.ca/character-classifier/
     type: activity
   - title: "News reader effects"
     url: news-reader-effects

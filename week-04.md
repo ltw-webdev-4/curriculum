@@ -4,7 +4,7 @@ desc: "Spend most of the class working on the responsive infographic website by 
 
 tasks:
   - title: "Selector Surgeon"
-    url: http://activities.learn-the-web.algonquindesign.ca/selector-surgeon/
+    url: https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/
     type: activity
   - type: blank
   - title: "Responsive inforgraphic milestone"

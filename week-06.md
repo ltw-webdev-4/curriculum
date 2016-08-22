@@ -29,7 +29,7 @@ group_activities:
 
 tasks:
   - title: "URL Explorer"
-    url: http://activities.learn-the-web.algonquindesign.ca/url-explorer/
+    url: https://activities.learn-the-web.algonquindesign.ca/url-explorer/
     type: activity
   - title: "What’s yo name?"
     url: whats-yo-name

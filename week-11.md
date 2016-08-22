@@ -23,7 +23,7 @@ group_activities:
 
 tasks:
   - title: "SVG Synthesizer"
-    url: http://activities.learn-the-web.algonquindesign.ca/svg-synthesizer/
+    url: https://activities.learn-the-web.algonquindesign.ca/svg-synthesizer/
     type: activity
   - title: "Bubble popper"
     url: bubble-popper

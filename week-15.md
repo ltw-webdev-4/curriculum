@@ -23,7 +23,7 @@ group_activities:
 
 tasks:
   - title: "Javascript Journeyer"
-    url: http://activities.learn-the-web.algonquindesign.ca/javascript-journeyer/
+    url: https://activities.learn-the-web.algonquindesign.ca/javascript-journeyer/
     type: activity
   - type: blank
   - title: "Browser testing"
