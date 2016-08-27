@@ -1,6 +1,7 @@
 ---
 topic: "Intro & reviews"
 desc: "Review how positioning works in CSS because it’s extremely important this term."
+clr: "1, 2, 4"
 
 video_tutorials:
   - title: "Position & z-index"

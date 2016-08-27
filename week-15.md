@@ -1,6 +1,7 @@
 ---
 topic: "Infographic completion"
 desc: "Finish the infographic interactivity, animations & transitions by the end of the term."
+clr: "1, 2, 3, 4, 5, 6, 7, 8, 9"
 
 video_tutorials:
   - title: "Browser testing"

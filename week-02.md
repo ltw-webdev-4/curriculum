@@ -1,6 +1,7 @@
 ---
 topic: "CSS effects"
 desc: "Look at the effects that can be created with CSS using transforms, transition and animations."
+clr: "1, 2, 4, 5"
 
 video_tutorials:
   - title: "CSS animations & effects"

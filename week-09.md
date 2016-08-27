@@ -1,6 +1,7 @@
 ---
 topic: "Javascript events"
 desc: "Learn how to write Javascript code that responds to user generated events like clicks and key presses."
+clr: "1, 4, 6"
 
 video_tutorials:
   - title: "Document object model"

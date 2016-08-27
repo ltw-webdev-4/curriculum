@@ -1,6 +1,7 @@
 ---
 topic: "Javascript!"
 desc: "Dig into writing Javascript and explore some activities to switch your brain’s thinking to computer mode."
+clr: "1, 4, 6"
 
 video_tutorials:
   - title: "Javascript syntax"

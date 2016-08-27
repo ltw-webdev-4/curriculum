@@ -1,6 +1,7 @@
 ---
 topic: "Advanced SVG"
 desc: "An in-depth look at the code behind SVG files, writing them by hand and adding effects to them."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
   - title: "Advanced SVG"

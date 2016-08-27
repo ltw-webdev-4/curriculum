@@ -1,6 +1,7 @@
 ---
 topic: "Arrays, objects & functions"
 desc: "Learn to use more complex Javascript functionality with arrays, objects & reusable functions."
+clr: "1, 4, 6"
 
 video_tutorials:
   - title: "Javascript syntax"

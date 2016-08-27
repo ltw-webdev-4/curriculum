@@ -1,6 +1,7 @@
 ---
 topic: "Javascript DOM"
 desc: "Explore how to interact with HTML using the document object model and combine CSS with Javascript."
+clr: "1, 4, 6"
 
 video_tutorials:
   - title: "Document object model"

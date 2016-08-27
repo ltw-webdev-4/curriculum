@@ -1,6 +1,7 @@
 ---
 topic: "Infographic work period"
 desc: "Spend most of the class working on the responsive infographic website by porting it over from Adobe Illustrator into HTML, CSS & SVG."
+clr: "1, 2, 3, 4, 5, 7, 8, 9"
 
 tasks:
   - title: "Selector Surgeon"
