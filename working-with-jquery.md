@@ -61,7 +61,7 @@ steps:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
       - label: "HTML snippets"
-        text: "Create the boilerplate with `html5`, `viewport`, `css`, `jss`"
+        text: "Create the boilerplate with `html5`, `viewport`, `css` & `jss`"
       - label: "CSS snippets"
         text: "Create the boilerplate with `borderbox`"
 

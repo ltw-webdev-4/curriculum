@@ -42,9 +42,9 @@ steps:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
       - label: "HTML snippets"
-        text: "Create the boilerplate with `html5`, `viewport`, `css`"
+        text: "Create the boilerplate with `html5`, `viewport` & `css`"
       - label: "CSS snippets"
-        text: "Create the boilerplate with `cssviewport`, `borderbox`, `textsize`"
+        text: "Create the boilerplate with `cssviewport`, `borderbox` & `textsize`"
 
   - title: "Write the HTML"
     before: |

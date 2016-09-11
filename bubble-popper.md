@@ -72,7 +72,7 @@ steps:
         text: "Don’t forget to hook up jQuery."
     notes:
       - label: "HTML snippets"
-        text: "Create the boilerplate with `html5`, `viewport`, `css`, `jss`"
+        text: "Create the boilerplate with `html5`, `viewport`, `css` & `jss`"
 
   - title: "Styling the bubbles"
     before: |

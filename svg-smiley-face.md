@@ -42,7 +42,7 @@ steps:
       - label: "HTML snippets"
         text: "Create the boilerplate with `html5`, `viewport`, `css`"
       - label: "CSS snippets"
-        text: "Create the boilerplate with `cssviewport`, `borderbox`, `textsize`"
+        text: "Create the boilerplate with `cssviewport`, `borderbox` & `textsize`"
 
   - title: "SVG wrapper"
     before: |

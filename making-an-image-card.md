@@ -40,7 +40,7 @@ steps:
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
 
   - title: "Add HTML boilerplate"
-    before: "*Use the `html5`, `viewport`, and `css` snippets.*"
+    before: "*Use the `html5`, `viewport` and `css` snippets.*"
     code_lang: "html"
     code_file: "index.html"
     code: |
