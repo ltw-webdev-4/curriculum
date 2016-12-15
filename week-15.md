@@ -29,7 +29,7 @@ tasks:
   - type: blank
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
-    submit: show
+    submit: "Submit nothing."
   - title: "Request for grade"
     url: https://github.com/acgd-webdev-3/infographic-effects-interactivity#4-request-for-grade
     type: basic

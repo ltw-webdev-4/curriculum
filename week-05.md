@@ -20,7 +20,7 @@ tasks:
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
     type: basic
-    submit: show
+    submit: "Submit nothing."
     button: activity
   - title: "Responsive infographic"
     url: https://github.com/acgd-webdev-3/responsive-infographic
