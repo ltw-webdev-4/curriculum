@@ -1,25 +1,15 @@
 ---
-topic: "Infographic planning"
-desc: "Start planning the interactivity, animations & transitions for your responsive infographic."
+topic: "Inside page template"
+desc: ""
 clr: "1, 2, 3, 4, 5, 6, 7, 8, 9"
 
-video_tutorials:
-  - title: "Javascript cheat sheet"
-    url: javascript-cheat-sheet
-    highlight: true
-  - title: "Javascript checklist"
-    url: javascript-checklist
-
 tasks:
-  - title: "Document Defeater"
-    url: https://activities.learn-the-web.algonquindesign.ca/document-defeater/
-    type: activity
   - type: blank
-  - title: "Infographic effects paper plan"
-    url: https://github.com/acgd-webdev-3/infographic-effects-interactivity#1-paper-plan
-    type: paper
-  - title: "Infographic effects & interactivity"
-    url: https://github.com/acgd-webdev-3/infographic-effects-interactivity
-    graded-as: infographic
   - type: blank
+  - type: blank
+  - title: "Inside page template"
+    url: "https://github.com/acgd-webdev-3/inside-page-template"
+    graded-as: inside-page-template
+    disabled: true
+
 ---

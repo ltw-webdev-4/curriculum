@@ -1,5 +1,5 @@
 ---
-topic: "CSS effects"
+topic: "Transitions & animations"
 desc: "Look at the effects that can be created with CSS using transforms, transition and animations."
 clr: "1, 2, 4, 5"
 
@@ -14,16 +14,17 @@ slides:
     url: css-effects
 
 tasks:
-  - title: "Character Classifier"
-    url: https://activities.learn-the-web.algonquindesign.ca/character-classifier/
-    type: activity
+  - type: blank
   - title: "News reader effects"
     url: news-reader-effects
     type: lesson
-  - title: "Image tabs"
-    url: https://github.com/acgd-webdev-3/image-tabs
   - title: "Interactive polaroids"
-    url: https://github.com/acgd-webdev-3/interactive-polaroids
+    url: "https://github.com/acgd-webdev-3/interactive-polaroids"
   - title: "Animated clock"
-    url: https://github.com/acgd-webdev-3/animated-clock
+    url: "https://github.com/acgd-webdev-3/animated-clock"
+  - title: "Dog rescue redesign UX"
+    url: "https://github.com/acgd-webdev-3/dog-rescue-redesign-ux"
+    graded-as: dog-rescue-redesign-ux
+    due: "Before class week 5"
+    disabled: true
 ---

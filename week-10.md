@@ -1,15 +1,13 @@
 ---
-topic: "Javascript & accessibility"
-desc: "Look at how accessibility can be improved for Javascript functionality using ARIA."
+topic: "Headers & footers"
+desc: ""
 clr: "1, 2, 6, 7"
 
-video_tutorials:
-  - title: "Javascript & accessibility"
-    url: javascript-accessibility
-    videos: true
-    highlight: true
-
-slides:
-  - title: "Javascript & accessibility"
-    url:
+tasks:
+  - type: blank
+  - type: blank
+  - type: blank
+  - title: "Headers & footers"
+    url: "https://github.com/acgd-webdev-3/headers-footers"
+    disabled: true
 ---

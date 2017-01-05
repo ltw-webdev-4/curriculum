@@ -1,25 +1,14 @@
 ---
-topic: "Infographic milestone"
-desc: "Have a large majority of the infographic interactivity coded & functioning."
+topic: "Form page template"
+desc: ""
 clr: "1, 2, 3, 4, 5, 6, 7, 8, 9"
 
-video_tutorials:
-  - title: "Javascript cheat sheet"
-    url: javascript-cheat-sheet
-    highlight: true
-  - title: "Javascript checklist"
-    url: javascript-checklist
-
 tasks:
-  - title: "Spacing Superstar"
-    url: https://activities.learn-the-web.algonquindesign.ca/spacing-superstar/
-    type: activity
   - type: blank
-  - title: "Infographic milestone"
-    url: https://github.com/acgd-webdev-3/infographic-effects-interactivity#2-code-milestone
-    submit: show
-  - title: "Infographic effects & interactivity"
-    url: https://github.com/acgd-webdev-3/infographic-effects-interactivity
-    graded-as: infographic
   - type: blank
+  - type: blank
+  - title: "Form page template"
+    url: "https://github.com/acgd-webdev-3/form-page-template"
+    graded-as: form-page-template
+    disabled: true
 ---

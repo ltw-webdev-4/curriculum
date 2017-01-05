@@ -1,28 +1,24 @@
 ---
-topic: "Infographic browser testing"
-desc: "Spend most of the class testing the responsive infographic in all the different browsers—and fixing any problems that arise."
+topic: "Pattern libraries"
+desc: ""
 clr: "1, 2, 3, 4, 5, 7, 8, 9"
 
 video_tutorials:
-  - title: "Validators"
-    url: validators
-  - title: "Browser testing"
-    url: browser-testing
-  - title: "Browser testing checklist"
-    url: browser-testing-checklist
-    highlight: true
+  - title: "CSS variables"
+    videos: true
+  - title: "Pattern libraries"
+    videos: true
+
+slides:
+  - title: "Pattern libraries"
 
 tasks:
-  - title: "Path Paladin"
-    url: https://activities.learn-the-web.algonquindesign.ca/path-paladin/
-    type: activity
   - type: blank
-  - title: "Browser testing"
-    url: /courses/web-dev-1/browser-testing/
-    type: basic
-    submit: "Submit nothing."
-    button: activity
-  - title: "Responsive infographic"
-    url: https://github.com/acgd-webdev-3/responsive-infographic
-
+  - title: "Using CSS variables"
+    type: lesson
+  - title: "Pattern library set-up"
+    type: lesson
+  - title: "Typography & colours"
+    url: "https://github.com/acgd-webdev-3/typography-colours"
+    disabled: true
 ---
