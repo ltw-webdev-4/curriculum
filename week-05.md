@@ -1,7 +1,7 @@
 ---
 topic: "Pattern libraries"
-desc: ""
-clr: "1, 2, 3, 4, 5, 7, 8, 9"
+desc: "An introduction to pattern libraries, setting up a basic library, and populating it with typography-related styles."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
   - title: "CSS variables"
@@ -16,9 +16,13 @@ tasks:
   - type: blank
   - title: "Using CSS variables"
     type: lesson
+    disabled: true
   - title: "Pattern library set-up"
     type: lesson
-  - title: "Typography & colours"
-    url: "https://github.com/acgd-webdev-3/typography-colours"
     disabled: true
+  - title: "Typography & colours"
+    url: "https://github.com/acgd-webdev-4/typography-colours"
+    disabled: true
+    submit: show
+  - type: watch-videos
 ---

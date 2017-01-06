@@ -1,21 +1,22 @@
 ---
 topic: "Final browser testing"
-desc: ""
-clr: "1, 2, 3, 4, 5, 6, 7, 8, 9"
+desc: "Browser test all the page template and finalize the pattern library."
+clr: "1, 2, 3, 4, 5"
 
 tasks:
+  - type: blank
   - type: blank
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
     submit: "Submit nothing."
   - title: "Request for grade"
-    url: "https://github.com/acgd-webdev-3/request-for-grade"
+    url: "https://github.com/acgd-webdev-4/request-for-grade"
     type: basic
     graded-as: false
     disabled: true
-  - title: "Form page template"
-    url: "https://github.com/acgd-webdev-3/form-page-template"
-    graded-as: form-page-template
+  - title: "Finalized pattern library"
+    url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
+    graded-as: finalized-pattern-library
+    submit: online
     disabled: true
-  - type: blank
 ---

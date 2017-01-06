@@ -6,31 +6,40 @@ title: "Introduction"
 slides:
   - type: super-big-text
     content: |
-      **Web Dev 3**
+      **Web Dev 4**
 
   - content: |
       ## What we’re learning
 
-      - Interactive websites with animations
-      - Javascript
+      - CSS transition & animations
+      - Advanced SVG (animations, icon sets)
+      - One project, all term: a Dog Rescue website redesign
+
+  - content: |
+      ## Pattern libraries
+
+      We’re approaching the redesign from the perspective of making a pattern library
+
+      Each week we’ll add new patterns into the library
+
+      Near the end of the term we’ll use those patterns to template 3 major pages
+
+  - content: |
+      ## Pattern library examples
+
+      - [MailChimp Pattern Library](http://ux.mailchimp.com/patterns)
+      - [MapBox Styleguide](https://www.mapbox.com/base/)
+      - [Walmart Styleguide](https://walmartlabs.github.io/web-style-guide/)
 
   - content: |
       ## High expectations
 
-      *Programming is a different mindset—and will be difficult for most*
+      *Coding is a different mindset—and will be difficult for most*
 
       - Attend every class
       - Do all the work
       - Put in the effort
       - Watch the videos before class
-
-  - content: |
-      ## Office hours
-      *@ J104*
-
-      - Tue. 2–3
-      - Wed. 11–12
-      - Fri. 12–3
 
   - content: |
       ## Marking scheme
@@ -39,6 +48,7 @@ slides:
 
   - content: |
       ## Always be coding
+
       Multiple activities & exercises every week
 
       [**Week 1 tasks ➔**](/web-dev-4/week-1/)

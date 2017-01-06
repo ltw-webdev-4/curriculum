@@ -1,7 +1,7 @@
 ---
 topic: "Advanced SVG"
-desc: ""
-clr: "1, 2, 3, 4, 5"
+desc: "An in-depth look at the code behind SVG files, writing them by hand, and adding effects to them."
+clr: "1, 2"
 
 video_tutorials:
   - title: "Advanced SVG"
@@ -27,10 +27,11 @@ tasks:
     type: lesson
   - type: blank
   - title: "Interactive SVG"
-    url: "https://github.com/acgd-webdev-3/interactive-svg"
-  - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-3/dog-rescue-redesign-ux"
-    graded-as: dog-rescue-redesign-ux
-    due: "Before class week 5"
+    url: "https://github.com/acgd-webdev-4/interactive-svg"
     disabled: true
+  - title: "Dog rescue redesign UX"
+    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
+    graded-as: dog-rescue-redesign-ux
+    submit: online
+    due: "Before class week 5"
 ---

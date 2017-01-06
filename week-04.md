@@ -1,7 +1,7 @@
 ---
 topic: "SVG icons"
-desc: ""
-clr: "1, 2, 3, 4, 5, 7, 8, 9"
+desc: "Look at how to use SVG symbols to create SVG sprite sheets for better performance and reusable systems."
+clr: "1, 2, 3, 4"
 
 video_tutorials:
   - title: "Advanced SVG"
@@ -15,18 +15,18 @@ slides:
   - title: "SVG icons"
 
 tasks:
-  - title: "SVG Synthesizer"
-    url: "https://activities.learn-the-web.algonquindesign.ca/svg-synthesizer/"
-    type: activity
+  - type: blank
   - title: "Using SVG icons"
     url: using-svg-icons
     type: lesson
+    disabled: true
   - type: blank
   - title: "SVG icons sets"
-    url: "https://github.com/acgd-webdev-3/svg-icon-sets"
-  - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-3/dog-rescue-redesign-ux"
-    graded-as: dog-rescue-redesign-ux
-    due: "Before class week 5"
+    url: "https://github.com/acgd-webdev-4/svg-icon-sets"
     disabled: true
+  - title: "Dog rescue redesign UX"
+    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
+    graded-as: dog-rescue-redesign-ux
+    submit: online
+    due: "Before class week 5"
 ---

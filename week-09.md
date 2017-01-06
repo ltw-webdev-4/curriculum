@@ -1,13 +1,22 @@
 ---
 topic: "Navigations"
-desc: ""
-clr: "1, 4, 6"
+desc: "Big websites usually have multiple navigation styles; each navigation is a unique design that needs to be systemized into a reusable pattern."
+clr: "1, 2, 3, 4"
+
+video_tutorials:
+  - title: "Navigation"
+    url: navigation
 
 tasks:
+  - title: "URL Explorer"
+    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+    type: activity
   - type: blank
-  - type: blank
-  - type: blank
+  - title: "Browser testing"
+    url: /courses/web-dev-1/browser-testing/
+    submit: "Submit nothing."
   - title: "Navigations"
-    url: "https://github.com/acgd-webdev-3/navigations"
+    url: "https://github.com/acgd-webdev-4/navigations"
+    submit: show
     disabled: true
 ---

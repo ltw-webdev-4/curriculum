@@ -1,7 +1,7 @@
 ---
 topic: "Intro & reviews"
-desc: ""
-clr: "1, 2, 4"
+desc: "An introduction to the term, including the term-long project, and a simple, quick review."
+clr: "1, 5"
 
 video_tutorials:
   - title: "Position & z-index"
@@ -15,13 +15,16 @@ slides:
     url: intro
 
 tasks:
+  - title: "Acronym Annihilator"
+    url: "https://activities.learn-the-web.algonquindesign.ca/acronym-annihilator/"
+    type: activity
   - type: blank
-  - type: blank
-  - type: blank
+  - title: "Responsive banner"
+    url: "https://github.com/acgd-webdev-4/responsive-banner"
   - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-3/dog-rescue-redesign-ux"
+    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
     graded-as: dog-rescue-redesign-ux
     due: "Before class week 5"
-    disabled: true
+    submit: online
   - type: watch-videos
 ---
