@@ -4,11 +4,16 @@ desc: "An introduction to the term, including the term-long project, and a simpl
 clr: "1, 5"
 
 video_tutorials:
-  - title: "Position & z-index"
-    url: position-zindex
-    highlight: true
+  - title: "HTML semantics cheat sheet"
+    url: html-semantics-cheat-sheet
   - title: "CSS layout cheat sheet"
     url: css-layout-cheat-sheet
+  - title: "Gridifier cheat sheet"
+    url: gridifier-cheat-sheet
+  - title: "Typografier cheat sheet"
+    url: typografier-cheat-sheet
+  - title: "Modulifier cheat sheet"
+    url: modulifier-cheat-sheet
 
 slides:
   - title: "Web Dev 4 intro"

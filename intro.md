@@ -11,7 +11,7 @@ slides:
   - content: |
       ## What we’re learning
 
-      - CSS transition & animations
+      - CSS transitions & animations
       - Advanced SVG (animations, icon sets)
       - One project, all term: a Dog Rescue website redesign
 
