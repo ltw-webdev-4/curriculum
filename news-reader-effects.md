@@ -5,6 +5,11 @@ desc: "Use CSS effects like transitions and animations to make a simple news rea
 
 video: "4bOwe1_gfS8"
 
+markbot_notes: |
+  *Ignore the “the first heading is an `<h2>`…” error message—but fix everything else.*
+
+  I feel like this is part of a larger website so the `<h1>` would probably be somewhere else on the page.
+
 extra_tutorials:
   - title: "CSS animations & effects"
     url: css-animations-effects

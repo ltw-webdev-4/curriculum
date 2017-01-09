@@ -20,10 +20,8 @@ tasks:
     type: lesson
   - title: "Interactive polaroids"
     url: "https://github.com/acgd-webdev-4/interactive-polaroids"
-    disabled: true
   - title: "Animated clock"
     url: "https://github.com/acgd-webdev-4/animated-clock"
-    disabled: true
   - title: "Dog rescue redesign UX"
     url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
     graded-as: dog-rescue-redesign-ux
