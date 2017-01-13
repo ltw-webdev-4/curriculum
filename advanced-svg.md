@@ -100,6 +100,6 @@ slides:
   - content: |
       ## Videos & tutorials
 
-      [Image formats · SVG ➔](/topics/image-formats/#svg)
-      [Advanced SVG ➔](/topics/advanced-svg/)
+      - [Image formats · SVG ➔](/topics/image-formats/#svg)
+      - [Advanced SVG ➔](/topics/advanced-svg/)
 ---

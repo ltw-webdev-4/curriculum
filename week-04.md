@@ -7,6 +7,7 @@ video_tutorials:
   - title: "Advanced SVG"
     url: advanced-svg
     videos: true
+    notes: "Only watch from “Icons” to “Icon sprite sheets”"
   - title: "SVG cheat sheet"
     url: svg-cheat-sheet
     highlight: true
@@ -20,7 +21,6 @@ tasks:
     url: using-svg-icons
     type: lesson
     disabled: true
-  - type: blank
   - title: "SVG icons sets"
     url: "https://github.com/acgd-webdev-4/svg-icon-sets"
     disabled: true

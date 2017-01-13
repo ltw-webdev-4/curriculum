@@ -3,6 +3,9 @@ layout: lesson
 title: "SVG smiley face"
 desc: "Hand write SVG code to create an interactive smiley face."
 
+markbot_notes: |
+  *Ignore the “there are no headings in this document…” error message—but fix everything else.*
+
 extra_tutorials:
   - title: "Advanced SVG"
     url: advanced-svg
@@ -35,14 +38,12 @@ steps:
     after: |
       1. Create a folder named `smiley-face`
       2. Make an `index.html` & add the boilerplate code.
-      3. Make a `main.css` in your `css` folder & add the boilerplate code.
+      3. Make a `main.css` in your `css` folder—it can remain empty.
     notes:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
       - label: "HTML snippets"
         text: "Create the boilerplate with `html5`, `viewport`, `css`"
-      - label: "CSS snippets"
-        text: "Create the boilerplate with `cssviewport`, `borderbox` & `textsize`"
 
   - title: "SVG wrapper"
     before: |
@@ -115,20 +116,13 @@ steps:
     code_lang: css
     code_file: "css/main.css"
     code: |
-      ⋮
-      *, *::before, *::after {
-        box-sizing: inherit;
-      }
-
       .face {
         fill: gold;
       }
     lines:
-      - num: "2-4"
-        fade: true
-      - num: 6
+      - num: 1
         text: "We select things the same as with HTML, using classes or tags."
-      - num: 7
+      - num: 2
         text: "The `fill` property is used to colour SVG shapes."
     after: |
       ![](face-yellow.png)
