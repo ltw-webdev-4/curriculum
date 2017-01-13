@@ -14,6 +14,7 @@ video_tutorials:
 
 slides:
   - title: "SVG icons"
+    url: svg-icons
 
 tasks:
   - type: blank
