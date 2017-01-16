@@ -21,7 +21,6 @@ tasks:
   - title: "Using SVG icons"
     url: using-svg-icons
     type: lesson
-    disabled: true
   - title: "SVG icons sets"
     url: "https://github.com/acgd-webdev-4/svg-icon-sets"
     disabled: true
