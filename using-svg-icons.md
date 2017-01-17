@@ -131,7 +131,7 @@ steps:
       - label: "velociraptor.svg"
         indent: 2
     after: |
-      Drop all 3 of the images into [Spritebot](https://github.com/thomasjbradley/spritebot)—which will compress and optimize the images for us.
+      Drop all 3 of the images into [**Spritebot**](https://github.com/thomasjbradley/spritebot)—which will compress and optimize the images for us.
 
       ![](spritebot.jpg)
 
