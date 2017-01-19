@@ -23,7 +23,6 @@ tasks:
     type: lesson
   - title: "SVG icons sets"
     url: "https://github.com/acgd-webdev-4/svg-icon-sets"
-    disabled: true
   - title: "Dog rescue redesign UX"
     url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
     graded-as: dog-rescue-redesign-ux
