@@ -47,7 +47,7 @@ steps:
       1. Create a folder named `using-svg-icons`
       2. Make an `index.html` & add the boilerplate code.
       3. Make a `main.css` in your `css` folder—it can remain empty.
-      4. Make a `modules.css` in your `css` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/).
+      4. Make a `modules.css` in your `css` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/). **Make sure to press “Select All”.**
     notes:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
