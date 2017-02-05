@@ -207,13 +207,13 @@ steps:
 
       ![](markbot.jpg)
 
-      In the `File` menu go to `Preview Website Locally`—this will pop open your default browser with the URL to your project running over with a web server.
+      In the `File` menu go to `Browse Local Website` (`⌘B`)—this will pop open your default browser with the URL to your project running over with a web server.
 
       The URL will most likely be: [**https://localhost:8000/**](https://localhost:8000/).
 
       ![](chrome-security.jpg)
 
-      Next up we’ll see a security error about the connection being not private. The browser doesn’t believe the HTTPS certificate Markbot uses is secure because it wasn’t signed by an authority.
+      Next up we’ll see a security error about the connection not being private. The browser doesn’t believe the HTTPS certificate Markbot uses is secure because it wasn’t signed by an authority.
 
       **You should never bypass this error message on websites.** In this situation it’s okay because we’re loading our “localhost” testing server.
 
