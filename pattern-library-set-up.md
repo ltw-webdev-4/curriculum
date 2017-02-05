@@ -16,7 +16,7 @@ steps:
 
       We’ll get the first bits set up and ready to use so you can move onto styling the typography.
 
-      ### [Fork & clone this repo.]()
+      ### [Fork & clone this repo.](https://github.com/acgd-webdev-4/dog-rescue-pattern-library/fork)
     notes:
       - label: "Type it, type it real good"
         text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
