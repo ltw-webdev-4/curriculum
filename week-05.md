@@ -11,6 +11,7 @@ video_tutorials:
 
 slides:
   - title: "Pattern libraries"
+    url: pattern-libraries
 
 tasks:
   - type: blank
