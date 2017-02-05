@@ -23,7 +23,6 @@ tasks:
     type: lesson
   - title: "Typography & colours"
     url: "https://github.com/acgd-webdev-4/typography-colours"
-    disabled: true
     submit: show
   - type: watch-videos
 ---
