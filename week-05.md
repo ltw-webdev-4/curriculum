@@ -15,8 +15,8 @@ slides:
 tasks:
   - type: blank
   - title: "Using CSS variables"
+    url: using-css-variables
     type: lesson
-    disabled: true
   - title: "Pattern library set-up"
     type: lesson
     disabled: true
