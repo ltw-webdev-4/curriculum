@@ -78,10 +78,11 @@ steps:
         --color-primary-light: gold;
         --color-secondary: lightcoral;
         --color-accent: greenyellow;
-        --color-base: #e2e2e2;
+        --color-neutral-beige: #e2e2e2;
+        --color-whatever: peachpuff;
 
-        --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif; /* 400,400i,700 */
-        --font-secondary: "Source Code Pro", Menlo, Consolas, monospace; /* 400,700 */
+        --font-primary: "Alegreya Sans", "Trebuchet MS", Arial, sans-serif;
+        --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
       }
 
       html {
@@ -97,15 +98,13 @@ steps:
       - num: 4
         text: |
           You can do the same for your secondary colour too.
-      - num: "5-6"
+      - num: "5-7"
         text: |
-          If you have more colours you can name them as `accent` colours, or just give them any ol’ name.
-      - num: "8-9"
+          If you have more colours you can name them as `accent` or `neutral` colours, or just give them any ol’ name.
+      - num: "9-10"
         text: |
-          Add in the different fonts you want to use. You’ll likely only need a `primary` & `secondary` font for your website.
-
-          You can add a comment after each font declaration that denotes the weights & styles of that font. Patternbot will pick up on this and display it in your pattern library. This information comes from the Google Fonts URL.
-      - num: "12-14"
+          Add in the different fonts you want to use. You’ll likely only need a `primary` & `secondary` font for your website. You can do `accent` font families too.
+      - num: "13-15"
         text: |
           Go ahead and set the body copy of your website to use your primary font.
     after: |
@@ -163,6 +162,10 @@ steps:
       ---
       fontUrl: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
       ---
+    lines:
+      - num: 2
+        text: |
+          Patternbot will use the `fontUrl` to make sure all the type in the builtin patterns is rendered in the correct font family. It will also use the weights and styles provided by Google Fonts to display in the pattern library.
     after: |
       **Make sure the first set of triple dashes (`---`) touches the top of your file—it should be the very first thing.**
 
@@ -190,13 +193,13 @@ steps:
 
       If we pop our `pattern-library.html` page open in a browser we’ll see a bunch of error messages—and it won’t work quite right.
 
-      ![](chrome-error.jpg)
+      ![](chrome-errors.jpg)
 
       So we need to use Patternbot’s internal web server to load the website.
 
       In the `File` menu go to `Browse Pattern Library` (`⌘B`)—this will pop open your default browser with the URL to your pattern library running over with a web server.
 
-      The URL will most likely be: [**https://localhost:8001/**](https://localhost:8001/).
+      The URL will most likely be: [**https://localhost:8000/**](https://localhost:8000/).
 
       ![](chrome-security.jpg)
 
