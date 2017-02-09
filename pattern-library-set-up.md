@@ -197,6 +197,8 @@ steps:
 
       So we need to use Patternbot’s internal web server to load the website.
 
+      ![](browse-menu.jpg)
+
       In the `File` menu go to `Browse Pattern Library` (`⌘B`)—this will pop open your default browser with the URL to your pattern library running over with a web server.
 
       The URL will most likely be: [**https://localhost:8000/**](https://localhost:8000/).
