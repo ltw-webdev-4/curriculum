@@ -1,6 +1,6 @@
 ---
-topic: "Banners & carousels"
-desc: "Banners & carousels are popular on lots of websites. Learn to implement functional—and reusable—versions."
+topic: "Carousels & tabs"
+desc: "Carousels and tab systems are popular on lots of websites. Learn to implement functional—and reusable—versions."
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
@@ -18,8 +18,8 @@ tasks:
     type: lesson
     disabled: true
   - type: blank
-  - title: "Banners & carousels"
-    url: "https://github.com/acgd-webdev-4/banners-carousels"
+  - title: "Carousels & tabs"
+    url: "https://github.com/acgd-webdev-4/carousels-tabs"
     submit: show
     disabled: true
 ---

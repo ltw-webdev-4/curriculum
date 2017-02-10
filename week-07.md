@@ -1,6 +1,6 @@
 ---
-topic: "Images & captions"
-desc: "Create common patterns for images in websites: captions, cards, containers, and more."
+topic: "Icons & images"
+desc: "Make the icons sprite sheet and create common patterns for images: captions, cards, containers and more."
 clr: "1, 2, 3, 4"
 
 video_tutorials:
@@ -8,28 +8,25 @@ video_tutorials:
     url: markdown
   - title: "YAML"
     url: yaml
-    videos: true
   - title: "Markdown & YAML cheat sheet"
     url: markdown-yaml-cheat-sheet
     highlight: true
-
-slides:
-  - title: "YAML"
-
-group_activities:
-  - title: "Data modeling"
-    type: pencil
-    pair: true
+  - title: "Advanced SVG"
+    url: advanced-svg
+  - title: "SVG cheat sheet"
+    url: svg-cheat-sheet
+    highlight: true
 
 tasks:
   - type: blank
-  - title: "Pattern details"
-    url: pattern-details
+  - title: "Multi-file patterns"
     type: lesson
+  - title: "Icons"
+    url: "https://github.com/acgd-webdev-4/icons"
+    submit: show
     disabled: true
-  - type: blank
-  - title: "Images & captions"
-    url: "https://github.com/acgd-webdev-4/images-captions"
+  - title: "Images & cards"
+    url: "https://github.com/acgd-webdev-4/images-cards"
     submit: show
     disabled: true
 ---

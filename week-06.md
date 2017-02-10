@@ -7,25 +7,24 @@ video_tutorials:
   - title: "Markdown"
     url: markdown
     videos: true
+  - title: "YAML"
+    url: yaml
+    videos: true
   - title: "Markdown & YAML cheat sheet"
     url: markdown-yaml-cheat-sheet
     highlight: true
 
 slides:
-  - title: "Markdown"
-
-group_activities:
-  - title: "Making button sets"
-    type: pencil
-    pair: true
+  - title: "Markdown & YAML"
+    url: markdown-yaml
 
 tasks:
   - type: blank
-  - title: "Pattern library README"
+  - title: "Pattern library READMEs"
     url: pattern-library-readme
     type: lesson
-    disabled: true
-  - type: blank
+  - title: "Making a new pattern"
+    type: lesson
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show

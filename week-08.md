@@ -20,8 +20,8 @@ tasks:
     type: lesson
     disabled: true
   - type: blank
-  - title: "Forms"
-    url: "https://github.com/acgd-webdev-4/forms"
+  - title: "Form fields"
+    url: "https://github.com/acgd-webdev-4/form-fields"
     submit: show
     disabled: true
 ---

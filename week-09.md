@@ -1,6 +1,6 @@
 ---
-topic: "Navigations"
-desc: "Big websites usually have multiple navigation styles; each navigation is a unique design that needs to be systemized into a reusable pattern."
+topic: "Navigations & sections"
+desc: "Big websites usually have multiple navigation styles, each navigation is a unique design. And different sections that act as secondary navigation driving people to specific locations."
 clr: "1, 2, 3, 4"
 
 video_tutorials:
@@ -15,8 +15,8 @@ tasks:
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
     submit: "Submit nothing."
-  - title: "Navigations"
-    url: "https://github.com/acgd-webdev-4/navigations"
+  - title: "Navigations & sections"
+    url: "https://github.com/acgd-webdev-4/navigations-sections"
     submit: show
     disabled: true
 ---
