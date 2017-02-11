@@ -29,5 +29,4 @@ tasks:
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
-    disabled: true
 ---
