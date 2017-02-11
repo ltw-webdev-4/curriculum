@@ -71,7 +71,7 @@ steps:
       ---
       name: "Super Company"
       fontUrl: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
-      type:
+      fonts:
         primary: |
           The primary typeface represents a strong and bold face with lines that show stability and arrogance to fully express the power and dominance of our company.
 
@@ -90,7 +90,7 @@ steps:
         fade: true
       - num: 4
         text: |
-          Make a new entry named `type`, this will describe all the typography related information.
+          Make a new entry named `fonts`, this will describe all the typography related information.
       - num: 5
         text: |
           Using the `primary` entry we can describe the primary typeface—especially describe why you chose it and when to use it.
