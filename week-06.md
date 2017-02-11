@@ -20,14 +20,14 @@ slides:
 
 tasks:
   - type: blank
-  - title: "Pattern library READMEs"
+  - title: "Pattern library README"
     url: pattern-library-readme
     type: lesson
   - title: "Making a new pattern"
+    url: making-a-new-pattern
     type: lesson
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
     disabled: true
-  - type: watch-videos
 ---

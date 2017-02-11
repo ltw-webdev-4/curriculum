@@ -4,13 +4,18 @@ title: "Pattern Library README"
 desc: "Pattern libraries need to provide more information that just the pattern code—they need to explain why."
 
 extra_tutorials:
+  - title: "Pattern libraries"
+    url: pattern-libraries
+  - title: "Pattern libraries slide deck"
+    url: "/courses/web-dev-4/pattern-libraries/"
   - title: "Markdown"
     url: markdown
   - title: "YAML"
     url: yaml
   - title: "Markdown & YAML cheat sheet"
     url: markdown-yaml-cheat-sheet
-  - title: "Markdown & YAML"
+    highlight: true
+  - title: "Markdown & YAML slide deck"
     url: "/courses/web-dev-4/markdown-yaml/"
 
 steps:
