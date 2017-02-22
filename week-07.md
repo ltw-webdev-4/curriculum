@@ -25,9 +25,7 @@ tasks:
   - title: "Icons"
     url: "https://github.com/acgd-webdev-4/icons"
     submit: show
-    disabled: true
   - title: "Images & cards"
     url: "https://github.com/acgd-webdev-4/images-cards"
     submit: show
-    disabled: true
 ---
