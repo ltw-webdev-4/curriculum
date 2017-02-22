@@ -20,6 +20,7 @@ video_tutorials:
 tasks:
   - type: blank
   - title: "Multi-file patterns"
+    url: multi-file-patterns
     type: lesson
   - title: "Icons"
     url: "https://github.com/acgd-webdev-4/icons"

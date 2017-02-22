@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: "Making a new pattern"
-desc: "Create the first pattern in our patter library—the button styles for our website."
+desc: "Create the first pattern in our pattern library—the button styles for our website."
 
 extra_tutorials:
   - title: "Pattern libraries"
