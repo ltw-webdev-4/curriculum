@@ -24,6 +24,7 @@ tasks:
   - title: "Form error messages"
     url: form-error-messages
     type: lesson
+    disabled: true
   - type: blank
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
