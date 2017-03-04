@@ -11,17 +11,21 @@ video_tutorials:
     highlight: true
 
 slides:
-  - title: "Form validation states"
+  - title: "Form error messages"
+    url: form-error-messages
+
+group_activities:
+  - title: "Form error best practices"
+    type: pencil
+    pair: true
 
 tasks:
   - type: blank
-  - title: "Form validation states"
-    url: form-validation-states
+  - title: "Form error messages"
+    url: form-error-messages
     type: lesson
-    disabled: true
   - type: blank
-  - title: "Form fields"
-    url: "https://github.com/acgd-webdev-4/form-fields"
+  - title: "Forms & fields"
+    url: "https://github.com/acgd-webdev-4/forms"
     submit: show
-    disabled: true
 ---
