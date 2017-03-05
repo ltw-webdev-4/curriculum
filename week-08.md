@@ -15,7 +15,8 @@ slides:
     url: form-error-messages
 
 group_activities:
-  - title: "Form error best practices"
+  - title: "Form design best practices"
+    url: form-design-best-practices
     type: pencil
     pair: true
 

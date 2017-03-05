@@ -9,30 +9,25 @@ slides:
       **Form error messages**
 
   - content: |
-      ## Designing forms is hard, <br>Designing validation states is harder
+      ## Designing forms is hard, <br>Designing error messages is harder
 
   - content: |
       ## Error messages are friends
 
-      We’ve all run into error messages when filling out forms.
+      We’ve all run into error messages when filling out forms
 
-      They need to be designed & designed well.
+      *They need to be designed & designed well*
 
-      Because: we’ve all run into poor error messages.
+      Because: we’ve all run into poor error messages
 
   - content: |
       ## Form usability
 
-      Here are some major concerns when designing form error messages:
+      Some major concerns when designing forms & their error messages:
 
       - Obviousness & clarity
       - Colours (color blindness)
       - Accessibility (screen readers)
-
-  - type: figure
-    image: errors.png
-    caption: |
-      **Why are these error messages pretty good?**
 
   - content: |
       ## CSS selectors
@@ -61,7 +56,7 @@ slides:
 
       Form validation really needs Javascript to be super awesome
 
-      We’re going to include a little big of Javascript to help simplify and & design some items
+      We’re going to include a little big of Javascript to help simplify and & design some items—but don’t worry, it’s already pre-written
 
   - content: |
       ## Videos & tutorials
