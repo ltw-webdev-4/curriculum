@@ -22,10 +22,9 @@ group_activities:
 
 tasks:
   - type: blank
-  - title: "Form error messages"
-    url: form-error-messages
+  - title: "Designing form errors"
+    url: designing-form-errors
     type: lesson
-    disabled: true
   - type: blank
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
