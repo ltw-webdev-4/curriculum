@@ -21,7 +21,7 @@ slides:
       ## Set up
 
       1. Form into pairs
-      2. [Download & print the bad form design](https://assets.learn-the-web.algonquindesign.ca/courses/web-dev-4/form-design-best-practices-download.zip)
+      2. [Download & print the bad form design](https://assets.learn-the-web.algonquindesign.ca/web-dev-4/form-design-best-practices-download.zip)
       3. Get out a pencil to markup the form
       4. Use your Google-foo to find best practices for forms & error messages
       5. Write out on the paper how to improve the form
