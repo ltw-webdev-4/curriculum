@@ -61,7 +61,7 @@ slides:
   - content: |
       ## Videos & tutorials
 
-      - [Forms](/topics/forms/)
-      - [Forms cheat sheet](/topics/forms-cheat-sheet/)
+      - [Forms ➔](/topics/forms/)
+      - [Forms cheat sheet ➔](/topics/forms-cheat-sheet/)
 
 ---

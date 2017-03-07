@@ -37,6 +37,9 @@ slides:
       - Accessibility (screen readers, colour blindness)
       - Obviousness of errors
 
+  - type: timer
+    minutes: 10
+
   - type: figure
     image: form.png
     caption: |
