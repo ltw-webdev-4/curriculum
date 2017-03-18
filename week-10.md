@@ -7,10 +7,10 @@ video_tutorials:
   - title: "Navigation"
     url: navigation
 
-group_activities:
-  - title: "Header & footer patterns"
-    type: pencil
-    pair: true
+# group_activities:
+#   - title: "Header & footer patterns"
+#     type: pencil
+#     pair: true
 
 tasks:
   - title: "SVG Synthesizer"
