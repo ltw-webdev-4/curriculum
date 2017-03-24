@@ -355,6 +355,12 @@ steps:
               This script is a simple piece of Javascript that will help with the usability of our forms. Combined with a few CSS tweaks it’ll hide the error messages until after the user tries to submit the form.
           - num: "7-8"
             fade: true
+    after: |
+      Here’s the Javascript URL for quick copying-and-pasting:
+
+      ```
+      https://thomasjbradley.github.io/form-validation-helper/index.js
+      ```
 
   - title: "Fix the error messages"
     before: |

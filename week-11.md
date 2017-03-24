@@ -1,6 +1,6 @@
 ---
-topic: "Carousels & tabs"
-desc: "Carousels and tab systems are popular on lots of websites. Learn to implement functional—and reusable—versions."
+topic: "Carousels & leftovers"
+desc: "Carousels and tab systems are popular on lots of websites. Learn to implement a functional and reusable carousel without Javascript."
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
@@ -16,10 +16,8 @@ tasks:
   - title: "Javascript-less carousel"
     url: javascript-less-carousel
     type: lesson
-    disabled: true
   - type: blank
-  - title: "Carousels & tabs"
-    url: "https://github.com/acgd-webdev-4/carousels-tabs"
+  - title: "The leftovers"
+    url: "https://github.com/acgd-webdev-4/the-leftovers"
     submit: show
-    disabled: true
 ---
