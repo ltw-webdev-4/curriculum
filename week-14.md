@@ -11,7 +11,5 @@ tasks:
   - type: blank
   - title: "Form page template"
     url: "https://github.com/acgd-webdev-4/form-page-template"
-    graded-as: form-page-template
     submit: show
-    disabled: true
 ---

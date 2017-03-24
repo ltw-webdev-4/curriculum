@@ -9,10 +9,8 @@ tasks:
     type: activity
   - type: blank
   - type: blank
-  - title: "Inside page template"
-    url: "https://github.com/acgd-webdev-4/inside-page-template"
-    graded-as: inside-page-template
+  - title: "Available dogs page template"
+    url: "https://github.com/acgd-webdev-4/available-dogs-page-template"
     submit: show
-    disabled: true
 
 ---

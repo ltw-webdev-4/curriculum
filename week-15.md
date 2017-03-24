@@ -13,10 +13,8 @@ tasks:
     url: "https://github.com/acgd-webdev-4/request-for-grade"
     type: basic
     graded-as: false
-    disabled: true
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library
     submit: online
-    disabled: true
 ---

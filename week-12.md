@@ -9,9 +9,7 @@ tasks:
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
     submit: "Submit nothing."
-  - title: "Home page template"
-    url: "https://github.com/acgd-webdev-4/home-page-template"
-    graded-as: home-page-template
+  - title: "Homepage template"
+    url: "https://github.com/acgd-webdev-4/homepage-template"
     submit: show
-    disabled: true
 ---
