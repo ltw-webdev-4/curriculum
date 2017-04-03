@@ -4,7 +4,7 @@ desc: "Carousels and tab systems are popular on lots of websites. Learn to imple
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Advanced interactions"
+  - title: "Advanced CSS interactions"
     videos: true
   - title: "Forms cheat sheet"
     url: forms-cheat-sheet
