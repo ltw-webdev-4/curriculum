@@ -19,5 +19,6 @@ tasks:
   - type: blank
   - title: "The leftovers"
     url: "https://github.com/acgd-webdev-4/the-leftovers"
-    submit: show
+    submit: "Submit nothing."
+    graded-as: false
 ---
