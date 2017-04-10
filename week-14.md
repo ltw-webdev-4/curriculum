@@ -3,6 +3,11 @@ topic: "Form page template"
 desc: "Create the application form page using all the form input and common page patterns."
 clr: "1, 2, 3, 4, 5"
 
+videos_tutorials:
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
+
 tasks:
   - title: "YAML Yodeller"
     url: "https://activities.learn-the-web.algonquindesign.ca/yaml-yodeller/"

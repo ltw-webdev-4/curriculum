@@ -3,6 +3,11 @@ topic: "Inside page template"
 desc: "Use all the finalized patterns to generate an example inside page template."
 clr: "1, 2, 3, 4, 5"
 
+videos_tutorials:
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
+
 tasks:
   - title: "Markdown Manipulator"
     url: "https://activities.learn-the-web.algonquindesign.ca/markdown-manipulator/"
