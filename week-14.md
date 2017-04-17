@@ -8,6 +8,11 @@ videos_tutorials:
     url: markdown-yaml-cheat-sheet
     highlight: true
 
+group_activities:
+  - title: "Course feedback"
+    url: "https://www.algonquincollege.com/studentfeedback/"
+    type: star
+
 tasks:
   - title: "YAML Yodeller"
     url: "https://activities.learn-the-web.algonquindesign.ca/yaml-yodeller/"
