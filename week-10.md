@@ -13,9 +13,7 @@ video_tutorials:
 #     pair: true
 
 tasks:
-  - title: "SVG Synthesizer"
-    url: "https://activities.learn-the-web.algonquindesign.ca/svg-synthesizer/"
-    type: activity
+  - type: blank
   - type: blank
   - type: blank
   - title: "Headers & footers"
