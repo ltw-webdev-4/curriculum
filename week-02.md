@@ -1,30 +1,31 @@
 ---
-topic: "Transitions & animations"
-desc: "Look at the effects that can be created with CSS using transforms, transitions and animations."
-clr: "1, 2"
+topic: "eCommerce UX work period"
+desc: "Continue work on the eCommerce UX and get feedback from the teacher."
+clr: "1, 2, 7"
 
-video_tutorials:
-  - title: "CSS animations & effects"
-    url: css-animations-effects
-    highlight: true
-    videos: true
-
-slides:
-  - title: "CSS effects"
-    url: css-effects
+group_activities:
+  - title: "Finding eCommerce patterns"
+    pair: true
+    type: pencil
 
 tasks:
+  - title: "Browser Buster"
+    type: activity
   - type: blank
-  - title: "News reader effects"
-    url: news-reader-effects
-    type: lesson
-  - title: "Interactive polaroids"
-    url: "https://github.com/acgd-webdev-4/interactive-polaroids"
-  - title: "Animated clock"
-    url: "https://github.com/acgd-webdev-4/animated-clock"
-  - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
-    graded-as: dog-rescue-redesign-ux
+  - title: "eCommerce UX inspiration"
+    type: basic
+    submit: show
+    button: activity
+    disabled: true
+  - title: "eCommerce UX check-in"
+    type: basic
+    submit: show
+    button: activity
+    disabled: true
+  - title: "eCommerce UX"
+    url: "https://github.com/acgd-webdev-4/ecommerce-ux"
+    graded-as: ecommerce-ux
+    due: "Before class week 3"
     submit: online
-    due: "Before class week 5"
+    disabled: true
 ---

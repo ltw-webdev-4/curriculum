@@ -1,21 +1,33 @@
 ---
-topic: "Inside page template"
-desc: "Use all the finalized patterns to generate an example inside page template."
-clr: "1, 2, 3, 4, 5"
+topic: "Partnered product details page"
+desc: "Hand off your pattern library to another developer so they can create the product details page."
+clr: "1, 2, 3, 4, 5, 6, 7"
 
-videos_tutorials:
-  - title: "Markdown & YAML cheat sheet"
-    url: markdown-yaml-cheat-sheet
+video_tutorials:
+  - title: "Writing a readme"
+    url: writing-a-readme
     highlight: true
+    videos: true
+  - title: "GitHub Issues"
+    url: github-issues
+  - title: "Branching & GitHub Flow"
+    url: branching-github-flow
+  - title: "Using GitHub for project management"
+
+slides:
+  - title: "Git with many"
 
 tasks:
-  - title: "Markdown Manipulator"
-    url: "https://activities.learn-the-web.algonquindesign.ca/markdown-manipulator/"
-    type: activity
   - type: blank
-  - type: blank
-  - title: "Available dogs page template"
-    url: "https://github.com/acgd-webdev-4/available-dogs-page-template"
+  - title: "Branching & merging"
+    type: lesson
+  - title: "Project hand-off & documentation"
+    type: basic
+    submit: "Submit nothing."
+    button: activity
+    pair: true
+  - title: "Product details page template"
     submit: show
-
+    pair: true
+    due: "Before class week 15"
 ---

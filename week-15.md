@@ -1,14 +1,37 @@
 ---
-topic: "Final browser testing"
-desc: "Browser test all the page template and finalize the pattern library."
-clr: "1, 2, 3, 4, 5"
+topic: "Final browser & accessibility testing"
+desc: "Browser & accessibility test all the page templates and finalize the pattern library."
+clr: "1, 2, 3, 4, 5, 6, 7"
+
+video_tutorials:
+  - title: "Browser testing"
+    url: browser-testing
+  - title: "Browser testing checklist"
+    url: browser-testing-checklist
+    highlight: true
+  - title: "Accessibility"
+    url: accessibility
+  - title: "Accessibility checklist"
+    url: accessibility-checklist
+    highlight: true
+  - title: "Accessibility testing checklist"
+    url: accessibility-testing-checklist
+    highlight: true
 
 tasks:
   - type: blank
-  - type: blank
+  - title: "Accessibility testing"
+    url: /courses/web-dev-2/accessibility-testing/
+    submit: "Submit nothing."
+    pair: true
+    button: activity
+    type: basic
   - title: "Browser testing"
     url: /courses/web-dev-1/browser-testing/
     submit: "Submit nothing."
+    pair: true
+    button: activity
+    type: basic
   - title: "Request for grade"
     url: "https://github.com/acgd-webdev-4/request-for-grade"
     type: basic
@@ -16,5 +39,6 @@ tasks:
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library
+    due: "Midnight, last day of class"
     submit: online
 ---

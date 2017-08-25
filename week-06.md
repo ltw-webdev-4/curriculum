@@ -1,32 +1,33 @@
 ---
-topic: "Buttons!"
-desc: "No website is a website without buttons. Buttons, buttons. Buttons! And maybe links too."
-clr: "1, 2, 3, 4"
+topic: "Forms"
+desc: "Complex websites are full of forms, and there are lots of elements that need to be designed & patterned."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Markdown"
-    url: markdown
-    videos: true
-  - title: "YAML"
-    url: yaml
-    videos: true
-  - title: "Markdown & YAML cheat sheet"
-    url: markdown-yaml-cheat-sheet
+  - title: "Forms"
+    url: forms
+  - title: "Forms cheat sheet"
+    url: forms-cheat-sheet
     highlight: true
 
 slides:
-  - title: "Markdown & YAML"
-    url: markdown-yaml
+  - title: "Form error messages"
+    url: form-error-messages
+
+group_activities:
+  - title: "Form design best practices"
+    url: form-design-best-practices
+    type: pencil
+    pair: true
 
 tasks:
   - type: blank
-  - title: "Pattern library README"
-    url: pattern-library-readme
+  - title: "Designing form errors"
+    url: designing-form-errors
     type: lesson
-  - title: "Making a new pattern"
-    url: making-a-new-pattern
-    type: lesson
-  - title: "Buttons!"
-    url: "https://github.com/acgd-webdev-4/buttons"
+  - type: blank
+  - title: "Forms & fields"
+    url: "https://github.com/acgd-webdev-4/forms"
     submit: show
+    disabled: true
 ---

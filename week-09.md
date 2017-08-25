@@ -1,21 +1,27 @@
 ---
-topic: "Navigations & sections"
-desc: "Big websites usually have multiple navigation styles, each navigation is a unique design. And different sections that act as secondary navigation driving people to specific locations."
-clr: "1, 2, 3, 4"
+topic: "Carousels & leftovers"
+desc: "Carousels and tab systems are popular on lots of websites. Learn to implement a functional and reusable carousel without Javascript."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Navigation"
-    url: navigation
+  - title: "Advanced CSS interactions"
+    videos: true
+    highlight: true
+  - title: "Forms cheat sheet"
+    url: forms-cheat-sheet
+  - title: "CSS selectors & units cheat sheet"
+    url: css-selectors-units-cheat-sheet
 
 tasks:
-  - title: "URL Explorer"
-    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+  - title: "Specificity Spy"
+    url: "https://activities.learn-the-web.algonquindesign.ca/specificity-spy/"
     type: activity
+  - title: "Javascript-less carousel"
+    url: javascript-less-carousel
+    type: lesson
   - type: blank
-  - title: "Browser testing"
-    url: /courses/web-dev-1/browser-testing/
+  - title: "The leftovers"
+    url: "https://github.com/acgd-webdev-4/the-leftovers"
     submit: "Submit nothing."
-  - title: "Navigations & sections"
-    url: "https://github.com/acgd-webdev-4/navigations-sections"
-    submit: show
+    disabled: true
 ---

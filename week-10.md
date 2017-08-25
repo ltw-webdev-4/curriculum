@@ -1,23 +1,43 @@
 ---
-topic: "Headers & footers"
-desc: "Create the header and footer patterns separately so they can be tested and reused."
-clr: "1, 2, 3, 4, 5"
+topic: "Home page template"
+desc: "Use all the finished patterns to create the home page template."
+clr: "1, 2, 3, 4, 5, 7"
 
 video_tutorials:
-  - title: "Navigation"
-    url: navigation
-
-# group_activities:
-#   - title: "Header & footer patterns"
-#     type: pencil
-#     pair: true
+  - title: "Browser testing"
+    url: browser-testing
+  - title: "Browser testing checklist"
+    url: browser-testing-checklist
+    highlight: true
+  - title: "Accessibility"
+    url: accessibility
+  - title: "Accessibility checklist"
+    url: accessibility-checklist
+    highlight: true
+  - title: "Accessibility testing checklist"
+    url: accessibility-testing-checklist
+    highlight: true
+  - title: "CSS selectors & units cheat sheet"
+    url: css-selectors-units-cheat-sheet
 
 tasks:
-  - type: blank
-  - type: blank
-  - type: blank
-  - title: "Headers & footers"
-    url: "https://github.com/acgd-webdev-4/headers-footers"
+  - title: "Selector Surgeon"
+    url: https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/
+    type: activity
+  - title: "Accessibility testing"
+    url: /courses/web-dev-2/accessibility-testing/
+    submit: "Submit nothing."
+    pair: true
+    button: activity
+    type: basic
+  - title: "Browser testing"
+    url: /courses/web-dev-1/browser-testing/
+    submit: "Submit nothing."
+    pair: true
+    button: activity
+    type: basic
+  - title: "Homepage template"
+    url: "https://github.com/acgd-webdev-4/homepage-template"
     submit: show
-  - type: watch-videos
+    disabled: true
 ---

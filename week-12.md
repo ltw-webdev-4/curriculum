@@ -1,15 +1,20 @@
 ---
-topic: "Home page template"
-desc: "Use all the finished patterns to create the home page template."
-clr: "1, 2, 3, 4, 5"
+topic: "Checkout form page template"
+desc: "Create the checkout form page using all the form input and common page patterns."
+clr: "1, 2, 3, 4, 5, 7"
+
+video_tutorials:
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
 
 tasks:
+  - title: "YAML Yodeller"
+    url: "https://activities.learn-the-web.algonquindesign.ca/yaml-yodeller/"
+    type: activity
   - type: blank
   - type: blank
-  - title: "Browser testing"
-    url: /courses/web-dev-1/browser-testing/
-    submit: "Submit nothing."
-  - title: "Homepage template"
-    url: "https://github.com/acgd-webdev-4/homepage-template"
+  - title: "Checkout form page template"
     submit: show
+  - type: watch-videos
 ---

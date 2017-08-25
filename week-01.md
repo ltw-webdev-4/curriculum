@@ -1,7 +1,7 @@
 ---
 topic: "Intro & reviews"
 desc: "An introduction to the term, including the term-long project, and a simple, quick review."
-clr: "1, 5"
+clr: "1, 2, 7"
 
 video_tutorials:
   - title: "HTML semantics cheat sheet"
@@ -26,10 +26,11 @@ tasks:
   - type: blank
   - title: "Responsive banner"
     url: "https://github.com/acgd-webdev-4/responsive-banner"
-  - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
-    graded-as: dog-rescue-redesign-ux
-    due: "Before class week 5"
+  - title: "eCommerce UX"
+    url: "https://github.com/acgd-webdev-4/ecommerce-ux"
+    graded-as: ecommerce-ux
+    due: "Before class week 3"
     submit: online
+    disabled: true
   - type: watch-videos
 ---

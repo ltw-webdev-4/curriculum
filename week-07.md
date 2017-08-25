@@ -1,31 +1,35 @@
 ---
-topic: "Icons & images"
-desc: "Make the icons sprite sheet and create common patterns for images: captions, cards, containers and more."
-clr: "1, 2, 3, 4"
+topic: "Navigations & sections"
+desc: "Big websites usually have multiple navigation styles, each navigation is a unique design. And different sections that act as secondary navigation driving people to specific locations."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Markdown"
-    url: markdown
-  - title: "YAML"
-    url: yaml
-  - title: "Markdown & YAML cheat sheet"
-    url: markdown-yaml-cheat-sheet
+  - title: "Navigation"
+    url: navigation
+  - title: "Using URLs"
+    url: using-urls
+  - title: "Accessibility"
+    url: accessibility
+  - title: "Accessibility checklist"
+    url: accessibility-checklist
     highlight: true
-  - title: "Advanced SVG"
-    url: advanced-svg
-  - title: "SVG cheat sheet"
-    url: svg-cheat-sheet
+  - title: "Accessibility testing checklist"
+    url: accessibility-testing-checklist
     highlight: true
 
 tasks:
+  - title: "URL Explorer"
+    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+    type: activity
   - type: blank
-  - title: "Multi-file patterns"
-    url: multi-file-patterns
-    type: lesson
-  - title: "Icons"
-    url: "https://github.com/acgd-webdev-4/icons"
+  - title: "Accessibility testing"
+    url: /courses/web-dev-2/accessibility-testing/
+    type: basic
+    button: activity
+    submit: "Submit nothing."
+    pair: true
+  - title: "Navigations & sections"
+    url: "https://github.com/acgd-webdev-4/navigations-sections"
     submit: show
-  - title: "Images & cards"
-    url: "https://github.com/acgd-webdev-4/images-cards"
-    submit: show
+    disabled: true
 ---

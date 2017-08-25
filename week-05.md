@@ -1,28 +1,33 @@
 ---
-topic: "Pattern libraries"
-desc: "An introduction to pattern libraries, setting up a basic library, and populating it with typography-related styles."
+topic: "Icons & images"
+desc: "Make the icons sprite sheet and create common patterns for images: captions, cards, containers and more."
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "CSS variables"
-    videos: true
-  - title: "Pattern libraries"
-    videos: true
-
-slides:
-  - title: "Pattern libraries"
-    url: pattern-libraries
+  - title: "Markdown"
+    url: markdown
+  - title: "YAML"
+    url: yaml
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
+  - title: "Advanced SVG"
+    url: advanced-svg
+  - title: "SVG cheat sheet"
+    url: svg-cheat-sheet
+    highlight: true
 
 tasks:
   - type: blank
-  - title: "Using CSS variables"
-    url: using-css-variables
+  - title: "Multi-file patterns"
+    url: multi-file-patterns
     type: lesson
-  - title: "Pattern library set-up"
-    url: pattern-library-set-up
-    type: lesson
-  - title: "Typography & colours"
-    url: "https://github.com/acgd-webdev-4/typography-colours"
+  - title: "Icons"
+    url: "https://github.com/acgd-webdev-4/icons"
     submit: show
-  - type: watch-videos
+    disabled: true
+  - title: "Images & cards"
+    url: "https://github.com/acgd-webdev-4/images-cards"
+    submit: show
+    disabled: true
 ---

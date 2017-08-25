@@ -1,32 +1,30 @@
 ---
-topic: "Advanced SVG"
-desc: "An in-depth look at the code behind SVG files, writing them by hand, and adding effects to them."
-clr: "1, 2"
+topic: "Pattern libraries"
+desc: "An introduction to pattern libraries, setting up a basic library, and populating it with typography-related styles."
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Advanced SVG"
-    url: advanced-svg
+  - title: "CSS variables"
     videos: true
-    notes: "Only watch from “Writing SVG code” to “Animations”"
-  - title: "SVG cheat sheet"
-    url: svg-cheat-sheet
-    highlight: true
+  - title: "Pattern libraries"
+    videos: true
 
 slides:
-  - title: "Advanced SVG"
-    url: advanced-svg
+  - title: "Pattern libraries"
+    url: pattern-libraries
 
 tasks:
   - type: blank
-  - title: "SVG smiley face"
-    url: svg-smiley-face
+  - title: "Using CSS variables"
+    url: using-css-variables
     type: lesson
-  - title: "Interactive SVG"
-    url: "https://github.com/acgd-webdev-4/interactive-svg"
-  - title: "Dog rescue redesign UX"
-    url: "https://github.com/acgd-webdev-4/dog-rescue-redesign-ux"
-    graded-as: dog-rescue-redesign-ux
-    submit: online
-    due: "Before class week 5"
+  - title: "Pattern library set-up"
+    url: pattern-library-set-up
+    type: lesson
+    disabled: true
+  - title: "Typography & colours"
+    url: "https://github.com/acgd-webdev-4/typography-colours"
+    submit: show
+    disabled: true
   - type: watch-videos
 ---

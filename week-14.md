@@ -1,12 +1,16 @@
 ---
-topic: "Form page template"
-desc: "Create the application form page using all the form input and common page patterns."
-clr: "1, 2, 3, 4, 5"
+topic: "Product details page template"
+desc: "Hand off your pattern library to another developer so they can create the product details page."
+clr: "1, 2, 3, 4, 5, 6, 7"
 
-videos_tutorials:
-  - title: "Markdown & YAML cheat sheet"
-    url: markdown-yaml-cheat-sheet
-    highlight: true
+video_tutorials:
+  - title: "Writing a readme"
+    url: writing-a-readme
+  - title: "GitHub Issues"
+    url: github-issues
+  - title: "Branching & GitHub Flow"
+    url: branching-github-flow
+  - title: "Using GitHub for project management"
 
 group_activities:
   - title: "Course feedback"
@@ -14,12 +18,17 @@ group_activities:
     type: star
 
 tasks:
-  - title: "YAML Yodeller"
-    url: "https://activities.learn-the-web.algonquindesign.ca/yaml-yodeller/"
+  - title: "Git Graduator"
     type: activity
   - type: blank
-  - type: blank
-  - title: "Form page template"
-    url: "https://github.com/acgd-webdev-4/form-page-template"
+  - title: "Pattern library integration"
+    type: basic
+    pair: true
+    submit: "Submit nothing."
+    button: activity
+  - title: "Product details page template"
+    pair: true
     submit: show
+    graded-as: false
+
 ---
