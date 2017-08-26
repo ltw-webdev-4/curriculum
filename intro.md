@@ -13,7 +13,7 @@ slides:
 
       - CSS transitions & animations
       - Advanced SVG (animations, icon sets)
-      - One project, all term: a Dog Rescue website redesign
+      - One project, all term: a ecommerce website design
 
   - content: |
       ## Pattern libraries

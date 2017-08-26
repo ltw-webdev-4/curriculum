@@ -27,7 +27,7 @@ steps:
 
       Let’s create a few new folders & code files:
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
       - label: "README.md"
         indent: 1

@@ -16,7 +16,7 @@ steps:
 
       We’ll get the first bits set up and ready to use so you can move onto styling the typography.
 
-      ### [Fork & clone this repo.](https://github.com/acgd-webdev-4/dog-rescue-pattern-library/fork)
+      ### [Fork & clone this repo.](https://github.com/acgd-webdev-4/ecommerce-pattern-library/fork)
     notes:
       - label: "Type it, type it real good"
         text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
@@ -25,7 +25,7 @@ steps:
     before: |
       The first step is to get copies of all the [Web Dev Tools](http://web-dev.tools/).
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
         notes: "This is the folder you forked"
       - label: "common"
@@ -52,7 +52,7 @@ steps:
     before: |
       Next up we’ll create a shared CSS file, named `theme.css`. In here we’ll be putting a bunch of CSS variables and styling the general typographic tags for your website.
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
       - label: "common"
         type: folder
@@ -114,7 +114,7 @@ steps:
     before: |
       Patternbot will detect your logo images and display them on the screen, so let’s add those into your pattern library folder.
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
       - label: "common"
         type: folder
@@ -142,7 +142,7 @@ steps:
 
       *First create a new file named exactly `README.md`* (Yes those are capital letters—gasp!)
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
       - label: "common"
         type: folder
@@ -173,7 +173,7 @@ steps:
 
   - title: "Drop it into Patternbot"
     before: |
-      We’re finally ready to run [Patternbot](https://github.com/thomasjbradley/patternbot). Drag and drop your `dog-rescue-pattern-library` folder into Patternbot’s window.
+      We’re finally ready to run [Patternbot](https://github.com/thomasjbradley/patternbot). Drag and drop your `ecommerce-pattern-library` folder into Patternbot’s window.
 
       ![](patternbot.jpg)
 

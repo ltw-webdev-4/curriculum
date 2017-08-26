@@ -27,7 +27,7 @@ steps:
 
       Let’s create a few new folders & code files:
     folders:
-      - label: "dog-rescue-pattern-library"
+      - label: "ecommerce-pattern-library"
         type: folder
       - label: "README.md"
         indent: 1
@@ -190,7 +190,7 @@ steps:
     before: |
       When we want to render new patterns into the library or when we want to update the content from the `README.md` we need Patternbot.
 
-      So drop your `dog-rescue-pattern-library` folder into Patternbot. Then press `⌘B` to view it.
+      So drop your `ecommerce-pattern-library` folder into Patternbot. Then press `⌘B` to view it.
 
       ![](patternbot.jpg)
 
