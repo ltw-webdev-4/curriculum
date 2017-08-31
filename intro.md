@@ -61,6 +61,7 @@ slides:
 
   - content: |
       ## Sticky note triage
+
       Specify your working status by sticking sticky notes on your monitor
 
       ![](sticky-notes.svg)
