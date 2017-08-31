@@ -40,5 +40,7 @@ tasks:
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library
     due: "Midnight, last day of class"
+    due_week: 15
+    due_time: "23:59"
     submit: online
 ---

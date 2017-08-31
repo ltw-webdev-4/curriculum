@@ -26,6 +26,7 @@ tasks:
     url: "https://github.com/acgd-webdev-4/ecommerce-ux"
     graded-as: ecommerce-ux
     due: "Before class week 3"
+    due_week: 3
     submit: online
     disabled: true
 ---
