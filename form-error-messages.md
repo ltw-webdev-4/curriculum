@@ -1,7 +1,7 @@
 ---
 layout: slide-deck
-
 title: "Form error messages"
+desc: "A quick introduction to styling form error messages in the best & most accessible way."
 
 slides:
   - type: super-big-text

@@ -1,7 +1,7 @@
 ---
 layout: slide-deck
-
 title: "Pattern libraries"
+desc: "An introduction to pattern libraries, how to use them, what they’re for, and a tool, Patternbot, that we can use to generate a pattern library."
 
 slides:
   - type: super-big-text

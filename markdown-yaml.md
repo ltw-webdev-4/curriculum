@@ -1,7 +1,7 @@
 ---
 layout: slide-deck
-
 title: "Markdown & YAML"
+desc: "A small overview of the Markdown & YAML languages, and their purposes & syntax."
 
 slides:
   - type: super-big-text

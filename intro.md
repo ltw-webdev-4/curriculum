@@ -1,7 +1,7 @@
 ---
 layout: slide-deck
-
 title: "Introduction"
+desc: "A quick introduction to Web Dev 4, explaining what’s covered, expectations & marking scheme."
 
 slides:
   - type: super-big-text

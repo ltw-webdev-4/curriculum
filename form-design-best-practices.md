@@ -1,7 +1,9 @@
 ---
 layout: slide-deck
-
 title: "Form design best practices"
+desc: "A quick group activity to research and explore best practices for designing forms on websites."
+
+group_work: true
 
 slides:
   - type: super-big-text
