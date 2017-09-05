@@ -21,6 +21,7 @@ tasks:
     type: basic
     submit: show
     button: activity
+    submit: show
     disabled: true
   - title: "eCommerce UX"
     url: "https://github.com/acgd-webdev-4/ecommerce-ux"
