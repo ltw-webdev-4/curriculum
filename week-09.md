@@ -11,6 +11,8 @@ video_tutorials:
     url: forms-cheat-sheet
   - title: "CSS selectors & units cheat sheet"
     url: css-selectors-units-cheat-sheet
+  - title: "CSS animations & effects cheat sheet"
+    url: css-animations-effects-cheat-sheet
 
 tasks:
   - title: "Specificity Spy"
