@@ -112,7 +112,7 @@ steps:
           Finally point to the buttons CSS file. Notice how there is no `css/` in this URL. That’s because the `buttons.css` file is in the same location as the HTML file.
       - num: "16-18"
         text: |
-          Add as many button styles as you need for your dog rescue website.
+          Add as many button styles as you need for your eCommerce website.
 
           If the default classes (like `.btn-ghost`) don’t make sense for your website make up some new ones, e.g. `.btn-banner`, `.btn-pill`, etc.
     after: |

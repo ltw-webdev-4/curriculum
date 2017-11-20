@@ -1,7 +1,7 @@
 ---
 layout: lesson
 topic: "Designing form errors"
-desc: "Write up code for accessible, well designed form error messages with a little Javascript to help."
+desc: "Write up code for accessible, well designed form error messages with a little JavaScript to help."
 
 extra_tutorials:
   - title: "Forms"
@@ -17,7 +17,7 @@ goal:
   before: |
     We’re going to create a fairly basic, but decently accessible form with error messages.
 
-    Most forms really require Javascript to become fully functional & accessible. We are going to include a little bit of Javascript to help out but it’s only going to help hide/show the error messages.
+    Most forms really require JavaScript to become fully functional & accessible. We are going to include a little bit of JavaScript to help out but it’s only going to help hide/show the error messages.
   notes:
     - label: "Type it, type it real good"
       text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
@@ -307,16 +307,16 @@ steps:
 
       **Remember that since we’re using icon sprite sheets you’ll need to use a web server in Chrome to see them: drop the folder into Markbot and press `⌘B`**
 
-  - title: "Add the helper Javascript"
+  - title: "Add the helper JavaScript"
     before: |
       When we refresh the page or first come to the page, the error messages are already visible. Showing the error messages right away isn’t good for usability.
 
-      So: Javascript to the rescue. With a little JS we can hide the error messages by default, then when the user submits the form we can display the error messages at that point.
+      So: JavaScript to the rescue. With a little JS we can hide the error messages by default, then when the user submits the form we can display the error messages at that point.
 
       *Don’t worry though, the JS is pre-written and ready to run.*
     multi_code:
       - code_before: |
-          First we need to add a new attribute to the `<form>` tag: the `novalidate` attribute. It tells the browser not to run it’s default validation and allows our Javascript to control the validation instead.
+          First we need to add a new attribute to the `<form>` tag: the `novalidate` attribute. It tells the browser not to run it’s default validation and allows our JavaScript to control the validation instead.
         code_lang: html
         code_file: "index.html"
         code: |
@@ -352,11 +352,11 @@ steps:
             text: |
               Add the script tags immediately above the closing `</body>` tag—always.
 
-              This script is a simple piece of Javascript that will help with the usability of our forms. Combined with a few CSS tweaks it’ll hide the error messages until after the user tries to submit the form.
+              This script is a simple piece of JavaScript that will help with the usability of our forms. Combined with a few CSS tweaks it’ll hide the error messages until after the user tries to submit the form.
           - num: "7-8"
             fade: true
     after: |
-      Here’s the Javascript URL for quick copying-and-pasting:
+      Here’s the JavaScript URL for quick copying-and-pasting:
 
       ```
       https://thomasjbradley.github.io/form-validation-helper/index.js
@@ -364,9 +364,9 @@ steps:
 
   - title: "Fix the error messages"
     before: |
-      With the Javascript in place we now need to tweak our CSS a little to better support what the JS is doing.
+      With the JavaScript in place we now need to tweak our CSS a little to better support what the JS is doing.
 
-      The Javascript code will add the class `.is-validated` to our `<form>` tag when the user submits the form—but only if there are errors that should be shown.
+      The JavaScript code will add the class `.is-validated` to our `<form>` tag when the user submits the form—but only if there are errors that should be shown.
 
       It’s up to our CSS to show the right errors to the user with the right selectors.
     code_lang: css
@@ -403,7 +403,7 @@ steps:
         fade: true
       - num: "6-7"
         text: |
-          Prepend each of the selectors with `.is-validated`. This is what the Javascript does: it adds the class to our `<form>` tag after the user tries to submit the form information.
+          Prepend each of the selectors with `.is-validated`. This is what the JavaScript does: it adds the class to our `<form>` tag after the user tries to submit the form information.
       - num: "8-12"
         fade: true
       - num: "13-20"

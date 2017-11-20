@@ -22,16 +22,16 @@ video_tutorials:
 
 tasks:
   - title: "Selector Surgeon"
-    url: https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/
+    url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
   - title: "Accessibility testing"
-    url: /courses/web-dev-2/accessibility-testing/
+    url: "/courses/web-dev-2/accessibility-testing/"
     submit: "Submit nothing."
     pair: true
     button: activity
     type: basic
   - title: "Browser testing"
-    url: /courses/web-dev-1/browser-testing/
+    url: "/courses/web-dev-1/browser-testing/"
     submit: "Submit nothing."
     pair: true
     button: activity
@@ -39,5 +39,4 @@ tasks:
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/homepage-template"
     submit: show
-    disabled: true
 ---

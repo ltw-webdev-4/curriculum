@@ -31,6 +31,5 @@ tasks:
   - title: "Headers & footers"
     url: "https://github.com/acgd-webdev-4/headers-footers"
     submit: show
-    disabled: true
   - type: watch-videos
 ---

@@ -1,33 +1,35 @@
 ---
-topic: "Icons & images"
-desc: "Make the icons sprite sheet and create common patterns for images: captions, cards, containers and more."
+topic: "Forms"
+desc: "Complex websites are full of forms, and there are lots of elements that need to be designed & patterned."
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Markdown"
-    url: markdown
-  - title: "YAML"
-    url: yaml
-  - title: "Markdown & YAML cheat sheet"
-    url: markdown-yaml-cheat-sheet
+  - title: "Forms"
+    url: forms
+  - title: "Forms cheat sheet"
+    url: forms-cheat-sheet
     highlight: true
-  - title: "Advanced SVG"
-    url: advanced-svg
-  - title: "SVG cheat sheet"
-    url: svg-cheat-sheet
-    highlight: true
+
+slides:
+  - title: "Form error messages"
+    url: form-error-messages
+
+group_activities:
+  - title: "Form design best practices"
+    url: form-design-best-practices
+    type: pencil
+    pair: true
 
 tasks:
   - type: blank
+  - title: "Designing form errors"
+    url: designing-form-errors
+    type: lesson
+    disabled: true
   - title: "Multi-file patterns"
     url: multi-file-patterns
     type: lesson
-  - title: "Icons"
-    url: "https://github.com/acgd-webdev-4/icons"
+  - title: "Forms & fields"
+    url: "https://github.com/acgd-webdev-4/forms"
     submit: show
-    disabled: true
-  - title: "Images & cards"
-    url: "https://github.com/acgd-webdev-4/images-cards"
-    submit: show
-    disabled: true
 ---

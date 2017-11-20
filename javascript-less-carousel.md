@@ -1,11 +1,11 @@
 ---
 layout: lesson
-topic: "Javascript-less carousel"
-desc: "Learn to implement a functional and reusable carousel without Javascript."
+topic: "JavaScript-less carousel"
+desc: "Learn to implement a functional and reusable carousel without JavaScript."
 
 extra_tutorials:
-  - title: "Advanced interactions"
-    url: advanced-interactions
+  - title: "Advanced CSS interactions"
+    url: advanced-css-interactions
   - title: "Forms cheat sheet"
     url: forms-cheat-sheet
 
@@ -19,9 +19,9 @@ goal:
 important:
   title: "Simple but not accessible"
   text: |
-    The example that we’re completing here is simple to set up and requires no Javascript.
+    The example that we’re completing here is simple to set up and requires no JavaScript.
 
-    But it is not the most accessible, feature-rich, or even reusable piece of code. To make a truly good & accessible carousel we should add Javascript and a bunch more ARIA attributes & roles to fully realize the functionality.
+    But it is not the most accessible, feature-rich, or even reusable piece of code. To make a truly good & accessible carousel we should add JavaScript and a bunch more ARIA attributes & roles to fully realize the functionality.
 
 fork:
   url: "https://github.com/acgd-webdev-4/javascript-less-carousel/fork"
@@ -221,7 +221,7 @@ steps:
       - code_before: |
           If you ever want to add another slide to your carousel you have to come into the CSS and add the appropriate new selectors.
 
-          *Another benefit of using Javascript is that the JS code would help maintain all this complex CSS.*
+          *Another benefit of using JavaScript is that the JS code would help maintain all this complex CSS.*
 
           Now, we’d like to make the first slide visible on the page. That requires a simple tweak to our HTML.
         code_lang: html

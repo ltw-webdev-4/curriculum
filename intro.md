@@ -11,9 +11,9 @@ slides:
   - content: |
       ## What we’re learning
 
-      - CSS transitions & animations
-      - Advanced SVG (animations, icon sets)
-      - One project, all term: a ecommerce website design
+      - One project, all term: an eCommerce website design
+      - Making pattern libraries
+      - Working with code on small teams
 
   - content: |
       ## Pattern libraries
@@ -22,7 +22,12 @@ slides:
 
       Each week we’ll add new patterns into the library
 
-      Near the end of the term we’ll use those patterns to template 3 major pages
+      Near the end of the term we’ll use those patterns to template 4 major pages
+
+  - content: |
+      ## Teamwork!
+
+      You’ll do most of the work but hand-off the project to a peer near the end of the term who’ll add some more
 
   - content: |
       ## Pattern library examples
@@ -51,13 +56,13 @@ slides:
 
       Multiple activities & exercises every week
 
-      [**Week 1 tasks ➔**](/web-dev-4/week-1/)
+      [**Week 1 tasks ➔**](/courses/web-dev-4/week-01/)
 
   - content: |
       ## Important links
 
       - [**Learn the Web ➔**](//learn-the-web.algonquindesign.ca/)
-      - [Weekly tasks ➔](/web-dev-4/)
+      - [Weekly tasks ➔](/courses/web-dev-4/)
 
   - content: |
       ## Sticky note triage

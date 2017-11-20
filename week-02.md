@@ -29,5 +29,4 @@ tasks:
     due: "Before class week 3"
     due_week: 3
     submit: online
-    disabled: true
 ---

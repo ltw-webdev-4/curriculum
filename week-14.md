@@ -18,8 +18,7 @@ group_activities:
     type: star
 
 tasks:
-  - title: "Git Graduator"
-    type: activity
+  - type: blank
   - type: blank
   - title: "Pattern library integration"
     type: basic

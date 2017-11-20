@@ -18,6 +18,7 @@ tasks:
   - title: "Using CSS variables"
     url: using-css-variables
     type: lesson
+    disabled: true
   - title: "Pattern library set-up"
     url: pattern-library-set-up
     type: lesson
@@ -25,6 +26,5 @@ tasks:
   - title: "Typography & colours"
     url: "https://github.com/acgd-webdev-4/typography-colours"
     submit: show
-    disabled: true
   - type: watch-videos
 ---

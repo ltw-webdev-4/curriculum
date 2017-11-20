@@ -15,6 +15,7 @@ tasks:
   - type: blank
   - type: blank
   - title: "Checkout form page template"
+    url: "https://github.com/acgd-webdev-4/checkout-form-page-template"
     submit: show
   - type: watch-videos
 ---

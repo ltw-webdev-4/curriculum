@@ -1,7 +1,7 @@
 ---
 layout: lesson
 title: "Pattern library set up"
-desc: "Create the first few basic files for you dog rescue pattern library and use Patternbot to generate the component website."
+desc: "Create the first few basic files for your ecommerce pattern library and use Patternbot to generate the component website."
 
 extra_tutorials:
   - title: "Pattern libraries"
@@ -69,7 +69,7 @@ steps:
       - label: "theme.css"
         indent: 2
     code_before: |
-      At the top of your `theme.css` file, add a few variables that match the visual design of your dog rescue website.
+      At the top of your `theme.css` file, add a few variables that match the visual design of your eCommerce website.
     code_lang: css
     code_file: "common/theme.css"
     code: |

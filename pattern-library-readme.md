@@ -40,7 +40,7 @@ steps:
         fade: true
       - num: 2
         text: |
-          This is the name of the company the pattern library is for, a.k.a. your dog rescue.
+          This is the name of the company the pattern library is for, a.k.a. your eCommerce website.
       - num: 6
         text: |
           After the chunk of YAML we’ll write a little description of the company. This is all Markdown and will be displayed after the company in the pattern library.
@@ -64,7 +64,7 @@ steps:
 
       So next up, we’ll describe why we chose the fonts we did and when they should be used.
 
-      **Remember you’re describing your dog rescue—don’t just copy this information below.**
+      **Remember you’re describing your eCommerce website—don’t just copy this information below.**
     code_lang: markdown
     code_file: "README.md"
     code: |
