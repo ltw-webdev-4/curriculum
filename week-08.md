@@ -23,7 +23,7 @@ tasks:
     type: activity
   - type: blank
   - title: "Browser testing"
-    url: /courses/web-dev-1/browser-testing/
+    url: "/courses/shared/browser-testing/"
     submit: "Submit nothing."
     pair: true
     button: activity

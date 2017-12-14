@@ -23,7 +23,7 @@ tasks:
     type: activity
   - type: blank
   - title: "Accessibility testing"
-    url: /courses/web-dev-2/accessibility-testing/
+    url: "/courses/shared/accessibility-testing/"
     type: basic
     button: activity
     submit: "Submit nothing."
