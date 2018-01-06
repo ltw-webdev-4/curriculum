@@ -34,6 +34,9 @@ tasks:
     type: basic
   - title: "Request for grade"
     url: "https://github.com/acgd-webdev-4/request-for-grade"
+    due: "Midnight, last day of class"
+    due_week: 9
+    due_time: "23:59"
     type: basic
     graded-as: false
   - title: "Finalized pattern library"

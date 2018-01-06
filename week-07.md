@@ -1,34 +1,34 @@
 ---
-# topic: "Reading week—no classes"
-topic: "Work week"
-# during_class: "No class"
-# desc: "No classes, labs or new homework this week—get caught up!"
-desc: "Work classes to get caught up and ready for the final push to the end of the term!"
+topic: "Navigations & sections"
+desc: "Big websites usually have multiple navigation styles, each navigation is a unique design. And different sections that act as secondary navigation driving people to specific locations."
 clr: "1, 2, 3, 4, 5"
 
-# no_lab_times: true
-# no_office_hours: true
-
-group_activities:
-  - title: "Index card Q&A"
-    url: "/courses/shared/index-card-qa/"
-    type: pencil
+video_tutorials:
+  - title: "Navigation"
+    url: navigation
+  - title: "Using URLs"
+    url: using-urls
+  - title: "Accessibility"
+    url: accessibility
+  - title: "Accessibility checklist"
+    url: accessibility-checklist
+    highlight: true
+  - title: "Accessibility testing checklist"
+    url: accessibility-testing-checklist
+    highlight: true
 
 tasks:
+  - title: "URL Explorer"
+    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+    type: activity
   - type: blank
-  - title: "One-on-one time"
-    url: "https://github.com/acgd-webdev-shared/one-on-one-time"
+  - title: "Accessibility testing"
+    url: "/courses/shared/accessibility-testing/"
     type: basic
     button: activity
     submit: "Submit nothing."
-    graded-as: false
-  - title: "Mid-course feedback"
-    type: basic
-    submit: "Submit feedback form."
-    graded-as: false
-  - title: "Continue assignments"
-    url: "https://github.com/acgd-webdev-shared/continue-assignments"
-    submit: "Submit nothing new."
-    graded-as: false
-  - type: watch-videos
+    pair: true
+  - title: "Navigations & sections"
+    url: "https://github.com/acgd-webdev-4/navigations-sections"
+    submit: show
 ---
