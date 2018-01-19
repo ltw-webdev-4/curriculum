@@ -11,6 +11,7 @@ group_activities:
 
 tasks:
   - title: "Browser Buster"
+    url: "https://activities.learn-the-web.algonquindesign.ca/browser-buster/"
     type: activity
   - title: "eCommerce UX inspiration"
     url: "https://github.com/acgd-webdev-4/ecommerce-ux-inspiration"
