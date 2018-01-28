@@ -3,10 +3,8 @@ layout: lesson
 title: "Using CSS variables"
 desc: "Learn how to use CSS variables to make your CSS more easily understood and more maintainable."
 
-markbot_notes: |
-  *Ignore the “the first heading is an `<h2>`…” error message—but fix everything else.*
-
-  I feel like this is part of a larger website so the `<h1>` would probably be somewhere else on the page.
+markbot_submit: true
+hide_show_for_marks: true
 
 extra_tutorials:
   - title: "CSS variables"
@@ -18,18 +16,19 @@ goal:
       CSS variables are a powerful solution to create reusable information in your CSS that can be changed and manipulated more easily than doing a search and replace.
 
       Another great benefit is that we can give the variables names that make our CSS more obvious instead of having random numbers & colours scattered around.
-
-      **Browser support is decent, but probably not ready for use in a live, client-facing website yet. We’re still waiting for support from Microsoft Edge (though last time I checked it was in development).**
   notes:
     - label: "Type it, type it real good"
       text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
     - label: "Browser support"
       text: "Probably not quite ready to be used in a live, client-facing website yet. Still waiting on Microsoft Edge for support."
 
+fork:
+  url: "https://github.com/acgd-webdev-4/using-css-variables"
+
 steps:
   - title: "Set up project"
     before: |
-      To get started we need some HTML & CSS files and we’ll include a copy of Modulifier & Typografier.
+      To get started we need some HTML & CSS files and we’ll include a copy of Modulifier, Gridifier & Typografier.
     folders:
       - label: "using-css-variables"
         type: folder
@@ -42,6 +41,8 @@ steps:
         indent: 2
       - label: "modules.css"
         indent: 2
+      - label: "grid.css"
+        indent: 2
       - label: "type.css"
         indent: 2
     after: |
@@ -49,7 +50,8 @@ steps:
       2. Make an `index.html` & add the boilerplate code.
       3. Make a `main.css` in your `css` folder—it can remain empty.
       4. Make a `modules.css` in your `css` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/). **Make sure to press “Select All”.**
-      5. Make a `type.css` in your `css` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
+      5. Make a `grid.css` in your `css` folder—[get a new version from Gridifier](https://gridifier.web-dev.tools/).
+      6. Make a `type.css` in your `css` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
     notes:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
@@ -69,6 +71,7 @@ steps:
         <title>Using CSS variables</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="css/modules.css" rel="stylesheet">
+        <link href="css/grid.css" rel="stylesheet">
         <link href="css/type.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
       </head>
@@ -77,7 +80,7 @@ steps:
         <div class="card chop">
           <img class="img-flex" src="https://placehold.it/320x240" alt="">
           <div class="island">
-            <h2 class="card-title push-0">Giant robots</h2>
+            <h2 class="card-title peta push-0">Giant robots</h2>
             <p>Smashing, crashing, bashing all,<br>Giant robots have real gall.</p>
             <a class="btn" href="#">Destroy!</a>
           </div>
@@ -86,7 +89,7 @@ steps:
       </body>
       </html>
     lines:
-      - num: 17
+      - num: 18
         text: |
           Using the `<br>` tag here is okay because the text is a poem, and in poetry the line breaks are part of the content.
 
@@ -94,7 +97,7 @@ steps:
     before: |
       Let’s add a little CSS to our card to get it looking kinda actually like a card.
 
-      *Some of these properties are temporary and I’ll probably replace them later.*
+      *Some of these properties are temporary and we’ll probably replace them later.*
     code_lang: css
     code_file: "css/main.css"
     code: |

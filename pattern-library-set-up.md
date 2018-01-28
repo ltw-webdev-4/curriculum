@@ -9,18 +9,21 @@ extra_tutorials:
   - title: "Pattern libraries slide deck"
     url: "/courses/web-dev-4/pattern-libraries/"
 
+goal:
+  no_image: true
+  before: |
+    We’re going to start the pattern library that you’ll be working for the rest of the term in this lesson.
+
+    We’ll get the first bits set up and ready to use so you can move onto styling the typography.
+  notes:
+    - label: "Type it, type it real good"
+      text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
+
+fork:
+  url: "https://github.com/acgd-webdev-4/ecommerce-pattern-library"
+  repo: "ecommerce-pattern-library"
+
 steps:
-  - title: "Set up project"
-    before: |
-      We’re going to start the pattern library that you’ll be working for the rest of the term in this lesson.
-
-      We’ll get the first bits set up and ready to use so you can move onto styling the typography.
-
-      ### [Fork & clone this repo.](https://github.com/acgd-webdev-4/ecommerce-pattern-library/fork)
-    notes:
-      - label: "Type it, type it real good"
-        text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
-
   - title: "Get the Web Dev Tools CSS files"
     before: |
       The first step is to get copies of all the [Web Dev Tools](http://web-dev.tools/).
@@ -38,12 +41,14 @@ steps:
       - label: "type.css"
         indent: 2
     after: |
-      1. Make a `modules.css` in your `common` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/).
-        <br>*Include all the modules you’ll need for your website. (You can always add more later.)*
-      2. Make a `grid.css` in your `common` folder—[get a new version from Gridifier](https://gridifier.web-dev.tools/).
+      1. Make a `modules.css` in a `common` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/).
+        <br>*Include only the modules you’ll need for your website. (You can always add more later.)*
+      2. Make a `grid.css` in a `common` folder—[get a new version from Gridifier](https://gridifier.web-dev.tools/).
         <br>*Set up the columns and breakpoints you’ll need based on your wireframes.*
-      3. Make a `type.css` in your `common` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
+      3. Make a `type.css` in a `common` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
         <br>*Set up the font-sizes and type scales based on your visual design choices.*
+
+      **Notice that the folder is called `common`, instead of `css`. This is because the CSS in this folder is common to every single pattern in the library.**
     notes:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
@@ -155,7 +160,7 @@ steps:
       - label: "README.md"
         indent: 1
     code_before: |
-      Now open up the README and type the following code. Be sure to substitute this Google Font URL with your own.
+      Now open up the README and type the following code. Be sure to substitute this Google Font URL with your own. *Typekit works too.*
     code_lang: markdown
     code_file: "common/theme.css"
     code: |
@@ -165,11 +170,11 @@ steps:
     lines:
       - num: 2
         text: |
-          Patternbot will use the `fontUrl` to make sure all the type in the builtin patterns is rendered in the correct font family. It will also use the weights and styles provided by Google Fonts to display in the pattern library.
+          Patternbot will use the `fontUrl` to make sure all the type in the builtin patterns is rendered in the correct font family. It will also use the weights and styles provided by the font service to display in the pattern library.
     after: |
       **Make sure the first set of triple dashes (`---`) touches the top of your file—it should be the very first thing.**
 
-      *This URL is the stuff inside the `href="…"` attribute of the `<link>` tag that Google Fonts gives you.*
+      *This URL is the stuff inside the `href="…"` attribute of the `<link>` tag that Google/Typekit gives you.*
 
   - title: "Drop it into Patternbot"
     before: |
@@ -180,28 +185,28 @@ steps:
       Patternbot will generate a bunch of new things for you:
 
       - a new folder named `patterns`—with more folders inside
-        <br>*Don’t touch the folders Patternbot generated inside `patterns`—they’ll just get replaced*
+        <br>*Don’t touch the folders Patternbot generated inside `patterns`—they’ll just get replaced.*
 
-      - a new file named `pattern-library.html`
+      - a new file named `index.html`
         <br>*This is your pattern library website!*
 
-      *We’ll spend more time on the `patterns` folder next week.*
+      **We’ll spend more time on the `patterns` folder next week.**
 
   - title: "View the pattern library"
     before: |
       Many of the features that Patternbot generates and uses are advanced features of browsers and require a web server to function properly.
 
-      If we pop our `pattern-library.html` page open in a browser we’ll see a bunch of error messages—and it won’t work quite right.
+      If we pop our `index.html` page open in a browser we’ll see a bunch of error messages—and it won’t work quite right.
 
       ![](chrome-errors.jpg)
 
       So we need to use Patternbot’s internal web server to load the website.
 
-      ![](browse-menu.jpg)
+      ![](browse.jpg)
 
-      In the `File` menu go to `Browse Pattern Library` (`⌘B`)—this will pop open your default browser with the URL to your pattern library running over with a web server.
+      Press the `Browse Patterns` button (`⌘B`)—this will pop open your default browser with the URL to your pattern library running over with a web server.
 
-      The URL will most likely be: [**https://localhost:8000/**](https://localhost:8000/).
+      The URL will most likely be: [**https://localhost:3000/**](https://localhost:3000/)
 
       ![](chrome-security.jpg)
 
