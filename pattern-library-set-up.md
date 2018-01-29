@@ -162,7 +162,7 @@ steps:
     code_before: |
       Now open up the README and type the following code. Be sure to substitute this Google Font URL with your own. *Typekit works too.*
     code_lang: markdown
-    code_file: "common/theme.css"
+    code_file: "README.md"
     code: |
       ---
       fontUrl: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
