@@ -18,6 +18,7 @@ tasks:
   - title: "Using CSS variables"
     url: using-css-variables
     type: lesson
+    submit: code
   - title: "Pattern library set-up"
     url: pattern-library-set-up
     type: lesson

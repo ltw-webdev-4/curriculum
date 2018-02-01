@@ -25,6 +25,7 @@ tasks:
   - title: "Designing form errors"
     url: designing-form-errors
     type: lesson
+    submit: code
     disabled: true
   - title: "Multi-file patterns"
     url: multi-file-patterns

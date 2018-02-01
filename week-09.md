@@ -21,6 +21,7 @@ tasks:
   - title: "JavaScript-less carousel"
     url: javascript-less-carousel
     type: lesson
+    submit: code
     disabled: true
   - type: blank
   - title: "The leftovers"
