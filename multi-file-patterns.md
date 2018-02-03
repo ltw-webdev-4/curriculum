@@ -18,12 +18,20 @@ extra_tutorials:
   - title: "Markdown & YAML slide deck"
     url: "/courses/web-dev-4/markdown-yaml/"
 
+goal:
+  no_image: true
+  before: |
+    We already have our pattern library set up so now we’re ready to make a new multi-file pattern.
+
+    Some patterns might have different variations of the basic core idea: like different versions of cards as an example. They’re still thematically the same pattern but would benefit from being inside different HTML files.
+  notes:
+    - label: "Type it, type it real good"
+      text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
+
 steps:
   - title: "Set up project"
     before: |
-      We already have our pattern library set up so now we’re ready to make a new multi-file pattern.
-
-      We’ll set up our two cards for the website, one card in each file, but they can still share the same CSS.
+      We’ll set up our two cards for the website, one card in each file, but they **will still share the same CSS**.
 
       Let’s create a few new folders & code files:
     folders:
@@ -62,14 +70,12 @@ steps:
         - `icon-card.html`
         - `README.md`
     notes:
-      - label: "Type it, type it real good"
-        text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
 
   - title: "Make some HTML"
     before: |
-      Let’s write a little tiny big of HTML just to get things started.
+      Let’s write a little tiny bit of HTML just to get things started.
 
       **Remember this is all fake—you should be filling in your own information, your own styles, everything.**
     multi_code:
@@ -131,7 +137,7 @@ steps:
     after: |
       You probably want to drop these two into the browser individually to make sure they work.
 
-      *Remember that icons need a web server (`localhost`) to function—though you probably don’t actually have icons yet…*
+      *Remember that icons need a web server (`localhost`) to function.*
     notes:
       - label: "Don’t just copy"
         text: "These are just simple examples, you’ll be setting up your own cards this week—likely completely replacing what we’ve done here."
@@ -185,7 +191,7 @@ steps:
 
       You should see “Cards” in the navigation and the sub-nav should have both the “Basic card” and the “Icon card”.
 
-      ![](patternbot.jpg)
+      ![](pattern-lib-cards.jpg)
 
-      **This week’s assignment is actually styling the cards to match your website.**
+      *Notice how the background colour of the “Icon card” is different—we can configure each different pattern separately to help them fit your brand. Ask the teacher for different options.*
 ---

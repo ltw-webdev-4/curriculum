@@ -22,14 +22,14 @@ group_activities:
 
 tasks:
   - type: blank
+  - title: "Multi-file patterns"
+    url: multi-file-patterns
+    type: lesson
   - title: "Designing form errors"
     url: designing-form-errors
     type: lesson
     submit: code
     disabled: true
-  - title: "Multi-file patterns"
-    url: multi-file-patterns
-    type: lesson
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
     submit: show

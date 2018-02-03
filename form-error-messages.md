@@ -56,7 +56,7 @@ slides:
 
       Form validation really needs JavaScript to be super awesome
 
-      We’re going to include a little big of JavaScript to help simplify and & design some items—but don’t worry, it’s already pre-written
+      We’re going to include a little bit of JavaScript to help simplify and & design some items—but don’t worry, it’s already pre-written
 
   - content: |
       ## Videos & tutorials
