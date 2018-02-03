@@ -29,7 +29,6 @@ tasks:
     url: designing-form-errors
     type: lesson
     submit: code
-    disabled: true
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
     submit: show

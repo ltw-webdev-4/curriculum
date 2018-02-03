@@ -3,6 +3,9 @@ layout: lesson
 topic: "Designing form errors"
 desc: "Write up code for accessible, well designed form error messages with a little JavaScript to help."
 
+markbot_submit: true
+hide_show_for_marks: true
+
 extra_tutorials:
   - title: "Forms"
     url: forms
@@ -70,7 +73,7 @@ steps:
       </head>
       <body>
 
-        <form class="max-length island" method="post">
+        <form class="max-length island" method="post" action="#">
           <div class="push-1-2">
             <label for="name">Name</label>
             <input id="name" required>
@@ -123,7 +126,7 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <form class="max-length island" method="post">
+      <form class="max-length island" method="post" action="#">
         <div class="push-1-2">
           <label for="name">Name</label>
           <input id="name" required>
@@ -171,7 +174,7 @@ steps:
     code_file: "index.html"
     code: |
       ⋮
-      <form class="max-length island" method="post">
+      <form class="max-length island" method="post" action="#">
         <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
           <h3 class="push-0">
             <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
@@ -324,7 +327,7 @@ steps:
           </head>
           <body>
 
-            <form class="max-length island" method="post" novalidate>
+            <form class="max-length island" method="post" action="#" novalidate>
           ⋮
         lines:
           - num: "2-3"
