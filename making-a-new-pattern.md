@@ -18,10 +18,19 @@ extra_tutorials:
   - title: "Markdown & YAML slide deck"
     url: "/courses/web-dev-4/markdown-yaml/"
 
+goal:
+  no_image: true
+  before: |
+    We already have our pattern library set up so now we’re ready to create our first pattern.
+
+    But a pattern library isn’t much use if it is empty of patterns—so we’re going to look at how to add new patterns to our library in this lesson.
+  notes:
+    - label: "Type it, type it real good"
+      text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
+
 steps:
   - title: "Set up project"
     before: |
-      We already have our pattern library set up so now we’re ready to create our first pattern.
 
       We’ll set up our button styles then you can continue to finish them in this week’s homework assignment.
 
@@ -59,8 +68,6 @@ steps:
         - `buttons.css`
         - `README.md`
     notes:
-      - label: "Type it, type it real good"
-        text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
 
@@ -106,7 +113,7 @@ steps:
           - “and find `theme.css`”
       - num: 11
         text: |
-          Hook up your Google Font, if you’re using one.
+          Hook up your Google/Typkit font, if you’re using one.
       - num: 12
         text: |
           Finally point to the buttons CSS file. Notice how there is no `css/` in this URL. That’s because the `buttons.css` file is in the same location as the HTML file.
@@ -168,6 +175,8 @@ steps:
 
       ![](buttons.jpg)
 
+      *After the buttons pattern is within Patternbot, you can use Patternbot’s “pop-out” button to view the buttons on their own and get the automatic refreshing too.*
+
   - title: "Write the README"
     before: |
       Now we’re ready to describe the buttons and when to use them.
@@ -184,6 +193,8 @@ steps:
 
       Feel free to mix them with the `font-size` classes to make different sizes of buttons.
     after: |
+      **Make sure the description isn’t directly copied from above—use your own descriptions to describe your own buttons.**
+
       Once we’re happy with the description we can build the buttons pattern into our library…
 
   - title: "Generate in Patternbot"
@@ -196,11 +207,11 @@ steps:
 
       If you click the “Buttons” link in the navigation you should see everything you’ve done.
 
-      ![](pattern-lib.jpg)
+      ![](pattern-lib-buttons.jpg)
 
       ### When & when-not to use Patternbot
 
-      You don’t have to re-generate your whole library in Patternbot every time you make a small change—that’s too much waiting, so here are some scenarios:
+      You don’t have to refresh your whole library in Patternbot every time you make a small change—that’s too much waiting, so here are some scenarios:
 
       - **“I changed a colour in the `buttons.css` file”**
         <br>Open your `buttons.html` file directly in the browser (like you’re used to) to see the changes.
@@ -209,12 +220,12 @@ steps:
         <br>Open your `buttons.html` file directly in the browser (like you’re used to) to see the changes.
 
       - **“I fixed some grammar in the buttons `README.md`**
-        <br>Regenerate your library with Patternbot and view with `localhost` (`⌘B`).
+        <br>Let Patternbot regenerate your library and view with `localhost` (`⌘B`).
 
       - **“I added a new pattern to my library”**
-        <br>Regenerate your library with Patternbot and view with `localhost` (`⌘B`).
+        <br>Let Patternbot regenerate your library and view with `localhost` (`⌘B`).
 
-      *When working specifically on a single pattern open the HTML file directly in the browser.*
-      *When adjusting the display of the pattern library page use Patternbot.*
+      *When working specifically on a single pattern open the HTML file directly in the browser—or use the Patternbot “pop-out” button.*
+      *When adjusting the display of the pattern library itself page use Patternbot.*
 
 ---

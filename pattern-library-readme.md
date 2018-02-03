@@ -18,10 +18,20 @@ extra_tutorials:
   - title: "Markdown & YAML slide deck"
     url: "/courses/web-dev-4/markdown-yaml/"
 
+goal:
+  no_image: true
+  before: |
+    In order to make our pattern library effective for other people we need to describe lots of the different pieces—saying when and why to use the patterns.
+
+    The `README.md` files are used specifically for describing all the settings, patterns, etc. within our pattern library.
+  notes:
+    - label: "Type it, type it real good"
+      text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
+
 steps:
   - title: "Company name & description"
     before: |
-      We’re going to update and add some information to the README.md file within our pattern library.
+      We’re going to update and add some information to the `README.md` file within our pattern library.
 
       We’ll start by adding the company’s name and a quick description at the top.
     code_lang: markdown
@@ -52,8 +62,6 @@ steps:
       *If you can’t see what you wrote, drop the folder into Markbot and make sure there are no error messages.*
 
     notes:
-      - label: "Type it, type it real good"
-        text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
       - label: "Naming conventions"
         text: |
           Yes, the README files completely break our naming convention. But it’s a community convention, all on its own, to name readmes with capital letters.
