@@ -13,13 +13,14 @@ video_tutorials:
     highlight: true
 
 group_activities:
-  - title: "Header & footer patterns"
+  - title: "Navigation patterns"
+    url: navigation-patterns
     type: pencil
     pair: true
-    # Maybe research pros & cons of top nav, dick bars, side navs, etc.
 
 tasks:
-  - title: "Pattern Performer"
+  - title: "Variable Validator"
+    url: "https://activities.learn-the-web.algonquindesign.ca/variable-validator/"
     type: activity
   - type: blank
   - title: "Browser testing"
