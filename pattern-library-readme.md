@@ -39,7 +39,7 @@ steps:
     code: |
       ---
       name: "Super Company"
-      fontUrl: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
+      font-url: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
       ---
 
       This is the company introduction—we’re so amazing and our brand signifies awesomeness!
@@ -78,7 +78,7 @@ steps:
     code: |
       ---
       name: "Super Company"
-      fontUrl: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
+      font-url: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
       fonts:
         primary: |
           The primary typeface represents a strong and bold face with lines that show stability and arrogance to fully express the power and dominance of our company.

@@ -165,12 +165,12 @@ steps:
     code_file: "README.md"
     code: |
       ---
-      fontUrl: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
+      font-url: "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700|Source+Code+Pro:400,700"
       ---
     lines:
       - num: 2
         text: |
-          Patternbot will use the `fontUrl` to make sure all the type in the builtin patterns is rendered in the correct font family. It will also use the weights and styles provided by the font service to display in the pattern library.
+          Patternbot will use the `font-url` to make sure all the type in the builtin patterns is rendered in the correct font family. It will also use the weights and styles provided by the font service to display in the pattern library.
     after: |
       **Make sure the first set of triple dashes (`---`) touches the top of your file—it should be the very first thing.**
 
