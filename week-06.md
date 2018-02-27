@@ -27,10 +27,9 @@ tasks:
     type: basic
     submit: "Submit feedback form."
     graded-as: false
-  - title: "Portfolio design & content"
-    url: "https://github.com/acgd-webdev-5/portfolio-design-and-content"
-    graded-as: portfolio-design-and-content
-    due: "Start of class, week 11"
-    due_week: 11
-    submit: online
+  - title: "Continue assignments"
+    url: "https://github.com/acgd-webdev-shared/continue-assignments"
+    submit: "Submit nothing new."
+    graded-as: false
+  - type: watch-videos
 ---
