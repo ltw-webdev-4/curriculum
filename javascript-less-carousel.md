@@ -3,6 +3,9 @@ layout: lesson
 topic: "JavaScript-less carousel"
 desc: "Learn to implement a functional and reusable carousel without JavaScript."
 
+markbot_submit: true
+hide_show_for_marks: true
+
 extra_tutorials:
   - title: "Advanced CSS interactions"
     url: advanced-css-interactions

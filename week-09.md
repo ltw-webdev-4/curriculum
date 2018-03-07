@@ -22,9 +22,8 @@ tasks:
     url: javascript-less-carousel
     type: lesson
     submit: code
-    disabled: true
   - type: blank
   - title: "The leftovers"
     url: "https://github.com/acgd-webdev-4/the-leftovers"
-    submit: "Submit nothing."
+    submit: show
 ---
