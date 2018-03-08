@@ -20,22 +20,17 @@ video_tutorials:
   - title: "CSS selectors & units cheat sheet"
     url: css-selectors-units-cheat-sheet
 
+slides:
+  - title: "Wet code is bad code"
+
 tasks:
   - title: "Selector Surgeon"
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
-  - title: "Accessibility testing"
-    url: "/courses/shared/accessibility-testing/"
-    submit: "Submit nothing."
-    pair: true
-    button: activity
-    type: basic
-  - title: "Browser testing"
-    url: "/courses/shared/browser-testing/"
-    submit: "Submit nothing."
-    pair: true
-    button: activity
-    type: basic
+  - title: "Building pages with patterns"
+    type: lesson
+    submit: code
+  - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/homepage-template"
     submit: show

@@ -14,6 +14,9 @@ video_tutorials:
   - title: "CSS animations & effects cheat sheet"
     url: css-animations-effects-cheat-sheet
 
+slides:
+  - title: "Page building demo"
+
 tasks:
   - title: "Specificity Spy"
     url: "https://activities.learn-the-web.algonquindesign.ca/specificity-spy/"
