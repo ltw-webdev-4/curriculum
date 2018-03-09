@@ -16,6 +16,7 @@ video_tutorials:
 
 slides:
   - title: "Page building demo"
+    url: page-building-demo
 
 tasks:
   - title: "Specificity Spy"
