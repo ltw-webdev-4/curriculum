@@ -22,6 +22,7 @@ video_tutorials:
 
 slides:
   - title: "Wet code is bad code"
+    url: wet-code-is-bad-code
 
 tasks:
   - title: "Selector Surgeon"
