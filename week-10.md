@@ -28,8 +28,9 @@ tasks:
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
   - title: "Building pages with patterns"
+    url: building-pages-with-patterns
     type: lesson
-    submit: code
+    submit: show
   - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/homepage-template"
