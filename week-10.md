@@ -34,6 +34,6 @@ tasks:
     submit: show
   - type: blank
   - title: "Homepage template"
-    url: "https://github.com/acgd-webdev-4/homepage-template"
+    url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"
     submit: show
 ---
