@@ -22,8 +22,10 @@ tasks:
   - title: "Pattern library integration"
     url: pattern-library-integration
     type: lesson
+    pair: true
   - type: blank
   - title: "Product details page template"
+    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
     pair: true
     submit: show
     graded-as: false

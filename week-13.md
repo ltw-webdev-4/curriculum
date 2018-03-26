@@ -21,12 +21,15 @@ tasks:
   - title: "Repo setup & branching"
     url: repo-setup-and-branching
     type: lesson
+    pair: true
   - title: "Project hand-off & documentation"
+    url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
   - title: "Product details page template"
+    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
     submit: show
     pair: true
     due: "Before class week 15"
