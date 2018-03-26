@@ -6,8 +6,6 @@ clr: "1, 2, 3, 4, 5, 6, 7"
 video_tutorials:
   - title: "Writing a readme"
     url: writing-a-readme
-    highlight: true
-    videos: true
   - title: "GitHub Issues"
     url: github-issues
   - title: "Branching & GitHub Flow"
@@ -16,10 +14,12 @@ video_tutorials:
 
 slides:
   - title: "Git with many"
+    url: git-with-many
 
 tasks:
   - type: blank
-  - title: "Branching & merging"
+  - title: "Repo setup & branching"
+    url: repo-setup-and-branching
     type: lesson
   - title: "Project hand-off & documentation"
     type: basic

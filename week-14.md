@@ -19,15 +19,20 @@ group_activities:
 
 tasks:
   - type: blank
-  - type: blank
   - title: "Pattern library integration"
-    type: basic
-    pair: true
-    submit: "Submit nothing."
-    button: activity
+    url: pattern-library-integration
+    type: lesson
+  - type: blank
   - title: "Product details page template"
     pair: true
     submit: show
     graded-as: false
+  - title: "Finalized pattern library"
+    url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
+    graded-as: finalized-pattern-library
+    due: "Midnight, last day of class"
+    due_week: 15
+    due_time: "23:59"
+    submit: online
 
 ---
