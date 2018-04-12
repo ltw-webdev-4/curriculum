@@ -37,7 +37,7 @@ tasks:
     due: "Midnight, last day of class"
     due_week: 9
     due_time: "23:59"
-    type: basic
+    type: gh-issue
     graded-as: false
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
