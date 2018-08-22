@@ -47,6 +47,13 @@ slides:
       - Watch the videos before class
 
   - content: |
+      ## Getting help
+
+      **GitHub Issues** — help outside class
+
+      **Tutors** — [available to hire for one-on-one](https://algonquincollege.libguides.com/slc/peer-tutoring)
+
+  - content: |
       ## Marking scheme
 
       [**Web Dev 4 marking scheme ➔**](/courses/web-dev-4/#marking-scheme)
