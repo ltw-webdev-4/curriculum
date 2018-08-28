@@ -10,6 +10,9 @@ video_tutorials:
     url: using-urls
   - title: "Accessibility"
     url: accessibility
+  - title: "Accessibility cheat sheet"
+    url: accessibility-cheat-sheet
+    highlight: true
   - title: "Accessibility checklist"
     url: accessibility-checklist
     highlight: true
