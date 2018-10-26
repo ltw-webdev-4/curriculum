@@ -38,7 +38,7 @@ tasks:
   - title: "Request for grade"
     url: "https://github.com/acgd-webdev-4/request-for-grade"
     due: "Midnight, last day of class"
-    due_week: 9
+    due_week: 15
     due_time: "23:59"
     type: gh-issue
     graded-as: false
