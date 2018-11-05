@@ -22,8 +22,10 @@ tasks:
   - title: "Pattern library set-up"
     url: pattern-library-set-up
     type: lesson
+    no-solution: true
   - title: "Typography & colours"
     url: "https://github.com/acgd-webdev-4/typography-colours"
     submit: show
+    no-solution: true
   - type: watch-videos
 ---

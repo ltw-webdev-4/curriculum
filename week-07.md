@@ -34,4 +34,5 @@ tasks:
   - title: "Navigations & sections"
     url: "https://github.com/acgd-webdev-4/navigations-sections"
     submit: show
+    no-solution: true
 ---

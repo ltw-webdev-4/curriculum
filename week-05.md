@@ -25,6 +25,7 @@ tasks:
   - title: "Multi-file patterns"
     url: multi-file-patterns
     type: lesson
+    no-solution: true
   - title: "Designing form errors"
     url: designing-form-errors
     type: lesson
@@ -32,4 +33,5 @@ tasks:
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
     submit: show
+    no-solution: true
 ---

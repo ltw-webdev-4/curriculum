@@ -30,4 +30,5 @@ tasks:
   - title: "The leftovers"
     url: "https://github.com/acgd-webdev-4/the-leftovers"
     submit: show
+    no-solution: true
 ---

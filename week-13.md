@@ -33,4 +33,6 @@ tasks:
     submit: show
     pair: true
     due: "Before class week 15"
+    due_week: 15
+    no-solution: true
 ---

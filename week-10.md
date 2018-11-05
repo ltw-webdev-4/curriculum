@@ -35,8 +35,10 @@ tasks:
     url: building-pages-with-patterns
     type: lesson
     submit: show
+    no-solution: true
   - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"
     submit: show
+    no-solution: true
 ---

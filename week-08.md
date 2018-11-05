@@ -17,6 +17,7 @@ group_activities:
     url: navigation-patterns
     type: pencil
     pair: true
+    no-solution: true
 
 tasks:
   - title: "Variable Validator"
@@ -32,5 +33,6 @@ tasks:
   - title: "Headers & footers"
     url: "https://github.com/acgd-webdev-4/headers-footers"
     submit: show
+    no-solution: true
   - type: watch-videos
 ---

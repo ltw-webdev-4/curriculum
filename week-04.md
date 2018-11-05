@@ -33,10 +33,13 @@ tasks:
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
+    no-solution: true
   - title: "Icons"
     url: "https://github.com/acgd-webdev-4/icons"
     submit: show
+    no-solution: true
   - title: "Images & cards"
     url: "https://github.com/acgd-webdev-4/images-cards"
     submit: show
+    no-solution: true
 ---

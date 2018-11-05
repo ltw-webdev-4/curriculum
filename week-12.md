@@ -17,5 +17,6 @@ tasks:
   - title: "Checkout form page template"
     url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-page-template"
     submit: show
+    no-solution: true
   - type: watch-videos
 ---

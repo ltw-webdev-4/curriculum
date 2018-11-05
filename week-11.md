@@ -17,5 +17,5 @@ tasks:
   - title: "Product list page template"
     url: "https://github.com/acgd-webdev-4/ecommerce-product-list-page-template"
     submit: show
-
+    no-solution: true
 ---
