@@ -30,6 +30,7 @@ tasks:
     pair: true
     button: activity
     type: basic
+    progressinator_id: pattern-lib-patterns-browser-testing
   - title: "Headers & footers"
     url: "https://github.com/acgd-webdev-4/headers-footers"
     submit: show

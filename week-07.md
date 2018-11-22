@@ -31,6 +31,7 @@ tasks:
     button: activity
     submit: "Submit nothing."
     pair: true
+    progressinator_id: pattern-lib-patterns-a11y-testing
   - title: "Navigations & sections"
     url: "https://github.com/acgd-webdev-4/navigations-sections"
     submit: show
