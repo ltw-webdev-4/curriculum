@@ -51,6 +51,8 @@ slides:
 
       **GitHub Issues** — help outside class
 
+      **Open lab time** — get help outside class
+
       **Tutors** — [available to hire for one-on-one](https://algonquincollege.libguides.com/slc/peer-tutoring)
 
   - content: |
