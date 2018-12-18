@@ -1,7 +1,15 @@
 ---
 topic: "eCommerce UX work period"
 desc: "Continue work on the eCommerce UX and get feedback from the teacher."
-clr: "1, 2, 7"
+clr: "1, 2, 7, 8"
+
+video_tutorials:
+  - title: "Pattern library timeline"
+    highlight: true
+  - title: "Project UX checklist"
+  - title: "Usability testing checklist"
+    url: usability-testing-checklist
+    highlight: true
 
 group_activities:
   - title: "Finding eCommerce patterns"

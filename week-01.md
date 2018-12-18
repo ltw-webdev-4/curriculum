@@ -1,9 +1,13 @@
 ---
 topic: "Intro & reviews"
 desc: "An introduction to the term, including the term-long project, and a simple, quick review."
-clr: "1, 2, 7"
+clr: "1, 2, 7, 8"
 
 video_tutorials:
+  - title: "Pattern library timeline"
+    highlight: true
+  - title: "Jekyll installation"
+    url: jekyll-installation
   - title: "HTML semantics cheat sheet"
     url: html-semantics-cheat-sheet
   - title: "CSS layout cheat sheet"
@@ -19,11 +23,17 @@ slides:
   - title: "Web Dev 4 intro"
     url: intro
 
+todos:
+  - "[Assign yourself to the correct course & section on Progressinator for due dates](https://progress.learn-the-web.algonquindesign.ca/profile/)"
+
 tasks:
   - title: "Acronym Annihilator"
     url: "https://activities.learn-the-web.algonquindesign.ca/acronym-annihilator/"
     type: activity
-  - type: blank
+  - title: "Install more developer tools"
+    type: activity
+    url: "install-more-developer-tools"
+    disabled: true
   - title: "Responsive banner"
     url: "https://github.com/acgd-webdev-4/responsive-banner"
   - title: "eCommerce UX"

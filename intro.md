@@ -12,6 +12,7 @@ slides:
       ## What we’re learning
 
       - One project, all term: an eCommerce website design
+      - How to use website building tools
       - Making pattern libraries
       - Working with code on small teams
 

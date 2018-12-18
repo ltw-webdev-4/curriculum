@@ -1,41 +1,42 @@
 ---
 topic: "Home page template"
 desc: "Use all the finished patterns to create the home page template."
-clr: "1, 2, 3, 4, 5, 7"
+clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Browser testing"
-    url: browser-testing
-  - title: "Browser testing checklist"
-    url: browser-testing-checklist
+  - title: "Jekyll"
+    url: jekyll
+  - title: "Jekyll cheat sheet"
+    url: jekyll-cheat-sheet
     highlight: true
-  - title: "Accessibility"
-    url: accessibility
-  - title: "Accessibility cheat sheet"
-    url: accessibility-cheat-sheet
+  - title: "Jekyll terminal guide"
     highlight: true
-  - title: "Accessibility checklist"
-    url: accessibility-checklist
+    url: jekyll-terminal-guide
+  - title: "Pattern library cheat sheet"
+    url: pattern-library-cheat-sheet
     highlight: true
-  - title: "Accessibility testing checklist"
-    url: accessibility-testing-checklist
-    highlight: true
-  - title: "CSS selectors & units cheat sheet"
-    url: css-selectors-units-cheat-sheet
 
 slides:
   - title: "Wet code is bad code"
     url: wet-code-is-bad-code
 
+group_activities:
+  # Piecing together homepages using the available patterns
+  - title: "Piecing pages with patterns"
+    url: piecing-pages-with-patterns
+    type: pencil
+    pair: true
+    disabled: true
+
 tasks:
   - title: "Selector Surgeon"
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
-  - title: "Building pages with patterns"
-    url: building-pages-with-patterns
+  # Use Jekyll to loop over collections & output information
+  - title: "Jekyll generators"
+    url: jekyll-generators
     type: lesson
-    submit: show
-    no-solution: true
+    disabled: true
   - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"

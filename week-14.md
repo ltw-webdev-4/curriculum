@@ -1,11 +1,9 @@
 ---
 topic: "Product details page template"
 desc: "Hand off your pattern library to another developer so they can create the product details page."
-clr: "1, 2, 3, 4, 5, 6, 7"
+clr: "1, 2, 3, 4, 5, 7"
 
 video_tutorials:
-  - title: "Writing a readme"
-    url: writing-a-readme
   - title: "GitHub Issues"
     url: github-issues
   - title: "Branching & GitHub Flow"
@@ -24,12 +22,11 @@ tasks:
     type: lesson
     pair: true
     no-solution: true
-  - type: blank
-  - title: "Product details page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
-    pair: true
-    submit: show
-    graded-as: false
+    disabled: true
+  - title: "Teammate feedback"
+    url: teammate-feedback
+    type: activity
+    disabled: true
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library

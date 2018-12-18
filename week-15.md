@@ -4,13 +4,9 @@ desc: "Browser & accessibility test all the page templates and finalize the patt
 clr: "1, 2, 3, 4, 5, 6, 7"
 
 video_tutorials:
-  - title: "Browser testing"
-    url: browser-testing
   - title: "Browser testing checklist"
     url: browser-testing-checklist
     highlight: true
-  - title: "Accessibility"
-    url: accessibility
   - title: "Accessibility cheat sheet"
     url: accessibility-cheat-sheet
     highlight: true
@@ -20,9 +16,17 @@ video_tutorials:
   - title: "Accessibility testing checklist"
     url: accessibility-testing-checklist
     highlight: true
+  - title: "Performance testing checklist"
+    url: performance-testing-checklist
+    highlight: true
 
 tasks:
-  - type: blank
+  - title: "Performance testing"
+    url: "/courses/shared/performance-testing/"
+    submit: "Submit nothing."
+    pair: true
+    button: activity
+    type: basic
   - title: "Accessibility testing"
     url: "/courses/shared/accessibility-testing/"
     submit: "Submit nothing."

@@ -1,13 +1,25 @@
 ---
-# topic: "Reading week—no classes"
-topic: "Work week"
-# during_class: "No class"
-# desc: "No classes, labs or new homework this week—get caught up!"
-desc: "Work classes to get caught up and ready for the final push to the end of the term!"
-clr: "2, 3, 5, 7"
+topic: "Navigations & sections"
+desc: "Big websites usually have multiple navigation styles, each navigation is a unique design. And different sections that act as secondary navigation driving people to specific locations."
+clr: "1, 2, 3, 4, 5"
 
-# no_lab_times: true
-# no_office_hours: true
+video_tutorials:
+  - title: "Advanced CSS interactions"
+    videos: true
+    highlight: true
+  - title: "Navigation"
+    url: navigation
+  - title: "Using URLs"
+    url: using-urls
+  - title: "Accessibility cheat sheet"
+    url: accessibility-cheat-sheet
+    highlight: true
+  - title: "Accessibility checklist"
+    url: accessibility-checklist
+    highlight: true
+  - title: "Accessibility testing checklist"
+    url: accessibility-testing-checklist
+    highlight: true
 
 group_activities:
   - title: "Index card Q&A"
@@ -15,21 +27,22 @@ group_activities:
     type: pencil
 
 tasks:
-  - type: blank
-  - title: "One-on-one time"
-    url: "https://github.com/acgd-webdev-shared/one-on-one-time"
+  - title: "URL Explorer"
+    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+    type: activity
+  - title: "JavaScript-less carousel"
+    url: javascript-less-carousel
+    type: lesson
+    submit: code
+  - title: "Accessibility testing"
+    url: "/courses/shared/accessibility-testing/"
     type: basic
     button: activity
     submit: "Submit nothing."
-    graded-as: false
-  - title: "Mid-course feedback"
-    url: "/feedback/"
-    type: basic
-    submit: "Submit feedback form."
-    graded-as: false
-  - title: "Continue assignments"
-    url: "https://github.com/acgd-webdev-shared/continue-assignments"
-    submit: "Submit nothing new."
-    graded-as: false
-  - type: watch-videos
+    pair: true
+    progressinator_id: pattern-lib-patterns-a11y-testing
+  - title: "Navigations & sections"
+    url: "https://github.com/acgd-webdev-4/navigations-sections"
+    submit: show
+    no-solution: true
 ---

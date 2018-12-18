@@ -1,7 +1,7 @@
 ---
 topic: "Buttons, icons & images!"
 desc: "Design all the button styles, make the icons sprite sheet, and create common patterns for images: captions, cards, containers and more."
-clr: "1, 2, 3, 4, 5, 7"
+clr: "1, 2, 3, 4, 7"
 
 video_tutorials:
   - title: "Markdown"
@@ -23,13 +23,24 @@ slides:
   - title: "Markdown & YAML"
     url: markdown-yaml
 
+group_activities:
+  # Mapping information into YAML structures (similar to old JS activity)
+  # Mapping into Markdown syntax
+  - title: "Structuring data"
+    url: structuring-data
+    type: pencil
+    pair: true
+    disabled: true
+
 tasks:
   - title: "Pattern library README"
     url: pattern-library-readme
     type: lesson
+    disabled: true
   - title: "Making a new pattern"
     url: making-a-new-pattern
     type: lesson
+    disabled: true
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show

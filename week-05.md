@@ -1,13 +1,24 @@
 ---
 topic: "Forms"
 desc: "Complex websites are full of forms, and there are lots of elements that need to be designed & patterned."
-clr: "1, 2, 3, 4, 5"
+clr: "1, 2, 3, 4"
 
 video_tutorials:
   - title: "Forms"
     url: forms
   - title: "Forms cheat sheet"
     url: forms-cheat-sheet
+    highlight: true
+  - title: "CSS selectors & units cheat sheet"
+    url: css-selectors-units-cheat-sheet
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+  - title: "Writing a readme"
+    url: writing-a-readme
+  - title: "Writing better documentation"
+    url: writing-better-documentation
+  - title: "Documentation checklist"
+    url: documentation-checklist
     highlight: true
 
 slides:
@@ -22,10 +33,12 @@ group_activities:
 
 tasks:
   - type: blank
-  - title: "Multi-file patterns"
-    url: multi-file-patterns
+  # YAML, READMEs, etc for each pattern
+  - title: "Documenting patterns"
+    url: documenting-patterns
     type: lesson
     no-solution: true
+    disabled: true
   - title: "Designing form errors"
     url: designing-form-errors
     type: lesson

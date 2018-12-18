@@ -1,17 +1,41 @@
 ---
 topic: "Pattern libraries"
 desc: "An introduction to pattern libraries, setting up a basic library, and populating it with typography-related styles."
-clr: "1, 2, 3, 4, 5"
+clr: "1, 2, 3, 4"
 
 video_tutorials:
   - title: "CSS variables"
     videos: true
   - title: "Pattern libraries"
     videos: true
+  - title: "Pattern library cheat sheet"
+    url: pattern-library-cheat-sheet
+    highlight: true
+  - title: "Jekyll"
+    url: jekyll
+  - title: "Jekyll cheat sheet"
+    url: jekyll-cheat-sheet
+    highlight: true
+  - title: "Jekyll terminal guide"
+    highlight: true
+    url: jekyll-terminal-guide
+  - title: "Hosting with Netlify"
+    url: hosting-with-netlify
 
 slides:
   - title: "Pattern libraries"
     url: pattern-libraries
+    disabled: true
+
+group_activities:
+  # Breaking apart layouts on paper
+  # Combining layouts on paper snippets
+  # Commenting, includes
+  - title: "Understanding Jekyll"
+    url: understanding-jekyll
+    type: pencil
+    pair: true
+    disabled: true
 
 tasks:
   - type: blank
@@ -23,9 +47,17 @@ tasks:
     url: pattern-library-set-up
     type: lesson
     no-solution: true
+    disabled: true
+    # Find & research pattern libraries, write a report on findings
+  - title: "Pattern library research"
+    url: "https://github.com/acgd-webdev-4/pattern-library-research"
+    type: basic
+    submit: show
+    button: activity
+    disabled: true
+    # Add section about Netlify
   - title: "Typography & colours"
     url: "https://github.com/acgd-webdev-4/typography-colours"
     submit: show
     no-solution: true
-  - type: watch-videos
 ---

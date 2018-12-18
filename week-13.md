@@ -1,9 +1,12 @@
 ---
 topic: "Partnered product details page"
 desc: "Hand off your pattern library to another developer so they can create the product details page."
-clr: "1, 2, 3, 4, 5, 6, 7"
+clr: "1, 2, 3, 4, 5, 7, 8"
 
 video_tutorials:
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
   - title: "Writing a readme"
     url: writing-a-readme
   - title: "GitHub Issues"
@@ -13,26 +16,28 @@ video_tutorials:
   - title: "Using GitHub for project management"
 
 slides:
-  - title: "Git with many"
-    url: git-with-many
+  # Merging, approvals, more commits
+  - title: "Everybody makes mistakes"
+    url: everybody-makes-mistakes
+    disabled: true
 
 tasks:
   - type: blank
-  - title: "Repo setup & branching"
-    url: repo-setup-and-branching
+  - title: "Merging teammate work"
+    url: merging-teammate-work
     type: lesson
     pair: true
-  - title: "Project hand-off & documentation"
-    url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
+    disabled: true
+  - title: "Product details docs hand-off"
+    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-docs-hand-off"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
+    disabled: true
   - title: "Product details page template"
     url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
     submit: show
     pair: true
-    due: "Before class week 15"
-    due_week: 15
     no-solution: true
 ---
