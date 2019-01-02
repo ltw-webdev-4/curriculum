@@ -37,8 +37,9 @@ tasks:
     url: pattern-library-readme
     type: lesson
     disabled: true
-  - title: "Making a new pattern"
-    url: making-a-new-pattern
+  # Add section about using includes to share patterns
+  - title: "Making patterns"
+    url: making-patterns
     type: lesson
     disabled: true
   - title: "Buttons!"

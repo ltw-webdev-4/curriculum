@@ -5,6 +5,7 @@ clr: "1, 2, 7, 8"
 
 video_tutorials:
   - title: "Pattern library timeline"
+    url: pattern-library-timeline
     highlight: true
   - title: "Project UX checklist"
   - title: "Usability testing checklist"
