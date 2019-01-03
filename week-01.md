@@ -34,7 +34,6 @@ tasks:
   - title: "Install more developer tools"
     type: activity
     url: "install-more-developer-tools"
-    disabled: true
   - title: "Responsive banner"
     url: "https://github.com/acgd-webdev-4/responsive-banner"
   - title: "eCommerce UX"
