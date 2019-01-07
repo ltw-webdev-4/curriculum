@@ -61,6 +61,26 @@ steps:
       text: |
         The installation of Ruby will likely take a long time—wait it out before continuing.
 
+  - title: "Fix your $PATH variable"
+    before: |
+      All computers have a hidden piece of information called the `$PATH` variable; it’s most used when interacting with the Terminal.
+
+      The `$PATH` variable tells Terminal what folders to look for applications in—and more importantly what order of folders to look.
+
+      After installing a different version of Ruby than the one installed in our system, we want to tell MacOS to prioritize looking in the newest Ruby, not the original one.
+
+      ![](path.jpg)
+    code_file: "Terminal"
+    code_can_copy: true
+    code: |
+      echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+    after: |
+      Copy the above code and paste it into your Terminal window. **Hit `Return`**. (You should be able to see this code a few lines up in the display, that’s Ruby also telling your to do this.)
+
+  - title: "Close Terminal & open it again"
+    before: |
+      **We need to get the Terminal to reinitialize itself—so close the window and create a new window: `⌘W`, `⌘T`**
+
   - title: "Check Ruby is installed"
     before: |
       Just to confirm that Ruby is installed, we’re actually going to look for another app that was installed alongside Ruby: RubyGems. We’re going to look to see which RubyGems app your computer tries to load.
@@ -71,7 +91,7 @@ steps:
     code: |
       which gem
     after: |
-      **You should see exactly this output: `/usr/local/opt/ruby/bin/gem` otherwise it didn’t install properly.** *It’s likely that your `$PATH` variable wasn’t set properly when Homebrew was installed—your teacher can help you fix that.*
+      **You should see exactly this output: `/usr/local/opt/ruby/bin/gem` otherwise it didn’t install properly.** *It’s likely that your `$PATH` variable wasn’t set properly—your teacher can help you fix that.*
 
   - title: "Install Bundler"
     before: |
