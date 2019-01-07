@@ -34,7 +34,8 @@ slides:
       ## Pattern library examples
 
       - [MailChimp Pattern Library](http://ux.mailchimp.com/patterns)
-      - [MapBox Styleguide](https://www.mapbox.com/base/)
+      - [HMCTS Design System](http://hmcts-design-system.herokuapp.com/)
+      - [U.S. Web Design System](https://designsystem.digital.gov/)
       - [Walmart Styleguide](https://walmartlabs.github.io/web-style-guide/)
 
   - content: |
