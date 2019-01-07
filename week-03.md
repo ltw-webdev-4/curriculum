@@ -11,6 +11,7 @@ video_tutorials:
   - title: "Pattern library cheat sheet"
     url: pattern-library-cheat-sheet
     highlight: true
+    disabled: true
   - title: "Jekyll"
     url: jekyll
   - title: "Jekyll cheat sheet"
