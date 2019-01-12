@@ -8,6 +8,8 @@ video_tutorials:
     url: pattern-library-timeline
     highlight: true
   - title: "Project UX checklist"
+    url: project-ux-checklist
+    highlight: true
   - title: "Usability testing checklist"
     url: usability-testing-checklist
     highlight: true
