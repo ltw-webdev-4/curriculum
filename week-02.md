@@ -20,10 +20,6 @@ group_activities:
     pair: true
     type: pencil
     no-solution: true
-    # Needs to be improved!
-    # More description? More examples?
-    # Explain small patterns vs. big patterns?
-    # Make the final board public? Google Doc?
 
 tasks:
   - title: "Browser Buster"
