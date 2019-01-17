@@ -14,6 +14,7 @@ video_tutorials:
   - title: "Branching & GitHub Flow"
     url: branching-github-flow
   - title: "Using GitHub for project management"
+    url: using-github-for-project-management
 
 slides:
   - title: "Git with many"

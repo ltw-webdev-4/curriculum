@@ -5,8 +5,10 @@ clr: "1, 2, 3, 4"
 
 video_tutorials:
   - title: "CSS variables"
+    url: css-variables
     videos: true
   - title: "Pattern libraries"
+    url: pattern-libraries
     videos: true
   - title: "Pattern library cheat sheet"
     url: pattern-library-cheat-sheet
