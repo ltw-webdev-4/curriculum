@@ -40,7 +40,6 @@ group_activities:
     disabled: true
 
 tasks:
-  - type: blank
   - title: "Using CSS variables"
     url: using-css-variables
     type: lesson
@@ -49,16 +48,13 @@ tasks:
     url: pattern-library-set-up
     type: lesson
     no-solution: true
-    # Find & research pattern libraries, write a report on findings
-  - title: "Pattern library research"
-    url: "https://github.com/acgd-webdev-4/pattern-library-research"
-    type: basic
-    submit: show
-    button: activity
-    disabled: true
-    # Add section about Netlify
+  - title: "Pattern library hosting"
+    url: pattern-library-hosting
+    type: lesson
+    no-solution: true
   - title: "Typography & colours"
     url: "https://github.com/acgd-webdev-4/typography-colours"
     submit: show
     no-solution: true
+  - type: watch-videos
 ---
