@@ -49,7 +49,6 @@ tasks:
     url: pattern-library-set-up
     type: lesson
     no-solution: true
-    disabled: true
     # Find & research pattern libraries, write a report on findings
   - title: "Pattern library research"
     url: "https://github.com/acgd-webdev-4/pattern-library-research"

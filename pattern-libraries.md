@@ -103,7 +103,7 @@ slides:
       - label: "_config.yml"
         indent: 1
         notes: "Customization & details about the brand"
-      - label: "common"
+      - label: "css"
         type: folder
         indent: 1
       - label: "modules.css"
@@ -115,6 +115,9 @@ slides:
       - label: "theme.css"
         indent: 2
         notes: "For shared CSS, common tags, colours & fonts"
+      - label: "main.css"
+        indent: 2
+        notes: "Automatically combines all the CSS into one big file"
       - label: "images"
         type: folder
         indent: 1
