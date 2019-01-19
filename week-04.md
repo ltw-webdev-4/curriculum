@@ -13,6 +13,8 @@ video_tutorials:
   - title: "Markdown & YAML cheat sheet"
     url: markdown-yaml-cheat-sheet
     highlight: true
+  - title: "Pattern library cheat sheet"
+    highlight: true
   - title: "Advanced SVG"
     url: advanced-svg
   - title: "SVG cheat sheet"
@@ -33,8 +35,9 @@ group_activities:
     disabled: true
 
 tasks:
-  - title: "Pattern library README"
-    url: pattern-library-readme
+  # Add section about background & accent colors
+  - title: "Pattern library customization"
+    url: pattern-library-customization
     type: lesson
     disabled: true
   # Add section about using includes to share patterns
