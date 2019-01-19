@@ -28,7 +28,6 @@ video_tutorials:
 slides:
   - title: "Pattern libraries"
     url: pattern-libraries
-    disabled: true
 
 group_activities:
   # Breaking apart layouts on paper
