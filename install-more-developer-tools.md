@@ -106,5 +106,7 @@ steps:
     - label: "Be patient…"
       text: |
         The installation of Bundler will likely take a long time—wait it out before continuing.
+    after: |
+      **Bundler may confirm if you want to overwrite the previous version.** Type `y` and hit `Return`. It may ask you two different questions, you can answer “yes” to both of the questions.
 
 ---
