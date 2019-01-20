@@ -28,14 +28,10 @@ slides:
     url: pattern-libraries
 
 group_activities:
-  # Breaking apart layouts on paper
-  # Combining layouts on paper snippets
-  # Commenting, includes
-  - title: "Understanding Jekyll"
-    url: understanding-jekyll
+  - title: "Piecing Jekyll together"
+    url: piecing-jekyll-together
     type: pencil
     pair: true
-    disabled: true
 
 tasks:
   - title: "Using CSS variables"
