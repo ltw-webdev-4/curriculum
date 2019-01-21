@@ -321,7 +321,7 @@ steps:
     code_before: |
       **Inside your `main.css` file we’re going to add a little bit of Jekyll code.** This code instructs Jekyll to load all the other CSS files into this file—therefore combining them together into a single file.
     code_lang: css
-    code_file: "css/theme.css"
+    code_file: "css/main.css"
     code: |
       ---
       ---
@@ -407,4 +407,6 @@ steps:
       ![](font-url.jpg)
 
       **Go refresh your browser and you should see the whole pattern library is now rendered in your font choices.**
+
+      *If your fonts don’t show up you can try stopping & starting Jekyll.* In Terminal press `Control C`, then press `Up`, and `Return`—this will restart Jekyll and hopefully it will work.
 ---
