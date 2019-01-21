@@ -46,12 +46,11 @@ steps:
       - label: "type.css"
         indent: 2
     after: |
-      1. Create a folder named `using-css-variables`
-      2. Make an `index.html` & add the boilerplate code.
-      3. Make a `main.css` in your `css` folder—it can remain empty.
-      4. Make a `modules.css` in your `css` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/). **Make sure to press “Select All”.**
-      5. Make a `grid.css` in your `css` folder—[get a new version from Gridifier](https://gridifier.web-dev.tools/).
-      6. Make a `type.css` in your `css` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
+      1. Make an `index.html` & add the boilerplate code.
+      2. Make a `main.css` in your `css` folder—it can remain empty.
+      3. Make a `modules.css` in your `css` folder—[get a new version from Modulifier](https://modulifier.web-dev.tools/). **Make sure to press “Select All”.**
+      4. Make a `grid.css` in your `css` folder—[get a new version from Gridifier](https://gridifier.web-dev.tools/).
+      5. Make a `type.css` in your `css` folder—[get a new version from Typografier](https://typografier.web-dev.tools/).
     notes:
       - label: "Naming conventions"
         text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
