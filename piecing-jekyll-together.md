@@ -21,7 +21,7 @@ slides:
       ## Set up
 
       1. Form into pairs
-      2. [Download the files](https://github.com/acgd-webdev-4/piecing-jekyll-together/archive/gh-pages.zip)
+      2. [Download the files](https://github.com/acgd-webdev-4/piecing-jekyll-together/archive/master.zip)
       5. Get a pencil & paper to write on (digital works too)
       6. **Create the following pages using the patterns and snippets of Jekyll code**
 

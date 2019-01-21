@@ -91,7 +91,7 @@ steps:
       gem "jekyll"
 
       group :jekyll_plugins do
-        gem "jekyll_patternbot", :path => '/www/jekyll_patternbot/'
+        gem "jekyll_patternbot"
       end
     lines:
       - num: "1-5"
