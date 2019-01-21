@@ -330,7 +330,7 @@ steps:
       {% include_relative grid.css %}
       {% include_relative type.css %}
       {% include_relative theme.css %}
-      {{pattern_css}}
+      {% pattern_css %}
     lines:
       - num: "1-2"
         text: |
