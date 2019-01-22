@@ -21,9 +21,11 @@ slides:
       ## Set up
 
       1. Form into pairs
-      2. [Download the files](https://github.com/acgd-webdev-4/piecing-jekyll-together/archive/master.zip)
-      5. Get a pencil & paper to write on (digital works too)
-      6. **Create the following pages using the patterns and snippets of Jekyll code**
+      2. [Download & print the files](https://github.com/acgd-webdev-4/piecing-jekyll-together/archive/master.zip)
+      3. Get a pencil to write with
+      4. **Create the following pages using snippets of Jekyll code**
+          1. Look at the patterns & see if they’re missing things
+          2. Look at the pages and determine what to insert
 
   - content: |
       ## Definitions
@@ -47,13 +49,6 @@ slides:
       {% for (1..____) %}
         {% pattern __________ %}
       {% endfor %}
-
-
-      <!-- Tells a page to use a specific layout;
-           all the page’s information will be placed into the layout’s {{content}} block -->
-      ---
-      layout: __________
-      ---
 
   - type: figure
     image: index.png
