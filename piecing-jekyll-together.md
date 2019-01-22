@@ -25,7 +25,8 @@ slides:
       3. Get a pencil to write with
       4. **Create the following pages using snippets of Jekyll code**
           1. Look at the patterns & see if they’re missing things
-          2. Look at the pages and determine what to insert
+          2. Look at the layouts and determine what to insert
+          3. Look at the pages and determine what to insert
 
   - content: |
       ## Definitions
