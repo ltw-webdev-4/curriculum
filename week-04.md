@@ -35,11 +35,9 @@ group_activities:
     disabled: true
 
 tasks:
-  # Add section about background & accent colors
   - title: "Pattern library customization"
     url: pattern-library-customization
     type: lesson
-    disabled: true
   - title: "Making patterns"
     url: making-patterns
     type: lesson

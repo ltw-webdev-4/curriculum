@@ -1,7 +1,9 @@
 ---
 layout: lesson
-title: "Pattern Library README"
-desc: "Pattern libraries need to provide more information that just the pattern code—they need to explain why."
+title: "Pattern Library customization"
+desc: "Pattern libraries need to provide more information than just the pattern code—they need to explain why."
+
+hide_markbot: true
 
 extra_tutorials:
   - title: "Pattern libraries"
@@ -23,48 +25,65 @@ goal:
   before: |
     In order to make our pattern library effective for other people we need to describe lots of the different pieces—saying when and why to use the patterns.
 
-    The `README.md` files are used specifically for describing all the settings, patterns, etc. within our pattern library.
+    The `config.yml` files are used specifically for describing all the settings, patterns, etc. within our pattern library.
   notes:
     - label: "Type it, type it real good"
       text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
 
+important:
+  title: "Start Jekyll in Terminal"
+  text: |
+    Before you continue—make sure to get Jekyll running in your Terminal for your `ecommerce-pattern-library`
+
+    1. Press `Open in Terminal` from GitHub Desktop
+    2. Press `Up`—you should see `bundle exec jekyll serve`
+      <br>*You can press `Up` multiple times to search through your Terminal history.*
+    3. Press `Return` to start Jekyll
+
 steps:
   - title: "Company name & description"
     before: |
-      We’re going to update and add some information to the `README.md` file within our pattern library.
+      **Continue on with your `ecommerce-pattern-library` repository.**
+
+      We’re going to update and add some information to the `_config.yml` file within our pattern library.
 
       We’ll start by adding the company’s name and a quick description at the top.
-    code_lang: markdown
-    code_file: "README.md"
+    code_lang: yml
+    code_file: "_config.yml"
     code: |
-      ---
-      name: "Super Company"
-      font-url: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
-      ---
-
-      This is the company introduction—we’re so amazing and our brand signifies awesomeness!
+      permalink: pretty
+      theme: jekyll_patternbot
+      patternbot:
+        title: "Dino Rescue"
+        description: |
+          A small local dinosaur rescue organization specializing in herbivores. Dinos are in danger and we need to save them all!
+        font_url: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
     lines:
-      - num: 1
+      - num: "1-2,7"
         fade: true
-      - num: "3-4"
-        fade: true
-      - num: 2
+      - num: 4
         text: |
-          This is the name of the company the pattern library is for, a.k.a. your eCommerce website.
-      - num: 6
+          The `title` key is the name of the company the pattern library is for, a.k.a. your eCommerce website.
+      - num: 5
         text: |
-          After the chunk of YAML we’ll write a little description of the company. This is all Markdown and will be displayed after the company in the pattern library.
+          Use the `description` key to write a little description of the company. This is all Markdown and will be displayed after the company in the pattern library.
     after: |
-      If you re-generate your pattern library and give it a look you should see your information now.
+      Whenever you change the root, Jekyll, `_config.yml` file the changes won’t show up immediately. *This is a limitation of Jekyll itself, the configuration is only read once: when Jekyll first starts in the Terminal.*
 
-      ![](readme-company.jpg)
+      So, we need to restart Jekyll:
 
-      *If you can’t see what you wrote, drop the folder into Markbot and make sure there are no error messages.*
+      1. Go to “Terminal”
+      2. Press `Control-C`
+      3. Press `Up`: you should see `bundle exec jekyll serve`
+      4. Press `Return`
 
+      ![](title-desc.jpg)
+
+      *Now go refresh your browser to see the changes.*
     notes:
-      - label: "Naming conventions"
+      - label: "Indentation!"
         text: |
-          Yes, the README files completely break our naming convention. But it’s a community convention, all on its own, to name readmes with capital letters.
+          **YAML is very strict about indentation!** If you mess up the indentation within this file, things won’t work.
 
   - title: "Type choice descriptions"
     before: |
@@ -73,75 +92,107 @@ steps:
       So next up, we’ll describe why we chose the fonts we did and when they should be used.
 
       **Remember you’re describing your eCommerce website—don’t just copy this information below.**
-    code_lang: markdown
-    code_file: "README.md"
+    code_lang: yml
+    code_file: "_config.yml"
     code: |
-      ---
-      name: "Super Company"
-      font-url: "https://fonts.googleapis.com/css?family=Overpass:400,400i,700|Source+Code+Pro:400,700"
-      fonts:
-        primary: |
-          The primary typeface represents a strong and bold face with lines that show stability and arrogance to fully express the power and dominance of our company.
-
-          Use the primary typeface for body copy, captions and should really anything by default.
-        secondary: |
-          The secondary typeface is a compressed serif that really shows strength and dominance over our domain.
-
-          The secondary typeface should be used for headings, buttons and to highlight important things.
-      ---
-
-      This is the company introduction—we’re so amazing and our brand signifies awesomeness!
+      ⋮
+      font_url: "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+      rationales:
+        typefaces.primary: |
+          Georgia was selected because it’s a classic font—for classic creatures. Georgia is to be used for all body copy and most situations.
+        typefaces.secondary: |
+          PT Sans Narrow is only to be used for highlighting text: headings, buttons, banners, etc.
     lines:
-      - num: "1-3"
+      - num: 2
         fade: true
-      - num: "13-15"
-        fade: true
+      - num: 3
+        text: |
+          Make a new entry named `rationales`, this will describe all the typography (and eventually colour) related information.
       - num: 4
         text: |
-          Make a new entry named `fonts`, this will describe all the typography related information.
-      - num: 5
-        text: |
-          Using the `primary` entry we can describe the primary typeface—especially describe why you chose it and when to use it.
+          Using the `typefaces.primary` entry we can describe the primary typeface—especially describe why you chose it and when to use it.
 
           Notice the vertical pipe (`|`) this signifies a block of text—you can use Markdown in here.
-      - num: 9
+      - num: 6
         text: |
-          Also describe the `secondary` typeface choice’s whys & whens.
+          Also describe the `typefaces.secondary` typeface choice’s whys & whens.
     after: |
-      **Be really careful with your indentation—YAML treats indentation with extreme importance.**
+      ![](typefaces.jpg)
+
+      **Start & top Jekyll.** *Then look in your browser at your typeface descriptions.*
 
   - title: "Colour descriptions"
     before: |
       Next up is the color choices; describe primary, secondary, accent, etc. colours using a format similar to the type.
     code_lang: markdown
-    code_file: "README.md"
+    code_file: "_config.yml"
     code: |
       ⋮
-        secondary: |
-          The secondary typeface is a compressed serif that really shows strength and dominance over our domain.
-
-          The secondary typeface should be used for headings, buttons and to highlight important things.
-      colors:
-        primary: |
-          The primary colours are amazing and represent amazingness. Use them for headers, footers and emphasis.
-        secondary: |
-          The secondary colours represent things and stuff. Use them for links or when you want an extra pop.
-        neutral: |
-          The neutral colours are bland. Their real purpose is for body copy, captions, tables, etc.
-      ---
-
-      This is the company introduction—we’re so amazing and our brand signifies awesomeness!
+        typefaces.secondary: |
+          PT Sans Narrow is only to be used for highlighting text: headings, buttons, banners, etc.
+        colors.primary: |
+          The primary colours represent herbivores & plants & greenery. They should be used for text and in foregrounds.
+        colors.secondary: |
+          The secondary colours are more neutral, continuing with the earth tones, and should be used for backgrounds.
     lines:
-      - num: "2-5"
+      - num: 2
         fade: true
-      - num: 6
+      - num: "4-7"
         text: |
-          Add a `colors` entry to start describing the colours. Patternbot is cool and will accept the correct spelling with a “u” too.
-      - num: "7-12"
-        text: |
-          The entries can be `primary`, `secondary`, `neutral` and `accent`
-      - num: "13-15"
-        fade: true
+          The entries can be `colors.primary`, `colors.secondary`, `colors.neutral` and `colors.accent`
     after: |
-      *Re-generate your pattern library with Patternbot and make sure the text is all visible and looks the way you want.*
+      ![](colors.jpg)
+
+      **Start & top Jekyll—again.** *Then look in your browser at your colour descriptions.*
+
+  - title: "Customize the pattern library"
+    before: |
+      Using a few more configuration options we can even customize the look of the pattern library itself. It’s often a good idea to make the pattern library more closely match the website’s brand.
+
+      There’s a `colors` configuration entry that has a few options:
+    code_lang: yml
+    code_file: "_config.yml"
+    code: |
+      ⋮
+      patternbot:
+        title: "Dino Rescue"
+        description: |
+          A small local dinosaur rescue organization specializing in herbivores. Dinos are in danger and we need to save them all!
+        font_url: "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+        colors:
+          background: "--color-secondary-light"
+          accent: "--color-primary-dark"
+          patterns:
+            brand.logos: "--color-primary-light"
+        rationales:
+          typefaces.primary: |
+            Georgia was selected because it’s a classic font—for classic creatures. Georgia is to be used for all body copy and most situations.
+      ⋮
+    lines:
+      - num: "2-6,12-14"
+        fade: true
+      - num: 7
+        text: |
+          Add the `colors` configuration option under the `patternbot` entry.
+      - num: 8
+        text: |
+          If you add a `background` key the whole page background of the pattern library will change.
+
+          You don’t have to use your variables here—you can use hex colours—but it does make the most sense.
+      - num: 9
+        text: |
+          The `accent` key will add foreground colours in a few places. Right now Patternbot is using your primary colour for this.
+      - num: 10
+        text: |
+          If you add a `patterns` entry within `colors` you can change the background color behind certain built-in patterns, like the brand logos section.
+      - num: 11
+        text: |
+          The key format is “pattern_group.pattern_name”.
+    after: |
+      **Only include the colours you want—leave anything off that you don’t want to change.**
+
+      ![](color-customization.jpg)
+
+      *Check it out in your browser to see the colour customizations.*
+
 ---
