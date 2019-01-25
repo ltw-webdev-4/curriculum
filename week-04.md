@@ -26,21 +26,21 @@ slides:
     url: markdown-yaml
 
 group_activities:
-  # Mapping information into YAML structures (similar to old JS activity)
-  # Mapping into Markdown syntax
-  - title: "Structuring data"
-    url: structuring-data
+  - title: "Fried data"
+    url: fried-data
     type: pencil
     pair: true
-    disabled: true
+    no-solution: true
 
 tasks:
   - title: "Pattern library customization"
     url: pattern-library-customization
     type: lesson
+    no-solution: true
   - title: "Making patterns"
     url: making-patterns
     type: lesson
+    no-solution: true
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
