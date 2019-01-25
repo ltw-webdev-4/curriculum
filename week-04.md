@@ -40,11 +40,9 @@ tasks:
     url: pattern-library-customization
     type: lesson
     disabled: true
-  # Add section about using includes to share patterns
   - title: "Making patterns"
     url: making-patterns
     type: lesson
-    disabled: true
   - title: "Buttons!"
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
