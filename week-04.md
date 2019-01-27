@@ -14,6 +14,7 @@ video_tutorials:
     url: markdown-yaml-cheat-sheet
     highlight: true
   - title: "Pattern library cheat sheet"
+    url: pattern-library-cheat-sheet
     highlight: true
   - title: "Advanced SVG"
     url: advanced-svg
