@@ -340,7 +340,7 @@ steps:
           Tell Jekyll to go find these other 4 files, in this same folder and include all of their contents into this location. Essentially it copies everything from the other CSS files into `main.css` automatically for us.
       - num: 8
         text: |
-          This is a Patternbot thing, it tells Jekyll & Patternbot to find all the CSS files we’ve created for our pattern and load them into here also.
+          This is a Patternbot thing, it tells Jekyll & Patternbot to find all the CSS files we’ve created for our patterns and load them into here also.
     after: |
       You won’t see any changes in the browser right now.
 
@@ -395,7 +395,7 @@ steps:
     lines:
       - num: 4
         text: |
-          All of Patternbot’s configuration & documentation will be found under the `patternboty` entry.
+          All of Patternbot’s configuration & documentation will be found under the `patternbot` entry.
       - num: 5
         text: |
           Patternbot will use the `font_url` to make sure all the type in the built-in patterns is rendered in the correct font family. It will also use the weights and styles provided by the font service to display in the pattern library.
