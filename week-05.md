@@ -32,17 +32,18 @@ group_activities:
     pair: true
 
 tasks:
-  - type: blank
-  # YAML, READMEs, etc for each pattern
-  - title: "Documenting patterns"
-    url: documenting-patterns
-    type: lesson
-    no-solution: true
-    disabled: true
   - title: "Designing form errors"
     url: designing-form-errors
     type: lesson
     submit: code
+  - title: "Integrating JavaScript into your pattern library"
+    url: integrating-javascript-into-your-pattern-library
+    type: lesson
+    no-solution: true
+  - title: "Documenting patterns"
+    url: documenting-patterns
+    type: lesson
+    no-solution: true
   - title: "Forms & fields"
     url: "https://github.com/acgd-webdev-4/forms"
     submit: show

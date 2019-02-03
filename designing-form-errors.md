@@ -381,7 +381,9 @@ steps:
       }
 
       .is-validated input:invalid,
-      .is-validated input[type="checkbox"]:invalid + label::before {
+      .is-validated input[type="checkbox"]:invalid + label::before,
+      .is-validated:invalid,
+      .is-validated[type="checkbox"]:invalid + label::before {
         border-color: #f33;
       }
 
@@ -398,7 +400,9 @@ steps:
 
       .is-validated > .error-message:first-child,
       .is-validated input:invalid + .error-message,
-      .is-validated input:invalid + label + .error-message {
+      .is-validated input:invalid + label + .error-message,
+      .is-validated:invalid + .error-message,
+      .is-validated:invalid + label + .error-message {
         display: block;
       }
     lines:
@@ -407,14 +411,18 @@ steps:
       - num: "6-7"
         text: |
           Prepend each of the selectors with `.is-validated`. This is what the JavaScript does: it adds the class to our `<form>` tag after the user tries to submit the form information.
-      - num: "8-12"
+      - num: "8-9"
+        text: |
+          Add a few more selectors to handle different form field situations, and different ways of writing forms.
+      - num: "10-23"
         fade: true
-      - num: "13-20"
-        fade: true
-      - num: "22-24"
+      - num: "24-26"
         text: |
           Also prepend each of these selectors with the `.is-validated` class.
-      - num: "25-26"
+      - num: "27-28"
+        text: |
+          And some more different scenarios—gotta cover all possible situations!
+      - num: "29-30"
         fade: true
     after: |
       When we load the page we should see the form like this:
