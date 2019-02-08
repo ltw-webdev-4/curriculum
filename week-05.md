@@ -16,9 +16,9 @@ video_tutorials:
   - title: "Writing a readme"
     url: writing-a-readme
   - title: "Writing better documentation"
-    url: writing-better-documentation
+    # url: writing-better-documentation
   - title: "Documentation checklist"
-    url: documentation-checklist
+    # url: documentation-checklist
     highlight: true
 
 slides:
