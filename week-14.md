@@ -17,16 +17,25 @@ group_activities:
     type: star
 
 tasks:
-  - type: blank
-  - title: "Pattern library integration"
-    url: pattern-library-integration
+  - title: "Merging teammate work"
+    url: merging-teammate-work
     type: lesson
     pair: true
-    no-solution: true
     disabled: true
+    graded-as: false
   - title: "Teammate feedback"
     url: teammate-feedback
     type: activity
+    disabled: true
+  - title: "Surprise ecommerce page 1"
+    url: "https://github.com/acgd-webdev-4/ecommerce-surprise-page-1"
+    submit: show
+    no-solution: true
+    disabled: true
+  - title: "Surprise ecommerce page 2"
+    url: "https://github.com/acgd-webdev-4/ecommerce-surprise-page-2"
+    submit: show
+    no-solution: true
     disabled: true
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
