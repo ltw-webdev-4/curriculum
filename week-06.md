@@ -21,11 +21,6 @@ video_tutorials:
     url: accessibility-testing-checklist
     highlight: true
 
-group_activities:
-  - title: "Index card Q&A"
-    url: "/courses/shared/index-card-qa/"
-    type: pencil
-
 tasks:
   - title: "URL Explorer"
     url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"

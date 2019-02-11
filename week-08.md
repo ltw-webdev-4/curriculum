@@ -13,6 +13,9 @@ video_tutorials:
     highlight: true
 
 group_activities:
+  - title: "Index card Q&A"
+    url: "/courses/shared/index-card-qa/"
+    type: pencil
   - title: "Navigation patterns"
     url: navigation-patterns
     type: pencil
