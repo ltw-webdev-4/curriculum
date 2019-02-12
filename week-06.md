@@ -29,11 +29,11 @@ tasks:
     url: javascript-less-carousel
     type: lesson
     submit: code
-  - title: "Accessibility testing"
+  - title: "Informal accessibility testing"
     url: "/courses/shared/accessibility-testing/"
     type: basic
     button: activity
-    submit: "Submit nothing."
+    submit: "Describe what you fixed."
     pair: true
     progressinator_id: pattern-lib-patterns-a11y-testing
   - title: "Navigations & sections"
