@@ -27,12 +27,11 @@ tasks:
     url: "https://activities.learn-the-web.algonquindesign.ca/variable-validator/"
     type: activity
   - type: blank
-  - title: "Browser testing"
+  - title: "Informal browser testing"
     url: "/courses/shared/browser-testing/"
-    submit: "Submit nothing."
-    pair: true
     button: activity
     type: basic
+    submit: "Describe what you fixed."
     progressinator_id: pattern-lib-patterns-browser-testing
   - title: "Headers & footers"
     url: "https://github.com/acgd-webdev-4/headers-footers"

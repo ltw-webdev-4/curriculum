@@ -34,7 +34,6 @@ tasks:
     type: basic
     button: activity
     submit: "Describe what you fixed."
-    pair: true
     progressinator_id: pattern-lib-patterns-a11y-testing
   - title: "Navigations & sections"
     url: "https://github.com/acgd-webdev-4/navigations-sections"
