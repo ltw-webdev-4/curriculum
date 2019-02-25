@@ -33,10 +33,12 @@ tasks:
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
   # Use Jekyll to loop over collections & output information
+  # Us product datafile from previous week
   - title: "Jekyll generators"
     url: jekyll-generators
     type: lesson
     disabled: true
+  # Add activity showing how to grab single product?
   - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"

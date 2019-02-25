@@ -21,21 +21,27 @@ slides:
     url: building-pages
     disabled: true
 
-
 tasks:
   - title: "Specificity Spy"
     url: "https://activities.learn-the-web.algonquindesign.ca/specificity-spy/"
     type: activity
+  # Make a layout with the header & footer
+  # Create a basic index.html
   - title: "Sharing code with layouts"
     url: sharing-code-with-layouts
     type: lesson
     disabled: true
+  # Add a banner onto the homepage
+  # Updating text & images inside the banner
+  # Documenting pattern fields
   - title: "Building pages with patterns"
     url: building-pages-with-patterns
     type: lesson
     submit: show
     no-solution: true
     disabled: true
+  # Starting a product datafile
+  # Probably should be a collection..?
   - title: "Preparing product data"
     url: "https://github.com/acgd-webdev-4/preparing-product-data"
     submit: show
