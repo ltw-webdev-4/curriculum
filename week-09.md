@@ -4,22 +4,23 @@ desc: "Carousels and tab systems are popular on lots of websites. Learn to imple
 clr: "1, 2, 3, 4, 5"
 
 video_tutorials:
-  - title: "Jekyll"
-    url: jekyll
+  - title: "Markdown"
+    url: markdown
+  - title: "YAML"
+    url: yaml
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
+    highlight: true
   - title: "Jekyll cheat sheet"
     url: jekyll-cheat-sheet
     highlight: true
-  - title: "Jekyll terminal guide"
-    highlight: true
-    url: jekyll-terminal-guide
   - title: "Pattern library cheat sheet"
     url: pattern-library-cheat-sheet
     highlight: true
 
 slides:
-  - title: "Building pages"
-    url: building-pages
-    disabled: true
+  - title: "Building pages with Jekyll"
+    url: building-pages-with-jekyll
 
 tasks:
   - title: "Specificity Spy"
