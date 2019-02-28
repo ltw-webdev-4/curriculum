@@ -29,21 +29,11 @@ tasks:
   - title: "Sharing code with layouts"
     url: sharing-code-with-layouts
     type: lesson
-  # Add a banner onto the homepage
-  # Updating text & images inside the banner
-  # Documenting pattern fields
   - title: "Building pages with patterns"
     url: building-pages-with-patterns
     type: lesson
     submit: show
     no-solution: true
-  # Starting a product datafile
-  # Probably should be a collection..?
-  - title: "Preparing product data"
-    url: "https://github.com/acgd-webdev-4/preparing-product-data"
-    submit: show
-    no-solution: true
-    disabled: true
   - title: "The leftovers"
     url: "https://github.com/acgd-webdev-4/the-leftovers"
     submit: show

@@ -21,25 +21,28 @@ slides:
     url: wet-code-is-bad-code
 
 group_activities:
-  # Piecing together homepages using the available patterns
   - title: "Piecing pages with patterns"
     url: piecing-pages-with-patterns
     type: pencil
-    pair: true
-    disabled: true
 
 tasks:
   - title: "Selector Surgeon"
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
+  # Starting a product datafile
+  # Probably should be a collection..?
+  - title: "Preparing product data"
+    url: preparing-product-data
+    type: lesson
+    submit: show
+    no-solution: true
+    disabled: true
   # Use Jekyll to loop over collections & output information
   # Us product datafile from previous week
   - title: "Jekyll generators"
     url: jekyll-generators
     type: lesson
     disabled: true
-  # Add activity showing how to grab single product?
-  - type: blank
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"
     submit: show

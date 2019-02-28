@@ -36,8 +36,8 @@ slides:
     disabled: true
 
 group_activities:
-  - title: "Better documentation"
-    url: better-documentation
+  - title: "Documentation user-testing"
+    url: documentation-user-testing
     pair: true
     type: pencil
     disabled: true
@@ -51,7 +51,6 @@ tasks:
     url: "https://github.com/acgd-webdev-4/finalizing-pattern-docs"
     submit: show
     no-solution: true
-    disabled: true
   - title: "Product list page template"
     url: "https://github.com/acgd-webdev-4/ecommerce-product-list-page-template"
     submit: show
