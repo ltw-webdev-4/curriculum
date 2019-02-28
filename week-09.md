@@ -37,7 +37,6 @@ tasks:
     type: lesson
     submit: show
     no-solution: true
-    disabled: true
   # Starting a product datafile
   # Probably should be a collection..?
   - title: "Preparing product data"

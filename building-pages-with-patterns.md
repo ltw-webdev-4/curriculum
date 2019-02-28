@@ -3,469 +3,432 @@ layout: lesson
 topic: "Building pages with patterns"
 desc: "Look at how to reuse your pattern code when building-out the example pages in your pattern libraries."
 
-markbot_notes: |
-  Drop just the `pages` folder into Markbot—it’s the only thing that changed and the only thing that we need to check right now.
+hide_markbot: true
+
+extra_tutorials:
+  - title: "Jekyll"
+    url: jekyll
+    highlight: true
+  - title: "Jekyll cheat sheet"
+    url: jekyll-cheat-sheet
+  - title: "Pattern libraries"
+    url: pattern-libraries
+    highlight: true
+  - title: "Pattern library cheat sheet"
+    url: pattern-library-cheat-sheet
+  - title: "Markdown & YAML cheat sheet"
+    url: markdown-yaml-cheat-sheet
 
 goal:
-  image: goal.jpg
+  no_image: true
   before: |
-    We’re going to make an example page in a sample pattern library to see how the syntax works, and what it’s capable of doing.
+    We’re going to make a couple example pages in our `ecommerce-pattern-library` to see how the syntax works, and what it’s capable of doing.
 
-    Patternbot contains a very simple “include” system that allows us to pull the HTML & CSS from our patterns into example pages. In real websites we write as little HTML as possible; we make patterns and then *include* them on pages.
-
-    *We’re going to explore the idea of includes & code separation much more thoroughly when we learn about [Jekyll](/topics/jekyll).*
+    We’ll explores the ideas of Jekyll’s include system, passing information into them and displaying multiple copies of the same pattern—but with different text & content.
   notes:
     - label: "Type it, type it real good"
       text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
 
-fork:
-  url: "https://github.com/acgd-webdev-4/geohub/fork"
-  repo: "geohub"
+important:
+  title: "Start Jekyll in Terminal"
+  text: |
+    Before you continue—make sure to get Jekyll running in your Terminal for your `ecommerce-pattern-library`
+
+    1. Press `Open in Terminal` from GitHub Desktop
+    2. Press `Up`—you should see `bundle exec jekyll serve`
+      <br>*You can press `Up` multiple times to search through your Terminal history.*
+    3. Press `Return` to start Jekyll
 
 steps:
-  - title: "Browse the pattern library"
+  - title: "Insert banners into pages"
     before: |
-      What you’ve cloned is a simple pattern library with a bunch of components that we’re going to use on our example homepage.
+      **Continue on with your `ecommerce-pattern-library` repository.**
 
-      Drop the cloned `geohub` folder into Patternbot and browse the available patterns. Notice that we have the following patterns available for the homepage:
+      We’ve already got our layouts working, so now, to see how this works, let’s add banners to the top of both our `index.html` & our `products.html`
 
-      1. “Header”
-      2. “Footer”
-      3. “Banner”
-      4. ”Cards”
+      **In the final version of these two pages, in your website, you may not want banners at the top—and that’s completely okay—but follow along for now to see how the system works.**
+    multi_code:
+      - code_before: |
+          ![](copy-banner.jpg)
 
-      And some icons for use in the cards.
-
-      *Since the patterns are done & complete it’s not best practice to copy and paste the code.* **If you find yourself copying-and-pasting code you’re doing something wrong.**
-
-      What we’re going to do is use a simple templating engine to pull (“include”) the patterns into our homepage without writing their code over again.
-
-  - title: "Create a pages folder"
-    before: |
-      Before we can do anything we need to make a new folder in our pattern library: `pages`
-    folders:
-      - label: "geohub"
-        type: folder
-      - label: "common"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "images"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "pages"
-        type: folder
-        indent: 1
-        notes: "Make the folder in the root of the website"
-      - label: "patterns"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "index.html"
-        indent: 1
-        fade: true
-      - label: "README.md"
-        indent: 1
-        fade: true
-    after: |
-      The `pages` directory is were all the example pages of our pattern library are going to reside.
-
-      Patternbot treats this folder specially by linking every HTML file within into the pattern library’s navigation.
-    notes:
-      - label: "Naming conventions"
-        text: "Don’t forget to follow the [naming conventions](/topics/naming-paths-cheat-sheet/#naming-conventions)."
-
-  - title: "Create a new HTML file"
-    before: |
-      Inside our `pages` folder we’re going to make a new example website page: `home.html`
-    folders:
-      - label: "geohub"
-        type: folder
-      - label: "common"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "images"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "pages"
-        type: folder
-        indent: 1
-      - label: "home.html"
-        indent: 2
-      - label: "patterns"
-        type: folder
-        indent: 1
-        fade: true
-      - label: "index.html"
-        indent: 1
-        fade: true
-      - label: "README.md"
-        indent: 1
-        fade: true
-    after: |
-      Go ahead and populate the `home.html` with all our standard boilerplate code.
-
-      **Don’t add any CSS files. Don’t add `grid.css`, `theme.css`, etc.** We’ll deal with the CSS files later.
-
-      **Pages themselves do not get their own CSS files.** If the styling doesn’t exist within a pattern, it doesn’t exist at all.
-
-      *Check your pattern library in the browser: we should see a new navigation section named “Pages” with one entry, “Home”.*
-    notes:
-      - label: "Naming conventions"
-        text: |
-          Homepages on websites are always named `index.html`
-
-          We’re only calling this one `home.html` because it’s isn’t a true homepage, it’s an example of a page within the confines of our pattern library. The pattern library itself is the true “homepage” and you’ll notice it is named `index.html`
-      - label: "HTML snippets"
-        text: "Create the boilerplate with `html5` & `viewport`"
-
-  - title: "Connect the JavaScript"
-    before: |
-      You may have noticed that Patternbot has added a JavaScript file to your `common` folder. `patternbot.js` contains lots of information about your pattern library but most importantly it is the include/template system we’ll use for our pages.
-
-      We need to connect `patterbot.js` into our `home.html` so the include system can start working on our example pages.
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      <!DOCTYPE html>
-      <html lang="en-ca">
-      <head>
-        <meta charset="utf-8">
-        <title>Home · GeoHub</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <script src="../common/patternbot.js"></script>
-      </head>
-      <body>
-      ⋮
-    lines:
-      - num: "1-6"
-        fade: true
-      - num: "8-9"
-        fade: true
-      - num: 7
-        text: |
-          Here were adding the new `<script>` tag, this is how we include JavaScript files in our websites.
-
-          It’s bad practice to put the `<script>` tag inside the HTML `<head>` tag—it **should** be at the very bottom of the HTML, below all the content, right above the closing `</body>` tag. But, in this instance, we need it at the top so it blocks all page rendering until it executes.
-    notes:
-      - label: "HTML snippets"
-        text: "Create the JavaScript `<script>` tag with `jss`"
-    after: |
-      Notice the path has `../` in it: we need to go out of the `pages` folder so we can find the `common` folder.
-
-  - title: "Add the header"
-    before: |
-      We’re going to start with the header. We’re going to get a little snippet of code from Patternbot that will include the header HTML onto our page. All magic-like.
-
-      Browse to the “Header” pattern in the pattern library. There’s a small button in the pattern toolbar named “Copy include” that will generate the snippet we need. Press it.
-
-      ![](header-copy-include.jpg)
-
-      Now jump into the code for the `home.html` file and paste, right inside the body.
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      ⋮
-        <script src="../common/patternbot.js"></script>
-      </head>
-      <body>
-
-        <script type="application/json" data-pattern="header/header"></script>
-
-      </body>
-      </html>
-    lines:
-      - num: "2-4,8-9"
-        fade: true
-    after: |
-      Browse the pattern library and click the “Home” link in the navigation. It will pop open the homepage in a new tab.
-
-      Patternbot will go about it’s business to build the homepage by finding the correct pattern, denoted by the `<script>` tag we just pasted, and including it onto the page **in the exact same location as the include tag**.
-
-      ![](home-header.jpg)
-
-      **We didn’t even have to touch the header pattern!**
-
-      ### A note on CSS files
-
-      *We don’t need to connect any CSS files!* Patternbot will find & connect all the CSS files inside the `patterns` folder as well as connect the standard CSS files from within the `common` folder automatically.
-
-      **Pages themselves do not get their own CSS files.** If the styling doesn’t exist within a pattern, it doesn’t exist at all.
-
-  - title: "Add the footer & banner"
-    person:
-      icon: "person-1"
-      label: "You"
-    before: |
-      *This is all up to you.* Add the footer & banner patterns into the HTML file by copying their include code from the pattern library and pasting it into the `home.html` file.
-
-      When you’re done, it should look like this:
-
-      ![](home-wrapper.jpg)
-
-  - title: "Set up a grid for cards"
-    before: |
-      Now we’re going to get a little more complicated. We’re going to set up a grid and add 3 copies of the same pattern into the units.
-
-      Let’s start with just the grid.
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      ⋮
-      <script type="application/json" data-pattern="banner/banner"></script>
-
-      <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
-        <div class="grid wrapper">
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-
-          </div>
-          <div class="unit xs-1 s-1 m-hidden l-1-3 island-1-2">
-
-          </div>
-        </div>
-      </main>
-
-      <script type="application/json" data-pattern="footer/footer"></script>
-      ⋮
-    lines:
-      - num: "2,18"
-        fade: true
-    after: |
-      *Notice how we added the `<main>` tag below the banner but above the footer.*
-  - title: "Include the cards"
-    before: |
-      Now we can include the card into each of the units that we just recently created.
-
-      *Use the “Copy include” button for the card pattern and paste one into each `.unit` tag.*
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      ⋮
-      <script type="application/json" data-pattern="banner/banner"></script>
-
-      <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
-        <div class="grid wrapper">
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
-          <div class="unit xs-1 s-1 m-hidden l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
-        </div>
-      </main>
-
-      <script type="application/json" data-pattern="footer/footer"></script>
-      ⋮
-    lines:
-      - num: "2-6,8-9,11-12,14-18"
-        fade: true
-    after: |
-      Check the page out in your browser and see that the card is displayed 3 times: once in each unit. And it should be completely responsive.
-
-      ![](cards.jpg)
-
-  - title: "Modify the card headings"
-    before: |
-      But, we have a small problem: each card is completely identical. Ideally we want to have a different icon, text & button for each card. *Adjusting the pattern information requires just a little configuration.*
-
-      We’re only going to adjust two of the cards because one card is already perfect set up for “Diamonds”. So we’ll make the other two cards “Gems” and “Crystals”.
-
-      We’ll start with something simple: just changing the text in the headings.
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      ⋮
-      <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
-        <div class="grid wrapper">
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "h2": "Gems"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "h2": "Crystals"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-hidden l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
-        </div>
-      </main>
-      ⋮
-    lines:
-      - num: "2-4,10-11,17-22"
-        fade: true
-      - num: "6-8"
-        text: |
-          In between the open and close `<script>` tag for the pattern include we can define configuration. The configuration is in another markup language called [JSON](https://json.org/), which is based on JavaScript.
-
-          We surround it all with curly braces `{ }`, kinda like CSS.
-
-          Inside there are 2 pieces of information separated by a colon (`:`) and surrounded by double quotes (`"`). **The double quotes are fatally important.**
-
-          ![Zoomed code snippet of the include JSON](include-json.svg)
-
-          1. The information on the left side (before the colon) is a CSS selector. Use any CSS selector you want: class, ID, etc. It will be scoped to within the pattern itself.
-          2. The information on the right side (after the colon) is the replacement text. Patternbot will replace all the text inside the selected element you chose with the new text you supply.
-
+          From your pattern library, copy one of your banner’s includes and paste it onto your homepage.
+        code_lang: liquid
+        code_file: "index.html"
+        code: |
+          ---
+          layout: default
           ---
 
-          This isn’t how all JSON is used; JSON is a generic data storage & representation system. The selector/replacement system is just how Patternbot uses the language to describe the include configuration.
+          {% pattern banner/banner %}
+      - code_before: |
+          *Now paste that same code into your products page too!*
+        code_lang: liquid
+        code_file: "products.html"
+        code: |
+          ---
+          layout: default
+          ---
 
+          {% pattern banner/banner %}
     after: |
-      View the page in the browser and you should see the new text headings for each card!
+      Open your website up in the browser and click between the two pages—they should look exactly the same—and have a banner!
 
-      ![](card-headings.jpg)
+      ![](home-banner.jpg)
 
-      **If it isn’t working, check in the web developer tools under the “Console” tab. There will be helpful, detailed error messages.**
-
-  - title: "Modify more card details"
+  - title: "Add variables for banner text"
     before: |
-      Okay, let’s take this a step further: we’ll adjust the paragraphs & buttons.
+      The first thing I want to adjust is text on the banner—I don’t want the text to be exactly the same for every page.
+
+      - On the homepage the banner text should say one thing
+      - On the products page the banner text should say something different
+
+      In the banner pattern’s code, we’re going to provide placeholder variables—similar to our layout—that will allow us to configure parts of the banner.
+
+      **Remember that this code will look radically different from your banner. We’re learning a technique right now, not directly copying and pasting.**
     code_lang: "html"
-    code_file: "pages/home.html"
+    code_file: "_patterns/banner/banner.html"
     code: |
-      ⋮
-      <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
-        <div class="grid wrapper">
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "h2": "Gems",
-                "p": "Lots of bright, wonderful colours—and shapes.",
-                ".btn": "See more gems"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "h2": "Crystals",
-                "p": "Shiny, glowly and they make great sounds.",
-                ".btn": "See more crystals"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-hidden l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
+      <div class="banner embed embed-24by10 push-1-2">
+        <div class="banner-content pin-lc gutter">
+          <h1 class="banner-title yotta push-1-2">{{include.heading}}</h1>
+          <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+          {% pattern buttons/light %}
         </div>
-      </main>
-      ⋮
+        <i class="banner-icon icon i-256 pin-rb"><svg><use xlink:href="/images/icons.svg#ruby"></use></svg></i>
+      </div>
     lines:
-      - num: "2-4,12-13,21-26"
+      - num: "1-2,5-8"
         fade: true
-      - num: 7
+      - num: 3
         text: |
-          Notice the comma (`,`) added at the end of this line. Each line should have a comma after it.
-      - num: 9
+          Notice, that instead of actually placing text in the `<h1>` tag I’ve replaced it with a placeholder variable.
+
+          - They’re always surrounded by two pairs of `{`—that’s part of Jekyll’s template engine
+          - They always start with `include.`—that’s part of Jekyll’s include system
+          - What comes after the dot is completely made up—you decide what you want to call it
+      - num: 4
         text: |
-          Except the last line before the closing curly brace (`}`) **must never have a comma**.
+          I’ve added a second placeholder variable into the paragraph too.
     after: |
-      Check it out in the browser and make sure the paragraphs & headings have unique content inside each card.
+      ![](banner-text-missing.jpg)
 
-  - title: "Modify the icons"
+      *If you refresh in the browser now you should see both of those pieces of text disappear. That’s because we haven’t actually inserted anything into the placeholder variables yet.*
+
+  - title: "Document all the include fields"
     before: |
-      Finally we want to make sure that each icon is unique, so we can replace the `xlink:href=""` attribute inside each card’s `<svg>` to point to a new icon.
-    code_lang: "html"
-    code_file: "pages/home.html"
+      Oh documentation, how do we love thee. By documenting the two placeholder variables we just created, Patternbot will help us copy and paste the include code by adding the variables.
+
+      Open up your banner’s `_config.yml` file so we can document the fields.
+    code_lang: yml
+    code_file: "_patterns/banner/config.yml"
     code: |
-      ⋮
-      <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
-        <div class="grid wrapper">
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "use[xlink:href]": "../images/icons.svg#gem",
-                "h2": "Gems",
-                "p": "Lots of bright, wonderful colours—and shapes.",
-                ".btn": "See more gems"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index">
-              {
-                "use[xlink:href]": "../images/icons.svg#crystal",
-                "h2": "Crystals",
-                "p": "Shiny, glowly and they make great sounds.",
-                ".btn": "See more crystals"
-              }
-            </script>
-          </div>
-          <div class="unit xs-1 s-1 m-hidden l-1-3 island-1-2">
-            <script type="application/json" data-pattern="cards/index"></script>
-          </div>
-        </div>
-      </main>
-      ⋮
+      patterns:
+        banner:
+          fields:
+            - name: heading
+              type: string
+              example: "Brilliant, stunning, bright"
+            - name: text
+              type: string
+              example: "Geological marvels: gems, crystals, diamonds, geodes and much more!"
     lines:
-      - num: "2-6,8-16,18-28"
-        fade: true
-      - num: 7
+      - num: 2
         text: |
-          This selector is a little different because we want to replace an attribute. To replace an attribute we must select using an attribute selector.
+          We’ve targeted the `banner.html` file that we want to modify.
+      - num: 3
+        text: |
+          Add a new key underneath `banner` called `fields`—you likely already have `title` & `description` there.
+      - num: 4
+        text: |
+          The `fields` entry is an array—a list—so each item within it must start with a `-`
 
-          ![Zoomed code snippet of the include JSON attribute selector](include-json-attr.svg)
-
-          1. Start the selector with a tag or class to get the correct element.
-          2. Finish the selector with the attribute selector for the attribute that should be changed.
-          3. The info after the comma is the text replacement to replace all the text inside the attribute.
-
-          **In this situation we’re replacing the whole path for the `xlink:href=""` attribute with a different icon’s path so we can have unique icons on each displayed card.**
-    after: |
-      Check it out in the browser and you should see three completely unique cards!
-
-      ![](cards-unique.jpg)
-
-  - title: "Modify the navigation"
-    before: |
-      There’s one final change I’d like to make—because of my perfectionist nature.
-
-      You may have noticed that the “Crystals” page is highlighted in the navigation as the current page. That’s completely untrue, this is supposed to be the homepage.
-
-      I’d like to get rid of that highlight. There’s a `.current` class, already in the header pattern’s HTML, so we can use the include configuration JSON to replace the class with something else.
-    code_lang: "html"
-    code_file: "pages/home.html"
-    code: |
-      ⋮
-      <body>
-
-        <script type="application/json" data-pattern="header/header">
-          {
-            ".current[class]": "gutter-1-2"
-          }
-        </script>
-
-        <script type="application/json" data-pattern="banner/banner"></script>
-      ⋮
-    lines:
-      - num: "2,10"
-        fade: true
+          We can then specify the name of the field, spelled exactly the same way you wrote it in `{{include.heading}}` except without the brackets or the `include.` parts.
+      - num: 5
+        text: |
+          Next up we should specify the “type” of information the field expects, refer to the list of types we look at during our [“Fried data”](/courses/web-dev-4/fried-data/#slide-3) exercise.
       - num: 6
         text: |
-          Here we’re selecting the element inside the pattern that has the class `.current`, then using the attribute selector for `[class]` because that’s the attribute we want to change.
-
-          We’re changing the `class` to `gutter-1-2` because, if you look in the pattern its class attribute is currently `class="gutter-1-2 current"`. Since the config JSON only does **replacements** we have to remember that everything inside that attribute will be changed and keep the stuff we want.
-
-          This line of JSON does not have a comma because it’s the last line before the closing curly brace.
+          Finally we should specify an example of what to write in that field. Patternbot will also use this example to display within the pattern library.
     after: |
-      **That’s it! We generated a whole page using our patterns without copying-and-pasting any of the HTML code.**
+      Now if you view the code in your pattern library you can see that it shows the fields that the pattern requires, with nice documentation.
 
-      We’re getting much closer to how professional websites are built and we’ll expand on these ideas when we learn [Jekyll](/topics/jekyll/). (Learn the Web is built using Jekyll!)
+      ![](pattern-fields.jpg)
+
+      The include code snippet is now updated too, which we’ll use in the next step.
+
+  - title: "Re-copy & re-paste the banner includes"
+    before: |
+      Now that the pattern’s include code snippet has been updated, we can re–copy-n-paste it into the two pages.
+
+      **We can then use the fields, within the include code, to adjust the text so our homepage’s banner is different than our product list’s banner.**
+    multi_code:
+      - code_lang: liquid
+        code_file: "index.html"
+        code: |
+          ---
+          layout: default
+          ---
+
+          {% pattern banner/banner heading="Brilliant, stunning, bright" text="Geological marvels: gems, crystals, diamonds, geodes and much more!" %}
+      - code_lang: liquid
+        code_file: "products.html"
+        code: |
+          ---
+          layout: default
+          ---
+
+          {% pattern banner/banner heading="Crystals" text="See all the sparkly, wonderful crystals from the depths of the Earth." %}
+        lines:
+          - num: 5
+            text: |
+              Adjust the text in the banner to match the page more appropriately.
+    after: |
+      ![](crystals-banner.jpg)
+
+      Check it out in your browser and see the banner text change between the two pages!
+
+  - title: "Tweak the image"
+    before: |
+      Now I’d like to adjust the image on the banner. In this situation it’s an icon—but the technique can be used for absolutely anything. So it would work just as well for an image `src` itself.
+
+      **You can put a placeholder variable anywhere! And pass it anything you want! Numbers, text, URLs, image paths—anything!**
+    multi_code:
+      - code_lang: html
+        code_file: "_patterns/banner/banner.html"
+        code: |
+          <div class="banner embed embed-24by10 push-1-2">
+            <div class="banner-content pin-lc gutter">
+              <h1 class="banner-title yotta push-1-2">{{include.heading}}</h1>
+              <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+              {% pattern buttons/light %}
+            </div>
+            <i class="banner-icon icon i-256 pin-rb"><svg><use xlink:href="/images/icons.svg#{{include.icon}}"></use></svg></i>
+          </div>
+        lines:
+          - num: "1-6,8"
+            fade: true
+          - num: 7
+            text: |
+              Notice how I’ve replaced the ID of the icon with a variable: `{{include.icon}}`. The variables can go absolutely anywhere we want in the HTML.
+
+              This allows me to pick the name of one of the icons and insert it into this placeholder.
+      - code_before: |
+          Don’t forget the documentation!
+        code_lang: yaml
+        code_file: "_patterns/banner/config.yml"
+        code: |
+          patterns:
+            banner:
+              fields:
+                - name: heading
+                  type: string
+                  example: "Brilliant, stunning, bright"
+                - name: text
+                  type: string
+                  example: "Geological marvels: gems, crystals, diamonds, geodes and much more!"
+                - name: icon
+                  type: string
+                  example: "ruby"
+        lines:
+          - num: "1-9"
+            fade: true
+      - code_before: |
+          Now let’s insert the icon into our homepage:
+      - code_lang: html
+        code_file: "index.html"
+        code: |
+          ---
+          layout: default
+          ---
+
+          {% pattern banner/banner icon="ruby" heading="Brilliant, stunning, bright" text="Geological marvels: gems, crystals, diamonds, geodes and much more!" %}
+        lines:
+          - num: "1-3"
+            fade: true
+          - num: 5
+            text: |
+              Notice how there’s now an `icon=""` field entry within the include.
+    after: |
+      ![](crystals-banner-icon.jpg)
+
+      **If you aren’t using icons within your banners—no problem! See if you can figure out how to apply a similar technique to the image’s `src=""` attribute.**
+
+  - title: "Tweak & hide the button"
+    before: |
+      For the button, I’d like it to be visible, with different text, on the homepage and invisible on the banner page.
+
+      *We can make use of Jekyll’s if-statements to hide & show content inside patterns.*
+    multi_code:
+      - code_before: |
+          ### i. Modify your buttons
+
+          Step one is to modify your buttons so they can support text & URLs. *Here’s an example:*
+        code_lang: html
+        code_file: "_patterns/buttons/light.html"
+        code: |
+          <a class="btn btn-light" href="{{include.url}}">{{include.text}}</a>
+      - code_before: |
+          Don’t forget to document the button fields within `config.yml`
+        code_lang: yml
+        code_file: "_patterns/buttons/config.yml"
+        code: |
+          patterns:
+            light:
+              fields:
+                - name: text
+                  type: string
+                  example: "See collection"
+                - name: url
+                  type: url
+                  example: "/crystals/"
+      - code_before: |
+          ### ii. Modify the banner
+
+          Next up we’ll modify the banner a few different ways:
+
+          1. We’ll add fields for the button’s URL & the button’s text
+          2. Then we’ll pass the information from the banner into the button’s include
+          3. Then we’ll add an if-statement to hide the button if the URL is missing
+
+          *First we’ll update the banner’s documentation.*
+        code_lang: yml
+        code_file: "_patterns/banner/config.yml"
+        code: |
+          patterns:
+            banner:
+              fields:
+                ⋮
+                - name: button_text
+                  type: string
+                  example: "See collection"
+                  required: false
+                - name: button_url
+                  type: url
+                  example: "/crystals/"
+                  required: false
+        lines:
+          - num: "1-3"
+            fade: true
+          - num: 8
+            text: |
+              We can specify that fields are not required—this really just just for documentation purposes and shows in the pattern library.
+      - code_before: |
+          Now update the banner’s HTML file.
+        code_lang: html
+        code_file: "_patterns/banner/banner.html"
+        code: |
+          <div class="banner embed embed-24by10 push-1-2">
+            <div class="banner-content pin-lc gutter">
+              <h1 class="banner-title yotta push-1-2">{{include.heading}}</h1>
+              <p class="banner-info exa italic max-length-no-center">{{include.text}}</p>
+              {% if include.button_url %}
+                {% pattern buttons/light url=include.button_url text=include.button_text %}
+              {% endif %}
+            </div>
+            <i class="banner-icon icon i-256 pin-rb"><svg><use xlink:href="/images/icons.svg#{{include.icon}}"></use></svg></i>
+          </div>
+        lines:
+          - num: "1-4,8-10"
+            fade: true
+          - num: 5
+            text: |
+              The if-statement is part of Jekyll/Liquid (Jekyll’s templating language). If we were to convert that to English, it would say this:
+
+              “When there is something inside the variable `include.button_url` proceed to the next line.”
+
+              By having this if-statement, if we were to not specify the `button_url` in the banner’s include code, then the button just wouldn’t show on the page.
+          - num: 6
+            text: |
+              Now we pass the fields we defined for our banner, to adjust the button, into the button include itself.
+
+              Notice how we’re saying: `url=include.button_url`:
+
+              - `url` is the name of the field our buttons support
+              - `include.button_url` is the placeholder from our banner itself
+          - num: 7
+            text: |
+              Don’t forget to close the if-statement or Jekyll won’t render your page.
+      - code_before: |
+          ### iii. Modify the page
+
+          Now if we edit the code within each page we can change the button’s text or hide it.
+        code_lang: html
+        code_file: "index.html"
+        code: |
+          ---
+          layout: default
+          ---
+
+          {% pattern banner/banner button_text="See collection" button_url="/crystals/" heading="Brilliant, stunning, bright" text="Geological marvels: gems, crystals, diamonds, geodes and much more!" icon="ruby" %}
+        lines:
+          - num: 5
+            text: |
+              See how I’ve added the `button_text` & `button_url` fields to the banner include.
+    after: |
+      ![](home-button.jpg)
+
+      **I’ve only done this on the homepage—and so my homepage has a button.**
+
+      ![](crystals-no-button.jpg)
+
+      *But the product page doesn’t have a button because those fields weren’t set in the include code.*
+
+  - title: "Highlight the navigation"
+    before: |
+      The final thing I want to show you is passing information from the page itself into an include without changing the include code snippet.
+
+      In Jekyll each HTML file is a “page” which means that we always have access to a `page` variable.
+
+      We can store information at the top of each page, like we’re doing with the `layout` and retrieve it later to do something with.
+
+      So, let’s open up our products page, and add a new page variable to the top, like this:
+    multi_code:
+      - code_lang: yaml
+        code_file: "products.html"
+        code: |
+          ---
+          layout: default
+          highlight_nav: crystals
+          ---
+
+          {% pattern banner/banner heading="Crystals" text="See all the sparkly, wonderful crystals from the depths of the Earth." icon="crystal" %}
+        lines:
+          - num: "1-2,4-6"
+            fade: true
+          - num: 3
+            text: |
+              I made up a new variable here called `highlight_nav`, then I set it to the word `crystals`—all this stuff is made-up, those things don’t exist as part of Jekyll.
+      - code_before: |
+          Now if I pop into my header pattern I can use more Jekyll if-statements to highlight the correct navigation item.
+        code_lang: liquid
+        code_file: "_patterns/header/header.html"
+        code: |
+          ⋮
+            <nav class="nav pad-t-1-2 pad-b-1-2 giga" role="navigation" id="nav">
+              <ul class="list-group-inline push-0">
+                <li class="gutter-1-2 {% if page.highlight_nav == 'crystals' %}current{% endif %}"><a href="/crystals/">Crystals</a></li>
+                <li class="gutter-1-2 {% if page.highlight_nav == 'diamonds' %}current{% endif %}"><a href="#">Diamonds</a></li>
+                <li class="gutter-1-2 {% if page.highlight_nav == 'gems' %}current{% endif %}"><a href="#">Gems</a></li>
+              </ul>
+            </nav>
+          ⋮
+        lines:
+          - num: "2,3,7,8"
+            fade: true
+          - num: "4-6"
+            text: |
+              It’s difficult to clearly see, but there are if-statements within each `class=""` attribute.
+
+              The if-statement is checking to see what the value of the `highlight_nav` variable is and when it matches one of the strings, the if-statement will execute and Jekyll will output a new class: `.current`
+    after: |
+      Now if I refresh in the browser I see this:
+
+      ![](nav-home.jpg)
+
+      *My homepage doesn’t have any navigation highlighted.*
+
+      ![](nav-crystals.jpg)
+
+      *But the crystals page is highlighted!*
 
 ---
