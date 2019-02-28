@@ -40,5 +40,6 @@ tasks:
     url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
     submit: show
     pair: true
+    disabled: true
     no-solution: true
 ---

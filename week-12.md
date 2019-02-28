@@ -57,5 +57,6 @@ tasks:
     submit: show
     no-solution: true
     pair: true
+    disabled: true
   - type: watch-videos
 ---
