@@ -29,14 +29,11 @@ tasks:
   - title: "Selector Surgeon"
     url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
     type: activity
-  # Starting a product datafile
-  # Probably should be a collection..?
   - title: "Preparing product data"
     url: preparing-product-data
     type: lesson
     submit: show
     no-solution: true
-    disabled: true
   # Use Jekyll to loop over collections & output information
   # Us product datafile from previous week
   - title: "Jekyll generators"
