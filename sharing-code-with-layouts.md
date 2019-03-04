@@ -228,7 +228,7 @@ steps:
           Next up, we tell Jekyll which layout it should use. Since our only layout is named `default.html` we type `default` as the name of the layout.
 
           It’s similar to InDesign where you tell InDesign which master page should be used for the spread.
-      - num: 4
+      - num: 5
         text: |
           Now let’s just add a little bit of HTML to make sure this works!
     after: |
