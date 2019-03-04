@@ -1,5 +1,5 @@
 ---
-topic: "Final browser & accessibility testing"
+topic: "Finalize all the things"
 desc: "Browser & accessibility test all the page templates and finalize the pattern library."
 clr: "1, 2, 3, 4, 5, 6, 7"
 

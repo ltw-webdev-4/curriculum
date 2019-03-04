@@ -1,5 +1,5 @@
 ---
-topic: "Carousels & leftovers"
+topic: "Leftovers & layouts"
 desc: "Carousels and tab systems are popular on lots of websites. Learn to implement a functional and reusable carousel without JavaScript."
 clr: "1, 2, 3, 4, 5"
 

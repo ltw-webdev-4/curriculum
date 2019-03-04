@@ -1,5 +1,5 @@
 ---
-topic: "Checkout form page template"
+topic: "Partnered checkout form page"
 desc: "Create the checkout form page using all the form input and common page patterns."
 clr: "1, 2, 3, 4, 5, 7"
 

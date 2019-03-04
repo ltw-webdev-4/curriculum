@@ -1,5 +1,5 @@
 ---
-topic: "Product details page template"
+topic: "Surprise pages!"
 desc: "Hand off your pattern library to another developer so they can create the product details page."
 clr: "1, 2, 3, 4, 5, 7"
 
