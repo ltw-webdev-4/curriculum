@@ -234,7 +234,7 @@ steps:
             fade: true
       - code_before: |
           Now let’s insert the icon into our homepage:
-      - code_lang: html
+        code_lang: html
         code_file: "index.html"
         code: |
           ---
@@ -248,6 +248,19 @@ steps:
           - num: 5
             text: |
               Notice how there’s now an `icon=""` field entry within the include.
+      - code_before: |
+          And a different icon for our products page.
+        code_lang: html
+        code_file: "products.html"
+        code: |
+          ---
+          layout: default
+          ---
+
+          {% pattern banner/banner icon="crystal" heading="Crystals" text="See all the sparkly, wonderful crystals from the depths of the Earth." %}
+        lines:
+          - num: "1-3"
+            fade: true
     after: |
       ![](crystals-banner-icon.jpg)
 
