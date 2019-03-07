@@ -1,6 +1,6 @@
 ---
 layout: lesson
-topic: "Building pages with patterns"
+title: "Building pages with patterns"
 desc: "Look at how to reuse your pattern code when building-out the example pages in your pattern libraries."
 
 hide_markbot: true

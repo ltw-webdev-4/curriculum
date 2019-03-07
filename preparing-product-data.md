@@ -1,6 +1,6 @@
 ---
 layout: lesson
-topic: "Preparing product data"
+title: "Preparing product data"
 desc: "Look at how to use Jekyll’s collections to create a bunch of projects, then have each of those files automatically generate pages."
 
 hide_markbot: true

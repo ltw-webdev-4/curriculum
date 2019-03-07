@@ -1,6 +1,6 @@
 ---
 layout: lesson
-topic: "JavaScript-less carousel"
+title: "JavaScript-less carousel"
 desc: "Learn to implement a functional and reusable carousel without JavaScript."
 
 markbot_submit: true

@@ -1,6 +1,6 @@
 ---
 layout: lesson
-topic: "Designing form errors"
+title: "Designing form errors"
 desc: "Write up code for accessible, well designed form error messages with a little JavaScript to help."
 
 markbot_submit: true
