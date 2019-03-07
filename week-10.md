@@ -34,12 +34,9 @@ tasks:
     type: lesson
     submit: show
     no-solution: true
-  # Use Jekyll to loop over collections & output information
-  # Us product datafile from previous week
   - title: "Jekyll generators"
     url: jekyll-generators
     type: lesson
-    disabled: true
   - title: "Homepage template"
     url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"
     submit: show
