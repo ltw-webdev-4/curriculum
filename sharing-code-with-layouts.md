@@ -77,6 +77,7 @@ steps:
         <title>GeoHub</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karma:400,600|Oswald:400,700" rel="stylesheet">
       </head>
       <body>
 
@@ -91,6 +92,11 @@ steps:
           We only need to connect our `main.css` file because it’s the magic Jekyll generator file that combines all the CSS from all our patterns (& grids, type, etc.) into one large, single file.
 
           Don’t forget to start the `href` with a `/` as we’ve been doing for all paths this term.
+      - num: 8
+        text: |
+          Don’t forget to attach your Google (or Typekit) font to the layout—like we normally do—or your website will display in web-safe fonts.
+
+          It’s as simple as using the `css` shortcode, then pasting the URL from within your `_config.yml` file—there’s not need to go back to the Google Fonts or Typekit websites.
 
   - title: "Copy the header pattern"
     before: |
@@ -111,6 +117,7 @@ steps:
         <title>GeoHub</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karma:400,600|Oswald:400,700" rel="stylesheet">
       </head>
       <body>
 
@@ -119,9 +126,9 @@ steps:
       </body>
       </html>
     lines:
-      - num: "1-9,13-14"
+      - num: "1-10,14-15"
         fade: true
-      - num: 11
+      - num: 12
         text: |
           Just paste that include statement right into your layout.
 
@@ -140,6 +147,7 @@ steps:
         <title>GeoHub</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karma:400,600|Oswald:400,700" rel="stylesheet">
       </head>
       <body>
 
@@ -150,9 +158,9 @@ steps:
       </body>
       </html>
     lines:
-      - num: "1-9,15-16"
+      - num: "1-10,16-17"
         fade: true
-      - num: 13
+      - num: 14
         text: |
           Just paste that footer include statement right into your layout.
 
@@ -173,6 +181,7 @@ steps:
         <title>GeoHub</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link href="/css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karma:400,600|Oswald:400,700" rel="stylesheet">
       </head>
       <body>
 
@@ -183,9 +192,9 @@ steps:
       </body>
       </html>
     lines:
-      - num: "1-11,13-16"
+      - num: "1-12,14-17"
         fade: true
-      - num: 12
+      - num: 13
         text: |
           Type Jekyll’s page content placeholder variable in the layout exactly where you want the code from all your pages to show.
     after: |
