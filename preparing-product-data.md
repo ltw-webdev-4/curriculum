@@ -91,7 +91,6 @@ steps:
       name: "24 carat diamond"
       description: |
         A wonderfully cut, exquisite and sparkling non-conflict diamond—made out of crushed & aged dinosaurs.
-      non_conflict: true
       image: "/images/diamonds/24-carat.jpg"
       price: 576
       colors:
@@ -248,7 +247,6 @@ steps:
       name: "Fancy bright ruby"
       description: |
         Fancy coloured, bright red ruby make solely from deceased carnivorous tyrannosauruses.
-      non_conflict: false
       image: "/images/ruby/fancy-bright.jpg"
       price: 257
       colors:
