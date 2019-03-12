@@ -85,7 +85,7 @@ steps:
 
       **It should have the `.md` file extension, to denote that it’s only Markdown content.**
     code_lang: yml
-    code_file: "/products/24-carat-diamond.md"
+    code_file: "/_products/24-carat-diamond.md"
     code: |
       ---
       name: "24 carat diamond"
