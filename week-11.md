@@ -36,11 +36,10 @@ slides:
     disabled: true
 
 group_activities:
-  - title: "Documentation user-testing"
-    url: documentation-user-testing
+  - title: "Documentation usability testing"
+    url: documentation-usability-testing
     pair: true
     type: pencil
-    disabled: true
 
 tasks:
   - title: "Markdown Manipulator"
