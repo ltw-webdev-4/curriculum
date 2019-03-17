@@ -25,15 +25,8 @@ video_tutorials:
     highlight: true
 
 slides:
-  # How you forget
-  # Working on teams
-  # Clear writing
-  # Helpful tips
-  # Documenting the installation
-  # READMEs
   - title: "Documentation for all"
     url: documentation-for-all
-    disabled: true
 
 group_activities:
   - title: "Documentation usability testing"
