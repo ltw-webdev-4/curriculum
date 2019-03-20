@@ -1,6 +1,6 @@
 ---
-topic: "Partnered checkout form page"
-desc: "Create the checkout form page using all the form input and common page patterns."
+topic: "Partnered product details page"
+desc: "Hand off your pattern library to another developer so they can create the product details page."
 clr: "1, 2, 3, 4, 5, 7"
 
 video_tutorials:
@@ -20,16 +20,16 @@ slides:
   - title: "Git with many"
     url: git-with-many
 
-group_activities:
+# group_activities:
   # Passing paper around to visualize branches
   # Maybe another board game
   # Getting reviews & feedback
   # Merging
-  - title: "Visualizing branches"
-    url: visualizing-branches
-    pair: true
-    type: pencil
-    disabled: true
+  # - title: "Visualizing branches"
+  #   url: visualizing-branches
+  #   pair: true
+  #   type: pencil
+  #   disabled: true
 
 tasks:
   - title: "YAML Yodeller"
@@ -39,12 +39,9 @@ tasks:
     url: repo-setup-and-branching
     type: lesson
     pair: true
-    disabled: true
-  # Using branches to add names to the readme
-  - title: "Listing team members"
-    url: listing-team-members
+  - title: "Updating from master"
+    url: updating-from-master
     type: lesson
-    disabled: true
     pair: true
   - title: "Project hand-off & documentation"
     url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
@@ -52,11 +49,10 @@ tasks:
     submit: "Submit nothing."
     button: activity
     pair: true
-  - title: "Checkout form page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-page-template"
+    graded-as: false
+  - title: "Product details page template"
+    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
     submit: show
     no-solution: true
     pair: true
-    disabled: true
-  - type: watch-videos
 ---

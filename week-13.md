@@ -1,6 +1,6 @@
 ---
-topic: "Partnered product details page"
-desc: "Hand off your pattern library to another developer so they can create the product details page."
+topic: "Partnered checkout form page"
+desc: "Create the checkout form page using all the form input and common page patterns."
 clr: "1, 2, 3, 4, 5, 7, 8"
 
 video_tutorials:
@@ -29,15 +29,16 @@ tasks:
     type: lesson
     pair: true
     disabled: true
-  - title: "Product details docs hand-off"
-    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-docs-hand-off"
+  - title: "Checkout form docs hand-off"
+    url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-docs-hand-off"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
     disabled: true
-  - title: "Product details page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
+    graded-as: false
+  - title: "Checkout form page template"
+    url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-page-template"
     submit: show
     pair: true
     disabled: true
