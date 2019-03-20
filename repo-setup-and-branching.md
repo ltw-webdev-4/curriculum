@@ -25,12 +25,12 @@ goal:
       desc: "The person who will be developing/writing the code/creating the new product details page."
 
 steps:
-  - title: "Protect your gh-pages branch"
+  - title: "Protect your master branch"
     person:
       icon: "person-1"
       label: "Owner"
     before: |
-      The first step to do on your own eCommerce website is to protect the `gh-pages` branch. This will prevent your teammate from overwriting any code that you’ve written without your permission.
+      The first step to do on your own eCommerce website is to protect the `master` branch. This will prevent your teammate from overwriting any code that you’ve written without your permission.
 
       We’re also going to enable code review, that way you can see, test–and approve—their code before you put it back into your version.
 
@@ -38,16 +38,16 @@ steps:
 
       ![](protect-start.jpg)
 
-      Go to the “Settings” tab then click on the “Branches” navigation item. Lower down the screen is a “Protected branches” setting: choose `gh-pages`
+      Go to the “Settings” tab then click on the “Branches” navigation item. Lower down the screen is a “Branch protection rules” setting: press “Add rule”.
 
       ![](protect-settings.jpg)
 
       On the next screen select the following options and save:
 
-      1. *“Protect this branch”*
-        <br>This will prevent you from committing and pushing to the `gh-pages` branch—you’ll have to create a different branch.
+      1. *“Branch name pattern”*
+        <br>Type in `master` into the field because that’s the branch we want to protect.
       2. *“Require pull request reviews before merging”*
-        <br>This will require your teammate to get you to approve their code changes before they can be implemented into the `gh-pages` branch.
+        <br>This will require your teammate to get you to approve their code changes before they can be implemented into the `master` branch.
       3. *“Dismiss stale pull request approvals when new commits are pushed”*
         <br>If you have approved the code changes, but then your teammate creates a new commit, the approval will be voided.
 
@@ -57,9 +57,9 @@ steps:
         text: |
           All repositories should have a primary branch that is considered to be a pristine copy of the code. We haven been following best practice by committing directly onto our primary branch.
 
-      - label: "The gh-pages branch"
+      - label: "The master branch"
         text: |
-          Most often the default branch for a repository that you’re working on (outside of this course) is called `master`. In our case our default branch is named `gh-pages`. I’ve done it this way so that every single repository that you fork is already a hosted website on GitHub; the `gh-pages` branch means: my repository should be a hosted website.
+          Most often the default branch for a repository that you’re working on (outside of this course) is called `master`. In our case our default branch is named `master`. I’ve done it this way so that every single repository that you fork is already a hosted website on GitHub; the `master` branch means: my repository should be a hosted website.
 
   - title: "Invite your collaborator"
     person:
@@ -79,7 +79,7 @@ steps:
       icon: "person-2"
       label: "Dev"
     before: |
-      It’s now your turn to close the repository that you were just invited to. After accepting your invitation you will have access to the repository.
+      It’s now your turn—**the developer**—to close the repository that you were just invited to. After accepting your invitation you will have access to the repository.
 
       Clone like normal—except with one small change: **rename the folder so you know which is which!**
 
@@ -92,7 +92,7 @@ steps:
       icon: "person-2"
       label: "Dev"
     before: |
-      You, as the collaborator, are not allowed to write commits or code directly to the `gh-pages` branch. So we need to make a new branch to work from.
+      You, as the collaborator, are not allowed to write commits or code directly to the `master` branch. So we need to make a new branch to work from.
 
       ![](branch-new.jpg)
 
