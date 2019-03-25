@@ -64,8 +64,11 @@ steps:
 
       1. Open the `README.md` in Atom and notice the “Collaborators” section is missing.
       2. Got into the GitHub desktop application—**make sure you’re viewing your teammate’s repository & that you’re on the `product-details` branch.**
-      3. In the `Branch` menu, press `Update from master` (or `⌘⇧U`) and GitHub will pull the code your teammate just wrote into your `product-details` branch.
-      4. Check out the `README.md` in Atom and notice the “Collaborators” section is now visible.
+      3. Switch to the `master` branch.
+      4. In the menu go to `Repository > Pull`
+      5. Switch back to the `product-details` branch.
+      6. In the `Branch` menu, press `Update from master` (or `⌘⇧U`) and GitHub will pull the code your teammate just wrote into your `product-details` branch.
+      7. Check out the `README.md` in Atom and notice the “Collaborators” section is now visible.
 
       *That’s it. If you ever need to make changes to your pattern library & share them with your teammate follow the above steps.*
 ---
