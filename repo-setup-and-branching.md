@@ -79,7 +79,7 @@ steps:
       icon: "person-2"
       label: "Dev"
     before: |
-      It’s now your turn—**the developer**—to close the repository that you were just invited to. After accepting your invitation you will have access to the repository.
+      It’s now your turn—**the developer**—to clone the repository that you were just invited to. After accepting your invitation you will have access to the repository.
 
       Clone like normal—except with one small change: **rename the folder so you know which is which!**
 
