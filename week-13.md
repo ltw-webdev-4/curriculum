@@ -29,18 +29,16 @@ tasks:
     type: lesson
     pair: true
     disabled: true
-  - title: "Checkout form docs hand-off"
-    url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-docs-hand-off"
+  - title: "Project hand-off & documentation"
+    url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
-    disabled: true
     graded-as: false
   - title: "Checkout form page template"
     url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-page-template"
     submit: show
     pair: true
-    disabled: true
     no-solution: true
 ---
