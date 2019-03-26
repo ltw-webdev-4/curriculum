@@ -17,10 +17,8 @@ video_tutorials:
     url: using-github-for-project-management
 
 slides:
-  # Merging, approvals, more commits
-  - title: "Everybody makes mistakes"
-    url: everybody-makes-mistakes
-    disabled: true
+  - title: "Merges & approvals"
+    url: merges-and-approvals
 
 tasks:
   - type: blank
