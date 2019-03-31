@@ -26,7 +26,6 @@ tasks:
     url: merging-teammate-work
     type: lesson
     pair: true
-    disabled: true
   - title: "Project hand-off & documentation"
     url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
     type: basic
