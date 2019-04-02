@@ -21,19 +21,9 @@ goal:
     We’ll be looking at a system called “Merge requests”, or in GitHub’s terminology: “Pull requests”, which allow code owners to view & approve or reject new code additions for the `master` branch.
 
     **You’ll be switching back ’n’ forth between your own repo & your teammate’s repo on GitHub Desktop.**
-  person_legend:
-    - icon: "person-1"
-      label: "Owner"
-      desc: "The person who owns this pattern library, the person who created all the patterns."
-    - icon: "person-2"
-      label: "Dev"
-      desc: "The person who will developed & coded the product details page."
 
 steps:
   - title: "Publish & commit"
-    person:
-      icon: "person-2"
-      label: "Dev"
     before: |
       **Working on your teammate’s repo.** The first step in this whole process is making the product details code available online. That’s called “publishing the branch”.
 
@@ -46,9 +36,6 @@ steps:
       *And make sure all your changes are completely committed & pushed.*
 
   - title: "Create a pull request"
-    person:
-      icon: "person-2"
-      label: "Dev"
     before: |
       **Working on your teammate’s repo.** The next step is to request permission from the code owner to merge your changes into the master branch. On GitHub this is called a “Pull request”, which I think is a slightly confusing term, I prefer to call it a “Merge request”.
 
@@ -67,9 +54,6 @@ steps:
       *Make sure to add a detailed description & set the code owner as the “Reviewers”.* **Then press “Create pull request”.**
 
   - title: "Approve the new code"
-    person:
-      icon: "person-1"
-      label: "Owner"
     before: |
       **Working on your own repo.** Now it’s time for you, as the code owner, to review the code and make sure it works like you anticipate.
 
@@ -104,25 +88,16 @@ steps:
           If you try switching between `master` & `product-details` you’ll see the code inside `product.html` switch back & forth between the two versions.
 
   - title: "Make new commits, if necessary"
-    person:
-      icon: "person-2"
-      label: "Dev"
     before: |
       **Working on your teammate’s repo.** If the code owner requested changes to your code it’s your job now to make those changes. Go back to the code, working on the `product-details` branch & make new commits and pushing the to GitHub.
 
       *The new commits will automatically show up on the pull request page.*
 
   - title: "Add another review, if necessary"
-    person:
-      icon: "person-1"
-      label: "Owner"
     before: |
       **Working on your own repo.** If your developer teammate made new commits into the `product-details` branch, you’ll be required to review the changes again and hopefully press “Approve”.
 
   - title: "Merge the pull request"
-    person:
-      icon: "person-1"
-      label: "Owner"
     before: |
       **Working on your own repo.** Now that the code is completely approved we can merge the pull request.
 
@@ -135,18 +110,12 @@ steps:
       After that’s done you can press the tiny grey “Delete branch” button.
 
   - title: "Pull repository"
-    person:
-      icon: "person-1"
-      label: "Owner"
     before: |
       **Working on your own repo.** We now want to get up-to-date version of `master` onto your computer. So, in GitHub Desktop, “Pull” the repository. *Make sure you’re viewing the `master` branch.*
 
       *If you check it out in your browser, assuming it’s running in Terminal, you should see the final version of the product details page.*
 
   - title: "Delete product details branch"
-    person:
-      icon: "person-2"
-      label: "Dev"
     before: |
       **Working on your teammate’s repo.** You, the developer, should now delete your `product-details` branch because it has been merged. Branches should only be used once, for one single feature, then deleted after they are merged & finalized.
 
