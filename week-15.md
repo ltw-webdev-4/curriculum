@@ -55,5 +55,4 @@ tasks:
     due_week: 15
     due_time: "23:59"
     submit: online
-    disabled: true
 ---

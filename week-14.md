@@ -17,26 +17,19 @@ group_activities:
     type: star
 
 tasks:
-  - title: "Merging teammate work"
-    url: merging-teammate-work
-    type: lesson
-    pair: true
-    disabled: true
-    graded-as: false
+  - type: blank
   - title: "Teammate feedback"
-    url: teammate-feedback
-    type: activity
-    disabled: true
+    url: "https://learn-the-web.algonquindesign.ca/courses/shared/team-reflection/"
+    type: basic
+    submit: "Submit team feedback form."
   - title: "Surprise ecommerce page 1"
-    url: "https://github.com/acgd-webdev-4/ecommerce-surprise-page-1"
+    url: "https://github.com/acgd-webdev-4/surprise-ecommerce-page-1"
     submit: show
     no-solution: true
-    disabled: true
   - title: "Surprise ecommerce page 2"
-    url: "https://github.com/acgd-webdev-4/ecommerce-surprise-page-2"
+    url: "https://github.com/acgd-webdev-4/surprise-ecommerce-page-2"
     submit: show
     no-solution: true
-    disabled: true
   - title: "Finalized pattern library"
     url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library
@@ -44,5 +37,4 @@ tasks:
     due_week: 15
     due_time: "23:59"
     submit: online
-    disabled: true
 ---
