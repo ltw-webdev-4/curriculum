@@ -19,9 +19,10 @@ group_activities:
 tasks:
   - type: blank
   - title: "Teammate feedback"
-    url: "https://learn-the-web.algonquindesign.ca/courses/shared/team-reflection/"
+    url: "/courses/shared/team-reflection/"
     type: basic
     submit: "Submit team feedback form."
+    progressinator_id: teammate-feedback
   - title: "Surprise ecommerce page 1"
     url: "https://github.com/acgd-webdev-4/surprise-ecommerce-page-1"
     submit: show
