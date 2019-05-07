@@ -46,8 +46,8 @@ tasks:
     url: "https://github.com/acgd-webdev-4/buttons"
     submit: show
     no-solution: true
-  - title: "Icons"
-    url: "https://github.com/acgd-webdev-4/icons"
+  - title: "So many icons!"
+    url: "https://github.com/acgd-webdev-4/so-many-icons"
     submit: show
     no-solution: true
   - title: "Images & cards"
