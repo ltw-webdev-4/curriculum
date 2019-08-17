@@ -1,41 +1,34 @@
 ---
-topic: "Headers & footers"
-desc: "Create the header and footer patterns separately so they can be tested and reused."
+topic: "Reading week—no classes"
+during_class: "No class"
+desc: "No classes, labs or new homework this week—get caught up!"
 clr: "1, 2, 3, 4, 5"
 
-video_tutorials:
-  - title: "Navigation"
-    url: navigation
-  - title: "Browser testing"
-    url: browser-testing
-  - title: "Browser testing checklist"
-    url: browser-testing-checklist
-    highlight: true
+no_lab_times: true
+no_office_hours: true
 
-group_activities:
-  - title: "Index card Q&A"
-    url: "/courses/shared/index-card-qa/"
-    type: pencil
-  - title: "Navigation patterns"
-    url: navigation-patterns
-    type: pencil
-    pair: true
-    no-solution: true
+# group_activities:
+#   - title: "Index card Q&A"
+#     url: "/courses/shared/index-card-qa/"
+#     type: pencil
 
 tasks:
-  - title: "Variable Validator"
-    url: "https://activities.learn-the-web.algonquindesign.ca/variable-validator/"
-    type: activity
   - type: blank
-  - title: "Informal browser testing"
-    url: "/courses/shared/browser-testing/"
-    button: activity
+  - type: blank
+  # - title: "One-on-one time"
+  #   url: "https://github.com/acgd-webdev-shared/one-on-one-time"
+  #   type: basic
+  #   button: activity
+  #   submit: "Submit nothing."
+  #   graded-as: false
+  - title: "Mid-course feedback"
+    url: "/feedback/"
     type: basic
-    submit: "Describe what you fixed."
-    progressinator_id: pattern-lib-patterns-browser-testing
-  - title: "Headers & footers"
-    url: "https://github.com/acgd-webdev-4/headers-footers"
-    submit: show
-    no-solution: true
+    submit: "Submit feedback form."
+    graded-as: false
+  - title: "Continue assignments"
+    url: "https://github.com/acgd-webdev-shared/continue-assignments"
+    submit: "Submit nothing new."
+    graded-as: false
   - type: watch-videos
 ---
