@@ -20,7 +20,11 @@ slides:
   - title: "Git with many"
     url: git-with-many
 
-# group_activities:
+group_activities:
+  - title: "Index card Q&A"
+    url: "/courses/shared/index-card-qa/"
+    type: pencil
+    no-solution: true
   # Passing paper around to visualize branches
   # Maybe another board game
   # Getting reviews & feedback
