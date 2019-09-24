@@ -32,7 +32,8 @@ tasks:
     url: "https://activities.learn-the-web.algonquindesign.ca/acronym-annihilator/"
     type: activity
   - title: "Install more developer tools"
-    type: activity
+    type: lesson
+    no-solution: true
     url: "install-more-developer-tools"
   - title: "Responsive banner"
     url: "https://github.com/acgd-webdev-4/responsive-banner"
