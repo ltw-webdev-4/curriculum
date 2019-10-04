@@ -40,11 +40,11 @@ steps:
         notes: "This won’t show in Finder, only your code editor"
     code_file: ".ruby-version"
     code: |
-      2.5.3
+      2.6.2
     lines:
       - num: 1
         text: |
-          Version 2.5.3 is a fairly recent version of Ruby that you can use—but you can always [go to Ruby’s website to find a newer version](https://www.ruby-lang.org/en/).
+          Version 2.6.2 is a fairly recent version of Ruby that you can use—but you can always [go to Ruby’s website to find a newer version](https://www.ruby-lang.org/en/).
     after: |
       *You’re literally just typing those numbers into this code file—absolutely nothing else.*
 
