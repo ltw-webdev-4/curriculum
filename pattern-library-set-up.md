@@ -45,6 +45,8 @@ steps:
       - num: 1
         text: |
           Version 2.6.2 is a fairly recent version of Ruby that you can use—but you can always [go to Ruby’s website to find a newer version](https://www.ruby-lang.org/en/).
+
+          Or even better, check out Netlify’s build image to see what version of Ruby is their default: [Netlify’s build image](https://github.com/netlify/build-image/blob/xenial/run-build.sh#L22)
     after: |
       *You’re literally just typing those numbers into this code file—absolutely nothing else.*
 
