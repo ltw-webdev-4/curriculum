@@ -68,15 +68,6 @@ steps:
         text: |
           Use the `description` key to write a little description of the company. This is all Markdown and will be displayed after the company in the pattern library.
     after: |
-      Whenever you change the root, Jekyll, `_config.yml` file the changes won’t show up immediately. *This is a limitation of Jekyll itself, the configuration is only read once: when Jekyll first starts in the Terminal.*
-
-      So, we need to restart Jekyll:
-
-      1. Go to “Terminal”
-      2. Press `Control-C`
-      3. Press `Up`: you should see `bundle exec jekyll serve`
-      4. Press `Return`
-
       ![](title-desc.jpg)
 
       *Now go refresh your browser to see the changes.*
@@ -119,7 +110,7 @@ steps:
     after: |
       ![](typefaces.jpg)
 
-      **Start & top Jekyll.** *Then look in your browser at your typeface descriptions.*
+      *Then look in your browser at your typeface descriptions.*
 
   - title: "Colour descriptions"
     before: |
@@ -143,7 +134,7 @@ steps:
     after: |
       ![](colors.jpg)
 
-      **Start & top Jekyll—again.** *Then look in your browser at your colour descriptions.*
+      *Have a look in your browser at your colour descriptions.*
 
   - title: "Customize the pattern library"
     before: |

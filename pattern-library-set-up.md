@@ -409,6 +409,4 @@ steps:
       ![](font-url.jpg)
 
       **Go refresh your browser and you should see the whole pattern library is now rendered in your font choices.**
-
-      *If your fonts don’t show up you can try stopping & starting Jekyll.* In Terminal press `Control C`, then press `Up`, and `Return`—this will restart Jekyll and hopefully it will work.
 ---
