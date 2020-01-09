@@ -75,7 +75,7 @@ steps:
     code: |
       echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
     after: |
-      Copy the above code and paste it into your Terminal window. **Hit `Return`**. (You should be able to see this code a few lines up in the display, that’s Ruby also telling your to do this.)
+      Copy the above code and paste it into your Terminal window. **Hit `Return`**. (You should be able to see this code a few lines up in the display, that’s Ruby also telling you to do this.)
 
   - title: "Close Terminal & open it again"
     before: |
