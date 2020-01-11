@@ -27,16 +27,24 @@ slides:
       - [U.S. Web Design System](https://designsystem.digital.gov/)
       - [Walmart Styleguide](https://walmartlabs.github.io/web-style-guide/)
 
-  - content: |
-      ## Previous year examples
-
+  - type: three-col
+    heading: Previous year pattern libraries
+    col1: |
+      #### For content sites
       - [Matt Peixoto](https://student-work.algonquindesign.ca/pattern-libraries/matt-peixoto/)
       - [Kayla Obritsch](https://student-work.algonquindesign.ca/pattern-libraries/kayla-obritsch/)
       - [Katrin Emery](https://student-work.algonquindesign.ca/pattern-libraries/katrin-emery/)
+    col2: |
+      #### For ecommerce websites
       - [Janelle Zhao](https://student-work.algonquindesign.ca/pattern-libraries/janelle-zhao/)
       - [Ksenia Zhelovatykh](https://student-work.algonquindesign.ca/pattern-libraries/ksenia-zhelovatykh/)
       - [Melany Pelletier-Vaillant](https://student-work.algonquindesign.ca/pattern-libraries/melany-pelletier-vaillant/)
       - [Adam Robillard](https://student-work.algonquindesign.ca/pattern-libraries/adam-robillard/)
+    col3: |
+      #### For ecommerce websites<br>(with sample pages)
+      - [Sebastian Turner](https://student-work.algonquindesign.ca/pattern-libraries/sebastian-turner/pattern-library/) • [Sample pages](https://student-work.algonquindesign.ca/pattern-libraries/sebastian-turner/)
+      - [Patricia Danochristos](https://student-work.algonquindesign.ca/pattern-libraries/patricia-danochristos/pattern-library/) • [Sample pages](https://student-work.algonquindesign.ca/pattern-libraries/patricia-danochristos/)
+      - [Maddy Pierce](https://student-work.algonquindesign.ca/pattern-libraries/maddy-pierce/pattern-library/) • [Sample pages](https://student-work.algonquindesign.ca/pattern-libraries/maddy-pierce/)
 
   - content: |
       ## Many individual files
