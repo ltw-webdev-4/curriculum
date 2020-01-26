@@ -209,7 +209,7 @@ steps:
 
   - title: "Make the shared CSS file"
     before: |
-      Next up we’ll create a shared CSS file, named `theme.css`. In here we’ll be putting a bunch of CSS variables and styling foro the general typographic tags for your website.
+      Next up we’ll create a shared CSS file, named `theme.css`. In here we’ll be putting a bunch of CSS variables and styling for the general typographic tags for your website.
     folders:
       - label: "ecommerce-pattern-library"
         type: folder

@@ -44,7 +44,7 @@ slides:
       2. Get assigned some fries
       3. Get a pencil & a piece of paper
       4. Describe the chip’s attributes using data structures
-        <br>**In a way that would work for every all fries**
+        <br>**In a way that would work for all fries**
       5. Present the structure so we can build a specification
 
   - type: image
