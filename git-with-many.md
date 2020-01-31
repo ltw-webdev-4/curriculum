@@ -44,5 +44,6 @@ slides:
 
       - [Branching & GitHub Flow ➔](/topics/branching-github-flow/)
       - [Branching flowchart ➔](/topics/branching-flowchart/)
+      - [Updating from master flowchart ➔](/topics/updating-from-master-flowchart/)
 
 ---
