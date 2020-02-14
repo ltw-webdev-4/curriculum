@@ -28,7 +28,7 @@ tasks:
     type: activity
   - type: blank
   - title: "Informal browser testing"
-    url: "/courses/shared/browser-testing/"
+    url: "/topics/browser-testing-checklist/"
     button: activity
     type: basic
     submit: "Describe what you fixed."

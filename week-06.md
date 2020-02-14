@@ -30,7 +30,7 @@ tasks:
     type: lesson
     submit: code
   - title: "Informal accessibility testing"
-    url: "/courses/shared/accessibility-testing/"
+    url: "/topics/accessibility-testing-checklist/"
     type: basic
     button: activity
     submit: "Describe what you fixed."
