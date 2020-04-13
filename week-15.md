@@ -16,8 +16,8 @@ video_tutorials:
   - title: "Accessibility testing checklist"
     url: accessibility-testing-checklist
     highlight: true
-  - title: "Performance testing checklist"
-    url: performance-testing-checklist
+  - title: "Performance checklist"
+    url: performance-checklist
     highlight: true
 
 tasks:
