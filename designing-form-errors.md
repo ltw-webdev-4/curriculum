@@ -177,7 +177,7 @@ steps:
       <form class="max-length island" method="post" action="#">
         <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
           <h3 class="push-0">
-            <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <i class="icon i-32"><svg><use xlink:href="images/icons.svg#error"></use></svg></i>
             <span class="icon-label">There are items that require your attention</span>
           </h3>
         </div>
@@ -186,7 +186,7 @@ steps:
           <label for="name">Name</label>
           <input id="name" required aria-describedby="name-error">
           <p class="error-message milli island-1-4 push-0" id="name-error">
-            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"></use></svg></i>
             <span class="icon-label">Please provide a name</span>
           </p>
         </div>
@@ -195,7 +195,7 @@ steps:
           <label for="email">Email</label>
           <input type="email" id="email" required aria-describedby="email-error">
           <p class="error-message milli island-1-4 push-0" id="email-error">
-            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"></use></svg></i>
             <span class="icon-label">Please provide a properly formatted email address</span>
           </p>
         </div>
@@ -209,7 +209,7 @@ steps:
           <input type="checkbox" id="agree" required aria-describedby="agree-error">
           <label for="agree">I’m totally awesome!</label>
           <p class="error-message milli island-1-4 push-0" id="agree-error">
-            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+            <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error"></use></svg></i>
             <span class="icon-label">Please agree that you’re totally awesome</span>
           </p>
         </div>

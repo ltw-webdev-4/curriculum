@@ -126,7 +126,7 @@ steps:
 
             <div class="card island-1-2 text-center">
               <i class="icon i-128 push-1-2">
-                <svg><use xlink:href="../../images/icons.svg#velociraptor" /></svg>
+                <svg><use xlink:href="../../images/icons.svg#velociraptor"></use></svg>
               </i>
               <h2 class="push-1-4">This is a card</h2>
               <p class="push-0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
