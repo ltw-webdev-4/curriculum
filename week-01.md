@@ -25,20 +25,20 @@ slides:
     url: intro
 
 todos:
-  - "[Assign yourself to the correct course & section on Progressinator for due dates](https://progress.learn-the-web.algonquindesign.ca/profile/)"
+  - "[Assign yourself to the correct course & section on Progressinator for due dates](https://progress.learntheweb.courses/profile/)"
 
 tasks:
   - title: "Acronym Annihilator"
-    url: "https://activities.learn-the-web.algonquindesign.ca/acronym-annihilator/"
+    url: "https://activities.learntheweb.courses/acronym-annihilator/"
     type: activity
   - title: "Install more developer tools"
     type: lesson
     no-solution: true
     url: "install-more-developer-tools"
   - title: "Responsive banner"
-    url: "https://github.com/acgd-webdev-4/responsive-banner"
+    url: "https://github.com/ltw-webdev-4/responsive-banner"
   - title: "eCommerce UX"
-    url: "https://github.com/acgd-webdev-4/ecommerce-ux"
+    url: "https://github.com/ltw-webdev-4/ecommerce-ux"
     graded-as: ecommerce-ux
     due: "Before class week 3"
     due_week: 3

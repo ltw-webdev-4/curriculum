@@ -48,7 +48,7 @@ tasks:
     type: lesson
     no-solution: true
   - title: "Typography & colours"
-    url: "https://github.com/acgd-webdev-4/typography-colours"
+    url: "https://github.com/ltw-webdev-4/typography-colours"
     submit: show
     no-solution: true
   - type: watch-videos

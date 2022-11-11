@@ -24,7 +24,7 @@ group_activities:
 
 tasks:
   - title: "Variable Validator"
-    url: "https://activities.learn-the-web.algonquindesign.ca/variable-validator/"
+    url: "https://activities.learntheweb.courses/variable-validator/"
     type: activity
   - type: blank
   - title: "Informal browser testing"
@@ -34,7 +34,7 @@ tasks:
     submit: "Describe what you fixed."
     progressinator_id: pattern-lib-patterns-browser-testing
   - title: "Headers & footers"
-    url: "https://github.com/acgd-webdev-4/headers-footers"
+    url: "https://github.com/ltw-webdev-4/headers-footers"
     submit: show
     no-solution: true
   - type: watch-videos

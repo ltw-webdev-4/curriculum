@@ -15,7 +15,7 @@ slides:
 
       - Whenever possible we should not write the same code more than once
 
-      *Don’t Repeat Yourself (DRY) — the opposite of wet.*
+      *Don’t Repeat Yourself (DRY) — the opposite of wet.*
 
   - content: |
       ## Write less damn code

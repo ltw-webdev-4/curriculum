@@ -37,7 +37,7 @@ group_activities:
 
 tasks:
   - title: "YAML Yodeller"
-    url: "https://activities.learn-the-web.algonquindesign.ca/yaml-yodeller/"
+    url: "https://activities.learntheweb.courses/yaml-yodeller/"
     type: activity
   - title: "Repo setup & branching"
     url: repo-setup-and-branching
@@ -48,14 +48,14 @@ tasks:
     type: lesson
     pair: true
   - title: "Project hand-off & documentation"
-    url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
+    url: "https://github.com/ltw-webdev-4/ecommerce-project-hand-off-and-documentation"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
     graded-as: false
   - title: "Product details page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-product-details-page-template"
+    url: "https://github.com/ltw-webdev-4/ecommerce-product-details-page-template"
     submit: show
     no-solution: true
     pair: true

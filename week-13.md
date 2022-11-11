@@ -27,14 +27,14 @@ tasks:
     type: lesson
     pair: true
   - title: "Project hand-off & documentation"
-    url: "https://github.com/acgd-webdev-4/ecommerce-project-hand-off-and-documentation"
+    url: "https://github.com/ltw-webdev-4/ecommerce-project-hand-off-and-documentation"
     type: basic
     submit: "Submit nothing."
     button: activity
     pair: true
     graded-as: false
   - title: "Checkout form page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-checkout-form-page-template"
+    url: "https://github.com/ltw-webdev-4/ecommerce-checkout-form-page-template"
     submit: show
     pair: true
     no-solution: true

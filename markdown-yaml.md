@@ -13,7 +13,7 @@ slides:
 
       Markup languages like HTML for representing content & data
 
-      - *Markdown* — simplified HTML
+      - *Markdown* — simplified HTML
       - *YAML* — simplified JavaScript data
 
       *Can be combined together: Markdown in YAML & YAML in Markdown*

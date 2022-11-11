@@ -23,7 +23,7 @@ video_tutorials:
 
 tasks:
   - title: "URL Explorer"
-    url: "https://activities.learn-the-web.algonquindesign.ca/url-explorer/"
+    url: "https://activities.learntheweb.courses/url-explorer/"
     type: activity
   - title: "JavaScript-less carousel"
     url: javascript-less-carousel
@@ -36,7 +36,7 @@ tasks:
     submit: "Describe what you fixed."
     progressinator_id: pattern-lib-patterns-a11y-testing
   - title: "Navigations & sections"
-    url: "https://github.com/acgd-webdev-4/navigations-sections"
+    url: "https://github.com/ltw-webdev-4/navigations-sections"
     submit: show
     no-solution: true
 ---

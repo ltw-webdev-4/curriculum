@@ -22,7 +22,7 @@ goal:
       text: "Remember the purpose of this lesson is to type the code out yourself—build up that muscle memory in your fingers!"
 
 fork:
-  url: "https://github.com/acgd-webdev-4/ecommerce-pattern-library"
+  url: "https://github.com/ltw-webdev-4/ecommerce-pattern-library"
   repo: "ecommerce-pattern-library"
 
 steps:

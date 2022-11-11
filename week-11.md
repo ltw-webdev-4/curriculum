@@ -36,15 +36,15 @@ group_activities:
 
 tasks:
   - title: "Markdown Manipulator"
-    url: "https://activities.learn-the-web.algonquindesign.ca/markdown-manipulator/"
+    url: "https://activities.learntheweb.courses/markdown-manipulator/"
     type: activity
   - type: blank
   - title: "Finalizing pattern docs"
-    url: "https://github.com/acgd-webdev-4/finalizing-pattern-docs"
+    url: "https://github.com/ltw-webdev-4/finalizing-pattern-docs"
     submit: show
     no-solution: true
   - title: "Product list page template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-product-list-page-template"
+    url: "https://github.com/ltw-webdev-4/ecommerce-product-list-page-template"
     submit: show
     no-solution: true
 ---

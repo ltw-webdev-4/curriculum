@@ -22,7 +22,7 @@ slides:
 
       - `string` — just some text
       - `number` — just a number
-      - `boolean` — `true` or `false`
+      - `boolean` — `true` or `false`
       - `array` — a collection, like `<ol>`
       - `object` — a named collection, like `<dl>`
 

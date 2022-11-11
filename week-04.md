@@ -43,15 +43,15 @@ tasks:
     type: lesson
     no-solution: true
   - title: "Buttons!"
-    url: "https://github.com/acgd-webdev-4/buttons"
+    url: "https://github.com/ltw-webdev-4/buttons"
     submit: show
     no-solution: true
   - title: "So many icons!"
-    url: "https://github.com/acgd-webdev-4/so-many-icons"
+    url: "https://github.com/ltw-webdev-4/so-many-icons"
     submit: show
     no-solution: true
   - title: "Images & cards"
-    url: "https://github.com/acgd-webdev-4/images-cards"
+    url: "https://github.com/ltw-webdev-4/images-cards"
     submit: show
     no-solution: true
 ---

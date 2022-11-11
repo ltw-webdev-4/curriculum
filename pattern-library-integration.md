@@ -64,7 +64,7 @@ steps:
 
       ![](base-fork.jpg)
 
-      Make sure the “base” is set to your teammate’s repository not the original Learn the Web repo (`acgd-webdev-4`).
+      Make sure the “base” is set to your teammate’s repository not the original Learn the Web repo (`ltw-webdev-4`).
 
       **If if just says “base: gh-pages” (and there’s no “base fork” option) then move along.**
 

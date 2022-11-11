@@ -23,7 +23,7 @@ slides:
       ## Set up
 
       1. Form into pairs
-      2. [Download the bad form design](https://assets.learn-the-web.algonquindesign.ca/web-dev-4/form-design-best-practices-download.zip)
+      2. [Download the bad form design](https://assets.learntheweb.courses/web-dev-4/form-design-best-practices-download.zip)
       4. Use your search-foo to find best practices for forms & error messages
       5. Write out how to improve the form
       6. We’ll discuss the results together

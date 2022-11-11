@@ -23,7 +23,7 @@ goal:
       text: "Probably not quite ready to be used in a live, client-facing website yet. Still waiting on Microsoft Edge for support."
 
 fork:
-  url: "https://github.com/acgd-webdev-4/using-css-variables"
+  url: "https://github.com/ltw-webdev-4/using-css-variables"
 
 steps:
   - title: "Set up project"

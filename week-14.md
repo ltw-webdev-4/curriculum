@@ -13,7 +13,7 @@ video_tutorials:
 
 group_activities:
   - title: "Course feedback"
-    url: "https://www.algonquincollege.com/studentfeedback/"
+    url: "/feedback/"
     type: star
 
 tasks:
@@ -24,15 +24,15 @@ tasks:
     submit: "Submit team feedback form."
     progressinator_id: teammate-feedback
   - title: "Surprise ecommerce page 1"
-    url: "https://github.com/acgd-webdev-4/surprise-ecommerce-page-1"
+    url: "https://github.com/ltw-webdev-4/surprise-ecommerce-page-1"
     submit: show
     no-solution: true
   - title: "Surprise ecommerce page 2"
-    url: "https://github.com/acgd-webdev-4/surprise-ecommerce-page-2"
+    url: "https://github.com/ltw-webdev-4/surprise-ecommerce-page-2"
     submit: show
     no-solution: true
   - title: "Finalized pattern library"
-    url: "https://github.com/acgd-webdev-4/finalized-pattern-library"
+    url: "https://github.com/ltw-webdev-4/finalized-pattern-library"
     graded-as: finalized-pattern-library
     due: "Midnight, last day of class"
     due_week: 15

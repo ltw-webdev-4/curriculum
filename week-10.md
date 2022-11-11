@@ -27,7 +27,7 @@ group_activities:
 
 tasks:
   - title: "Selector Surgeon"
-    url: "https://activities.learn-the-web.algonquindesign.ca/selector-surgeon/"
+    url: "https://activities.learntheweb.courses/selector-surgeon/"
     type: activity
   - title: "Preparing product data"
     url: preparing-product-data
@@ -38,7 +38,7 @@ tasks:
     url: jekyll-generators
     type: lesson
   - title: "Homepage template"
-    url: "https://github.com/acgd-webdev-4/ecommerce-homepage-template"
+    url: "https://github.com/ltw-webdev-4/ecommerce-homepage-template"
     submit: show
     no-solution: true
 ---

@@ -23,21 +23,21 @@ group_activities:
 
 tasks:
   - title: "Browser Buster"
-    url: "https://activities.learn-the-web.algonquindesign.ca/browser-buster/"
+    url: "https://activities.learntheweb.courses/browser-buster/"
     type: activity
   - title: "eCommerce UX inspiration"
-    url: "https://github.com/acgd-webdev-4/ecommerce-ux-inspiration"
+    url: "https://github.com/ltw-webdev-4/ecommerce-ux-inspiration"
     type: basic
     submit: show
     button: activity
   - title: "eCommerce UX check-in"
-    url: "https://github.com/acgd-webdev-4/ecommerce-ux-check-in"
+    url: "https://github.com/ltw-webdev-4/ecommerce-ux-check-in"
     type: basic
     submit: show
     button: activity
     submit: show
   - title: "eCommerce UX"
-    url: "https://github.com/acgd-webdev-4/ecommerce-ux"
+    url: "https://github.com/ltw-webdev-4/ecommerce-ux"
     graded-as: ecommerce-ux
     due: "Before class week 3"
     due_week: 3

@@ -24,7 +24,7 @@ slides:
 
 tasks:
   - title: "Specificity Spy"
-    url: "https://activities.learn-the-web.algonquindesign.ca/specificity-spy/"
+    url: "https://activities.learntheweb.courses/specificity-spy/"
     type: activity
   - title: "Sharing code with layouts"
     url: sharing-code-with-layouts
@@ -35,7 +35,7 @@ tasks:
     submit: show
     no-solution: true
   - title: "The leftovers"
-    url: "https://github.com/acgd-webdev-4/the-leftovers"
+    url: "https://github.com/ltw-webdev-4/the-leftovers"
     submit: show
     no-solution: true
 ---

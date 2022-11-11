@@ -30,7 +30,7 @@ steps:
       icon: "person-1"
       label: "Owner"
     before: |
-      The first step to do on your own eCommerce website is to protect the `master` branch. This will prevent your teammate from overwriting any code that you’ve written without your permission.
+      The first step to do on your own eCommerce website is to protect the `master` branch. This will prevent your teammate from overwriting any code that you’ve written without your permission.
 
       We’re also going to enable code review, that way you can see, test–and approve—their code before you put it back into your version.
 

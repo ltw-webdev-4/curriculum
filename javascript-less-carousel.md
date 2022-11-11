@@ -27,7 +27,7 @@ important:
     But it is not the most accessible, feature-rich, or even reusable piece of code. To make a truly good & accessible carousel we should add JavaScript and a bunch more ARIA attributes & roles to fully realize the functionality.
 
 fork:
-  url: "https://github.com/acgd-webdev-4/javascript-less-carousel/fork"
+  url: "https://github.com/ltw-webdev-4/javascript-less-carousel/fork"
 
 steps:
   - title: "Set up project"
